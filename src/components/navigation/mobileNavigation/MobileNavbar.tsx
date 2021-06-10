@@ -3,6 +3,6 @@ import './MobileNavbar.css'
 export const MobileNavbar = () => {
 
     return (
-        <div></div>
+        <div>dddsssd</div>
     )
 }
