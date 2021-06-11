@@ -9,7 +9,7 @@ export const Navbar = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForNavbar = () => {
-    return width <= DesktopMobileBreakpoint.width ? <MobileNavbar /> : <DesktopNavbar />
+    return width <= DesktopMobileBreakpoint.width ? <MobileNavbar /> : <MobileNavbar />
   }
 
   return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
