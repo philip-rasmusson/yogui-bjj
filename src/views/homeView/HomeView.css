@@ -1,0 +1,21 @@
+
+.Logo{
+position: absolute;
+left: 2.78%;
+right: 70.97%;
+top: 15.97%;
+bottom: 15.97%;
+}
+
+.Login, 
+.Träningsform,
+.FAQ{
+position: absolute;
+width: 535px;
+height: 197px;
+
+background: #FEFDFA;
+border: 2px solid #FFAA00;
+box-sizing: border-box;
+box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.45);
+border-radius: 24px;}

@@ -1,10 +1,7 @@
-
-function App() {
+import {Routes} from './routes/Routes'
+export const App = ()=> {
   return (
-    <div>
-      <h1>This is the home view</h1>
-    </div>
+    <Routes></Routes>
   )
 }
 
-export default App
