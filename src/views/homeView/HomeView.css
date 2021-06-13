@@ -1,21 +1,55 @@
 
-.Logo{
-position: absolute;
-left: 2.78%;
-right: 70.97%;
-top: 15.97%;
-bottom: 15.97%;
+.HomeViewWrapper{
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    display:grid;
+    grid-template-rows: repeat(5,1fr);
+    padding-top: 3%;
 }
-
-.Login, 
-.Träningsform,
-.FAQ{
-position: absolute;
-width: 535px;
-height: 197px;
-
-background: #FEFDFA;
-border: 2px solid #FFAA00;
-box-sizing: border-box;
-box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.45);
-border-radius: 24px;}
+.buttonOne,
+.buttonTwo,
+.buttonThree{
+    background-color: #F1BB4E;
+    justify-self: center;
+    align-self: center;
+    width: 535px;
+    height: 197px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 40px;
+    }
+.buttonOne:hover,
+.buttonTwo:hover, 
+.buttonThree:hover{
+    background-color: #F1BB4E;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 45px;
+    cursor: pointer;
+}
+.buttonOne{
+    grid-row: 1;
+}
+.CreateAccount{
+    grid-row: 2;
+    justify-self: center;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    color: #F1BB4E;
+    text-align: center;
+}
+.buttonTwo{
+    grid-row: 3;
+}
+.buttonThree{
+    grid-row: 5;
+}
+.CreateAccount:hover{
+text-decoration-line: underline;
+font-size: 23px;
+cursor: pointer;
+}
