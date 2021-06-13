@@ -6,6 +6,7 @@ export const HomeView = () => {
 
     const history = useHistory()
     return (
+
         <div className='HomeViewWrapper'>
             <button className='buttonOne'onClick={() => history.push(RoutingPath.signView)}>LOGGA IN</button>
 
@@ -15,6 +16,7 @@ export const HomeView = () => {
             <br /><button className='buttonTwo'onClick={() => history.push(RoutingPath.trainingForm)}>VÄLJ TRÄNINGSFORM</button>
 
             <button className='buttonThree'onClick={() => history.push(RoutingPath.fAQ)}>FAQ</button>
+
         </div>
     )
 }
