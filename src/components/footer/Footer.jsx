@@ -13,14 +13,13 @@ export const Footer = () => {
                 <section className="footer-info-left">
                     Om Oss
             <p>
-            Människor som i dagsläget tränar mer eller mindre regelbundet,och som
-            <br />  
-            vill ha ett tydligare upplägg och bättre koll på resultatet av sin träning.
+            Människor som i dagsläget tränar mer eller mindre regelbundet, 
+            och som vill ha ett tydligare upplägg och bättre koll på resultatet av sin träning.
             </p>
                 </section>
 
                 
-                    <section className="footer-info-number">
+                    <section className="footer-info-right">
 
                         <img className = 'instagramIcan' 
 				        src={Instagram} alt={'..error'}/>  

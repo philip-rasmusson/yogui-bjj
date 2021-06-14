@@ -29,7 +29,7 @@ display: flex;
 justify-self: center;
 
 }
-.footer-info-number{
+.footer-info-right{
   text-align: end;
 }
   
@@ -47,7 +47,7 @@ justify-self: center;
     width: 3%;
     height: 35%;
     padding: 2%;
-    
+    cursor: pointer;
   }
   
   
