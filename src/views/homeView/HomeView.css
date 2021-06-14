@@ -5,21 +5,23 @@
     align-self: center;
     display:grid;
     grid-template-rows: repeat(5,1fr);
-    padding-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .buttonOne,
 .buttonTwo,
 .buttonThree{
-    background-color:#FFAA00;
+    background-color: #F1BB4E;
     justify-self: center;
     align-self: center;
-    width: 535px;
-    height: 197px;
+    width: 600px;
+    height: 230px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 10px;
     font-family: Roboto;
-    color: #fff;;
+    color: #fff;
     font-size: 40px;
+    text-transform: uppercase;
     }
 .buttonOne:hover,
 .buttonTwo:hover, 
@@ -39,7 +41,7 @@
     font-size: 20px;
     font-family: Roboto;
     font-style: normal;
-    color: #FFAA00;
+    color: #F1BB4E;
     text-align: center;
 }
 .buttonTwo{
@@ -52,4 +54,6 @@
 text-decoration-line: underline;
 font-size: 23px;
 cursor: pointer;
+color: #FFAA00;
+
 }
