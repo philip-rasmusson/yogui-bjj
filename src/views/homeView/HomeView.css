@@ -1,55 +1,57 @@
-
-.HomeViewWrapper{
+.HomeViewWrapper {
     width: 100%;
     justify-self: center;
     align-self: center;
-    display:grid;
-    grid-template-rows: repeat(5,1fr);
-    padding-top: 3%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    padding: 2rem;
 }
-.buttonOne,
-.buttonTwo,
-.buttonThree{
-    background-color:#FFAA00;
+
+.buttonOne, .buttonTwo, .buttonThree {
+    background-color: #FFAA00;
     justify-self: center;
     align-self: center;
-    width: 535px;
-    height: 197px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 80vw;
+    height: 30vw;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    font-family: Roboto;
-    color: #fff;;
-    font-size: 40px;
-    }
-.buttonOne:hover,
-.buttonTwo:hover, 
-.buttonThree:hover{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 7vw;
+}
+
+.buttonOne:hover, .buttonTwo:hover, .buttonThree:hover {
     background-color: #FFAA00;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    font-size: 45px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-size: 7.5vw;
     cursor: pointer;
 }
-.buttonOne{
+
+.buttonOne {
     grid-row: 1;
 }
-.CreateAccount{
+
+.CreateAccount {
     grid-row: 2;
     justify-self: center;
     padding-top: 2%;
-    font-size: 20px;
+    font-size: 3vw;
     font-family: Roboto;
     font-style: normal;
     color: #FFAA00;
     text-align: center;
 }
-.buttonTwo{
+
+.buttonTwo {
     grid-row: 3;
 }
-.buttonThree{
+
+.buttonThree {
     grid-row: 5;
 }
-.CreateAccount:hover{
-text-decoration-line: underline;
-font-size: 23px;
-cursor: pointer;
+
+.CreateAccount:hover {
+    text-decoration-line: underline;
+    font-size: 3.5vw;
+    cursor: pointer;
 }
