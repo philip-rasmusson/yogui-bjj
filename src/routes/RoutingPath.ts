@@ -1,12 +1,12 @@
 const homeView = "/"
-const signView ="/signin"
+const signinView ="/signin"
 const registrationView = "/registration"
 const trainingForm="/trainingForm"
 const fAQ ="/faq"
 
 const RoutingPath = {
     homeView,
-    signView,
+    signinView,
     registrationView,
     fAQ,
     trainingForm
