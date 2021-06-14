@@ -1,0 +1,32 @@
+.signin-form {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat (5, auto);
+}
+
+.signin-title {
+  grid-column: 2/3;
+  grid-row: 1;
+  justify-self: left;
+}
+
+.signin-username {
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
+.signin-password {
+  grid-column: 2/4;
+  grid-row: 3;
+}
+
+.signin-button {
+  grid-column: 2/3;
+  grid-row: 4;
+}
+
+.stay-logged-in {
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 4;
+}
