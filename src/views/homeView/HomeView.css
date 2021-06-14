@@ -2,25 +2,31 @@
     width: 100%;
     justify-self: center;
     align-self: center;
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    padding: 2rem;
-}
 
-.buttonOne, .buttonTwo, .buttonThree {
-    background-color: #FFAA00;
+    display:grid;
+    grid-template-rows: repeat(5,1fr);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.buttonOne,
+.buttonTwo,
+.buttonThree{
+    background-color: #F1BB4E;
     justify-self: center;
     align-self: center;
-    width: 80vw;
-    height: 30vw;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    height: 230px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     color: #fff;
-    font-size: 7vw;
-}
+    font-size: 40px;
+    text-transform: uppercase;
+    }
+.buttonOne:hover,
+.buttonTwo:hover, 
+.buttonThree:hover{
 
-.buttonOne:hover, .buttonTwo:hover, .buttonThree:hover {
     background-color: #FFAA00;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     font-size: 7.5vw;
@@ -38,7 +44,7 @@
     font-size: 3vw;
     font-family: Roboto;
     font-style: normal;
-    color: #FFAA00;
+    color: #F1BB4E;
     text-align: center;
 }
 
@@ -50,8 +56,11 @@
     grid-row: 5;
 }
 
-.CreateAccount:hover {
-    text-decoration-line: underline;
-    font-size: 3.5vw;
-    cursor: pointer;
+.CreateAccount:hover{
+text-decoration-line: underline;
+font-size: 23px;
+cursor: pointer;
+color: #FFAA00;
+
+
 }

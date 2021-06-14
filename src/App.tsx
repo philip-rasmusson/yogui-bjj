@@ -5,6 +5,6 @@ export const App = () => {
     <Routes>
       <Navbar />
     </Routes>
-  )
-}
+    
+  )}
 
