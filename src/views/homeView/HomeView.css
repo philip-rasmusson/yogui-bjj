@@ -1,4 +1,4 @@
-.homeViewContainer{
+.homeViewContainer {
     display: grid;
     background-color: aqua;
 }
@@ -6,19 +6,18 @@
 .HomeViewWrapper {
     width: 100%;
     height: 70%;
-    margin: auto;
+    margin: 2rem auto;
     justify-self: center;
     align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     grid: 1/1;
-   }
+}
 
 .buttonOne, .buttonTwo, .buttonThree {
     background-color: #FEFDFA;
-
-    margin: 2vw;
+    margin: 5vw;
     width: 80%;
     height: 27vw;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -29,8 +28,6 @@
     font-size: 5vw;
     text-transform: uppercase;
 }
-
-
 
 .buttonOne {
     grid-row: 1;
@@ -54,4 +51,3 @@
 .buttonThree {
     grid-row: 5;
 }
-
