@@ -2,31 +2,27 @@
     width: 100%;
     justify-self: center;
     align-self: center;
-
-    display:grid;
-    grid-template-rows: repeat(5,1fr);
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.buttonOne,
-.buttonTwo,
-.buttonThree{
+
+.buttonOne, .buttonTwo, .buttonThree {
     background-color: #F1BB4E;
     justify-self: center;
     align-self: center;
-    width: 600px;
-    height: 230px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 80%;
+    height: 27vw;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-size: 40px;
+    font-size: 5vw;
     text-transform: uppercase;
-    }
-.buttonOne:hover,
-.buttonTwo:hover, 
-.buttonThree:hover{
+}
 
+.buttonOne:hover, .buttonTwo:hover, .buttonThree:hover {
     background-color: #FFAA00;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     font-size: 7.5vw;
@@ -56,11 +52,9 @@
     grid-row: 5;
 }
 
-.CreateAccount:hover{
-text-decoration-line: underline;
-font-size: 23px;
-cursor: pointer;
-color: #FFAA00;
-
-
+.CreateAccount:hover {
+    text-decoration-line: underline;
+    font-size: 3.5vw;
+    cursor: pointer;
+    color: #FFAA00;
 }
