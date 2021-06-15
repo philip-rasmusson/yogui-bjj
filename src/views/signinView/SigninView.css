@@ -4,33 +4,68 @@
 .signin-form {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat (5 auto);
+
+  grid-template-rows: 30vw 15vw 15vw 15vw 15vw 30vw;
 
 }
 
 .signin-title {
   grid-column: 2/3;
-  grid-row: 1;
+  grid-row: 2;
   justify-self: left;
+  color: #F1BB4E;
+  font-size: 5vw;
 }
 
 .signin-username {
   grid-column: 2/4;
-  grid-row: 2;
+  grid-row: 3;
 }
 
 .signin-password {
   grid-column: 2/4;
-  grid-row: 3;
+  grid-row: 4;
 }
 
 .signin-button {
   grid-column: 2/3;
-  grid-row: 4;
+  grid-row: 5;
+  align-self: center;
 }
 
 .stay-logged-in {
   display: flex;
   grid-column: 3/4;
-  grid-row: 4;
+  grid-row: 5;
+  justify-self: center;
+  align-self: center;
+}
+
+.stay-logged-in p {
+  align-self: center;
+  margin: 0 2vw;
+  font-size: 3vw;
+}
+
+.signin-form h1, .signin-form input, .signin-form span, .signin-form button {}
+
+.signin-form input, .signin-form button {
+  height: 10vw;
+  background-color: #FFF4DE;
+}
+
+.signin-form input {
+  border-radius: 1rem;
+  border: #F1BB4E solid 3px;
+}
+
+.signin-form input::placeholder {
+  padding-left: 1rem;
+}
+
+.signin-form button {
+  color: #F1BB4E;
+  border-radius: 3px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.192) 3px 3px 5px;
 }
