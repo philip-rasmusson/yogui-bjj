@@ -2,7 +2,7 @@ import './SigninView.css'
 
 export const SigninView = () => {
   return (
-    <div>
+    <div className="sigin-view-wrapper">
       <form action="" className="signin-form">
         <h1 className="signin-title">Logga in</h1>
         <input type="text" className="signin-username" id="username" placeholder="Användarnamn" />

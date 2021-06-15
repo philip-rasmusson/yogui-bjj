@@ -1,6 +1,7 @@
 .homeViewContainer {
     display: grid;
     background-color: aqua;
+    height: 100vw;
 }
 
 .HomeViewWrapper {
