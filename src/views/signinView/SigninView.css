@@ -1,12 +1,20 @@
-.sigin-view-wrapper{
-  height: 100vw;
+.sigin-view-wrapper {
 }
+
+hr {
+  width: 75vw;
+  margin: auto;
+  color: #F1BB4E;
+  border: 1px solid;
+}
+
+div.signin-container {
+}
+
 .signin-form {
   display: grid;
   grid-template-columns: repeat(4, auto);
-
-  grid-template-rows: 30vw 15vw 15vw 15vw 15vw 30vw;
-
+  grid-template-rows: 10vw 15vw 15vw 15vw 15vw 10vw;
 }
 
 .signin-title {
@@ -27,7 +35,7 @@
   grid-row: 4;
 }
 
-.signin-button {
+.signin-submit {
   grid-column: 2/3;
   grid-row: 5;
   align-self: center;
@@ -41,7 +49,7 @@
   align-self: center;
 }
 
-.stay-logged-in p {
+p.stay-logged-in {
   align-self: center;
   margin: 0 2vw;
   font-size: 3vw;
@@ -49,23 +57,73 @@
 
 .signin-form h1, .signin-form input, .signin-form span, .signin-form button {}
 
-.signin-form input, .signin-form button {
+.signin-form input, .register-form input {
   height: 10vw;
   background-color: #FFF4DE;
 }
 
-.signin-form input {
+.signin-form input, .register-form input {
   border-radius: 1rem;
   border: #F1BB4E solid 3px;
+  padding: 2vw;
 }
 
-.signin-form input::placeholder {
-  padding-left: 1rem;
+.signin-form input::placeholder, .register-form input::placeholder {
+  color: #F1BB4E;
+	opacity: 80%;
 }
 
-.signin-form button {
+input.submit {
   color: #F1BB4E;
   border-radius: 3px;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.192) 3px 3px 5px;
+  cursor: pointer;
+}
+
+div.register-container {
+}
+
+form.register-form {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 10vw 15vw 15vw 15vw 15vw 15vw 30vw;
+}
+
+h1.register-title {
+  grid-column: 2/3;
+  grid-row: 2;
+  color: #F1BB4E;
+  font-size: 5vw;
+}
+
+input.user-name {
+  grid-column: 2/4;
+  grid-row: 3;
+}
+
+input.user-password {
+  grid-column: 2/4;
+  grid-row: 4;
+}
+
+input.user-password-repeat {
+  grid-column: 2/4;
+  grid-row: 5;
+}
+
+input.register-submit {
+  grid-column: 2/3;
+  grid-row: 6;
+}
+
+span.register-stay-logged-in {
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 6;
+  justify-self: center;
+  align-self: center;
+}
+
+input.stay-logged-in-checkbox {
 }
