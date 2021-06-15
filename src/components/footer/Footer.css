@@ -1,57 +1,47 @@
-.FooterWrapper{
-    background-color: #ffaa00b7;
-    height: 100vw;
-    max-height: 10rem;
-    box-shadow: rgb(124, 124, 124, 124) 0px 0px 6px 6px;
-    font-family: Roboto;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
+.FooterWrapper {
+  background-color: #FFF4DE;
+  height: 100vw;
+  max-height: 10rem;
+  box-shadow: rgb(124, 124, 124, 124) 0px 0px 6px 6px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #FFAA00;
-    height: 25vw;
-    max-height: 10rem;
-    box-shadow: rgb(124, 124, 124, 124) 0px 0px 6px 6px;
-    font-family: Roboto;
-    font-size: 3rem;
-    text-transform: uppercase;
-   
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF4DE;
+  height: 25vw;
+  max-height: 10rem;
+  box-shadow: rgb(124, 124, 124, 124) 0px 0px 6px 6px;
+  font-family: Roboto;
+  font-size: 2vw;
+  text-transform: uppercase;
 }
 
-.footer-info{
-display: flex;
-justify-self: center;
-
+.footer-info {
+  justify-self: center;
 }
-.footer-info-right{
+/*
+.footer-info-right {
   text-align: end;
-}
-  
-  .footer-info-left {
-    margin: 10px;
-    font-size: 20px;
-    padding-right: 0%;
-    color: #fff;
-  }
+}*/
 
-  .facebookIcan,
-  .instagramIcan,
-  .linkIcan,
-  .emailIcan{
-    width: 3%;
-    height: 35%;
-    padding: 2%;
-    cursor: pointer;
-  }
+.footer-info-left {
+  margin: 10px;
+  font-size: 3vw;
+  padding-right: 0%;
+  color: #FFAA00;
   
-  
-  
-  
-  
-  
+}
+
+.facebookIcan, .instagramIcan, .linkIcan, .emailIcan {
+  width: 3vw;
+  height: 35vw;
+  padding: 2%;
+  cursor: pointer;
+}
