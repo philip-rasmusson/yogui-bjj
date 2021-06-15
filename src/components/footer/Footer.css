@@ -7,6 +7,7 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
+  
 }
 
 .footer {
@@ -23,24 +24,24 @@
 }
 
 .footer-info {
-  display: flex;
   justify-self: center;
 }
-
+/*
 .footer-info-right {
   text-align: end;
-}
+}*/
 
 .footer-info-left {
   margin: 10px;
   font-size: 3vw;
   padding-right: 0%;
   color: #FFAA00;
+  
 }
 
 .facebookIcan, .instagramIcan, .linkIcan, .emailIcan {
-  width: 3%;
-  height: 35%;
+  width: 3vw;
+  height: 35vw;
   padding: 2%;
   cursor: pointer;
 }
