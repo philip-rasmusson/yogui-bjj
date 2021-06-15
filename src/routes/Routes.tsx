@@ -16,7 +16,6 @@ export const Routes = (props: { children?: React.ReactChild }) => {
 
             </Switch>
             <Footer />
-
         </Router>
     )
 }
