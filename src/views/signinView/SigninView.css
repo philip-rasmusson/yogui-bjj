@@ -1,12 +1,11 @@
-.sigin-view-wrapper{
+.sigin-view-wrapper {
   height: 100vw;
 }
+
 .signin-form {
   display: grid;
   grid-template-columns: repeat(4, auto);
-
   grid-template-rows: 30vw 15vw 15vw 15vw 15vw 30vw;
-
 }
 
 .signin-title {
@@ -67,5 +66,5 @@
   color: #F1BB4E;
   border-radius: 3px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.192) 3px 3px 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.192) 3px 3px 5px; */
 }
