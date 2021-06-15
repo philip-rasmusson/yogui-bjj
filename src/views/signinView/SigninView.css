@@ -1,4 +1,5 @@
 .sigin-view-wrapper {
+
 }
 
 hr {
@@ -15,6 +16,7 @@ div.signin-container {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: 10vw 15vw 15vw 15vw 15vw 10vw;
+
 }
 
 .signin-title {
@@ -77,6 +79,7 @@ input.submit {
   color: #F1BB4E;
   border-radius: 3px;
   border: none;
+
   box-shadow: rgba(0, 0, 0, 0.192) 3px 3px 5px;
   cursor: pointer;
 }
@@ -126,4 +129,5 @@ span.register-stay-logged-in {
 }
 
 input.stay-logged-in-checkbox {
+
 }
