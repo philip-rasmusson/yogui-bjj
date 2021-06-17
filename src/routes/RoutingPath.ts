@@ -9,4 +9,5 @@ const RoutingPath = {
     fAQ,
     trainingForm
 }
+
 export default RoutingPath 
