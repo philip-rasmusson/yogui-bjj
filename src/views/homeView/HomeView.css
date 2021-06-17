@@ -27,6 +27,7 @@
     border: #ffaa00 2px solid;
     font-size: 5vw;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .buttonOne {
