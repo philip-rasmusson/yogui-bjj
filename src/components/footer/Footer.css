@@ -1,25 +1,28 @@
-
 .footer {
   background-color: #FFF4DE;
   display: flex;
   width: 100vw;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   font-size: 2vw;
-  text-transform: uppercase;
 }
-.omOss{
+
+.omOss {
   font-size: 3vw;
   padding-right: 31vw;
   color: #FFAA00;
   margin: 5vw;
+  max-width: 80%;
+  text-align: justify;
 }
-.icons{
+
+.icons {
   position: absolute;
   padding-top: 12vw;
   left: 70vw;
 }
+
 .icons span {
   padding: 7px;
   font-size: 10vw;
-  color:#D8A16F
+  color: #D8A16F
 }
