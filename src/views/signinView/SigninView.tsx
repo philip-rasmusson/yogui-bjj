@@ -41,7 +41,7 @@ export const SigninView = () => {
   const createUser = async () => {
     try {
       const newUser = { name: "kalr321", password: "321"}
-      await Axios.post("localhost:3001/user", newUser)
+      await Axios.post("http://localhost:3001/user", newUser)
     } catch (error) {
       console.log(error)
     }
@@ -53,6 +53,7 @@ export const SigninView = () => {
 
       <button onClick={() => signInUser()}>fetch user</button>
       <button onClick={() => logUser()}>log user</button>
+      <button onClick={() => registerNewUser()}>register user</button>
       <button onClick={() => createUser()}>create user</button>
 
       {/* Sign in user */}
