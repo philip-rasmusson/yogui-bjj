@@ -4,7 +4,6 @@ import { HomeView } from '../views/homeView/HomeView'
 import { SigninView } from "../views/signinView/SigninView"
 import RoutingPath from './RoutingPath'
 import { Footer } from '../components/footer/Footer'
-import { FAQ } from '../views/faq/FAQ'
 
 
 export const Routes = (props: { children?: React.ReactChild }) => {
@@ -14,11 +13,9 @@ export const Routes = (props: { children?: React.ReactChild }) => {
             <Switch>
                 <Route exact path={RoutingPath.homeView} component={HomeView} />
                 <Route exact path={RoutingPath.signinView} component={SigninView} />
-                <Route exact path={RoutingPath.fAQ} component={FAQ} />
 
             </Switch>
             <Footer />
-
         </Router>
     )
 }
