@@ -8,11 +8,16 @@ export const HomeView = () => {
     return (
 
         <div className='HomeViewWrapper'>
-            <button className='buttonOne' onClick={() => history.push(RoutingPath.signinView)}>LOGGA IN</button>
+            <button className='buttonOne box-shadow-button' onClick={() => history.push(RoutingPath.signinView)}>LOGGA IN</button>
 
-            <button className='buttonTwo' onClick={() => history.push(RoutingPath.trainingForm)}>VÄLJ TRÄNINGSFORM</button>
 
-            <button className='buttonThree' onClick={() => history.push(RoutingPath.fAQ)}>FAQ</button>
+            {/* <div className='CreateAccount'>
+                <span onClick={() => history.push(RoutingPath.registrationView)}>INTE MEDLEM? SKAPA GRATIS KONTO HÄR</span></div> */}
+
+            <button className='buttonTwo box-shadow-button' onClick={() => history.push(RoutingPath.homeView)}>VÄLJ TRÄNINGSFORM</button>
+
+
+            <button className='buttonThree box-shadow-button' onClick={() => history.push(RoutingPath.homeView)}>FAQ</button>
 
         </div>
     )
