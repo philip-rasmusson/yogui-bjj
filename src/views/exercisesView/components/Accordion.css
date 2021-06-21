@@ -1,0 +1,20 @@
+.accordion-outer-wrapper {}
+
+.accordion-outer-title-angle {
+  color: #454545;
+  text-transform: uppercase;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-outer-angle-icon {
+  margin: auto 2rem;
+  font-size: 5vw;
+}
+
+.accordion-hr {
+  color: #454545;
+  border-bottom: #454545 solid 1px;
+  margin: 1rem 0;
+}

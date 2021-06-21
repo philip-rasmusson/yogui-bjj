@@ -1,0 +1,6 @@
+.excercises-view-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10vw 10vw;
+  /* background-color: aquamarine; */
+}
