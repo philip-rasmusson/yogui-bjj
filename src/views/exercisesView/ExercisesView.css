@@ -1,6 +1,49 @@
 .excercises-view-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 10vw 10vw;
+  display: grid;
+}
+
+.exercise-view-navbar-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.exercise-view-navbar-wrapper h3 {
+  color: #454545;
+  font-weight: 700;
+  font-size: 3vw;
+  font-family: 'Arial', sans-serif;
+}
+
+.excercises-view-accordion-wrapper {
+  margin: 10vw 10vw 20vw 10vw;
   /* background-color: aquamarine; */
 }
+
+.accordion-outer-content {
+  margin: 2rem 0;
+}
+
+.accordion-outer-exercises-wrapper {
+  border-top: #4545452f solid 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 4vw;
+  /* background-color: #FFF4DE; */
+}
+
+.accordion-outer-angle-icon-inner {
+  display: grid;
+  margin-right: 7vw;
+}
+
+.accordion-outer-exercises-title {
+  text-transform: uppercase;
+  font-size: 5vw;
+  margin: 2vw 0;
+}
+
+/* .active {
+  text-decoration: underline;
+} */
