@@ -7,10 +7,22 @@ const dumbbellFly = {
 		'Sänk sakta vikterna mot golvet på vardera sida om dig - med armar fortsatt utsträckta - fokusera på att kontrollera sänkningen med musklerna i bröst och axlar ',
 		'Höj vikterna tills de når start position ovanför ditt bröst igen, och fokusera på att kontrollera höjningen med musklerna i bröst och axlar.',
 	],
-	musclegroups: [ 'pectoralis major', 'deltoideus anterior', 'triceps brachii' ],
+	musclegroups: ['pectoralis major', 'deltoideus anterior', 'triceps brachii'],
 	author: 'Karlus Sjöstrandius',
+}
+const lorem = {
+	description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda ullam maiores ipsam illum excepturi ad atque alias officia? Perferendis minima rem consectetur dolore nam! Nulla nisi ipsum quis perspiciatis.',
+	steps: [
+		'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
+		'Consequuntur, quibusdam sint molestias iusto placeat rem labore corporis ipsam nobis vitae fugiat.',
+		'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda ullam maiores ipsam illum excepturi ad atque alias officia.',
+		'onsequuntur, quibusdam sint molestias iusto placeat rem labore corporis ipsam nobis vitae fugiat, excepturi suscipit provident ex, maxime totam ipsum sapiente alias. ',
+	],
+	musclegroups: ['pectoralis major', 'deltoideus anterior', 'triceps brachii'],
+	author: 'Lorem Ipsum',
 }
 
 export default {
 	dumbbellFly,
+	lorem,
 }

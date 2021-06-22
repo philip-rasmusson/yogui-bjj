@@ -5,7 +5,7 @@ import { ExercisesNavbar } from './components/ExercisesNavbar'
 
 export const ExercisesView = () => {
 
-  const exercisesChest = ['Bänkpress', 'lutande bänkpress', 'hantelfly', 'dips', 'hantelpress', 'kryssdrag']
+  const exercisesChest = ['bänkpress', 'lutande bänkpress', 'hantelfly', 'dips', 'hantelpress', 'kryssdrag']
   const exercisesLegs = ['benövning', 'benövning', 'benövning',]
   const exercisesArms = ['armövning', 'armövning', 'armövning', 'armövning',]
   const exerciseBack = ['ryggövning', 'ryggövning', 'ryggövning', 'ryggövning', 'ryggövning',]
