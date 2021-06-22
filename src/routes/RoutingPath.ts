@@ -1,10 +1,12 @@
 const homeView = "/"
-const signinView ="/signin"
+const signinView = "/signin"
+const exercisesView = '/exercises'
 
 
 const RoutingPath = {
     homeView,
-    signinView
+    signinView,
+    exercisesView
 
 }
-export default RoutingPath 
+export default RoutingPath
