@@ -1,6 +1,4 @@
-.sigin-view-wrapper {
-
-}
+.sigin-view-wrapper {}
 
 hr {
   width: 75vw;
@@ -9,14 +7,12 @@ hr {
   border: 1px solid;
 }
 
-div.signin-container {
-}
+div.signin-container {}
 
 .signin-form {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: 10vw 15vw 15vw 15vw 15vw 10vw;
-
 }
 
 .signin-title {
@@ -72,20 +68,18 @@ p.stay-logged-in {
 
 .signin-form input::placeholder, .register-form input::placeholder {
   color: #F1BB4E;
-	opacity: 80%;
+  opacity: 80%;
 }
 
 input.submit {
   color: #F1BB4E;
   border-radius: 3px;
   border: none;
-
   box-shadow: rgba(0, 0, 0, 0.192) 3px 3px 5px;
   cursor: pointer;
 }
 
-div.register-container {
-}
+div.register-container {}
 
 form.register-form {
   display: grid;
@@ -126,8 +120,4 @@ span.register-stay-logged-in {
   grid-row: 6;
   justify-self: center;
   align-self: center;
-}
-
-input.stay-logged-in-checkbox {
-
 }

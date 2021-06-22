@@ -12,10 +12,7 @@ export const Footer = () => {
                 <h2>OM OSS</h2>
                 <br />
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu nulla lobortis, posuere augue non, volutpat ex. Phasellus ac dui in orci tempus dignissim. Fusce et venenatis diam, at venenatis enim. Sed lorem justo, feugiat at erat id, imperdiet aliquam nisl. Phasellus placerat vel ipsum feugiat mollis.
                 </p>
             </section>
             <section className="icons">
