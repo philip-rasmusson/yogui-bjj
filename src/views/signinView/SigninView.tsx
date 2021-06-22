@@ -2,6 +2,8 @@ import './SigninView.css'
 import { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import RoutingPath from '../../routes/RoutingPath'
+import TFAServerAPIServices from '../../shared/api/services/TFAServerAPIServices'
+import Axios from 'axios'
 
 export const SigninView = () => {
 
@@ -10,10 +12,16 @@ export const SigninView = () => {
 	const [password, setPassword] = useState('')
 	const [repeatPassword, setRepeatPassword] = useState('')
 	const [stayLoggedIn, setStayLoggedIn] = useState(false)
+  const [user, setUser] = useState<any>()
 
-  // Sign in user
-  const signInUser = () => {
-    // TODO
+  // Sign in user.
+  const signInUser = async () => {
+    const response = TFAServerAPIServices.getUser('60c5e68b0403001d54180d97')
+    setUser(response)
+  }
+
+  const logUser = () => {
+    console.log(user)
   }
 
   // Save new user data.
@@ -27,12 +35,26 @@ export const SigninView = () => {
 		}
 		
 		// TODO save new user to db
+    TFAServerAPIServices.createUser("karlkarlkarl", "123321")
 	}
+
+  const createUser = async () => {
+    try {
+      const newUser = { name: "kalr321", password: "321"}
+      await Axios.post("http://localhost:3001/user", newUser)
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   return (
 
-
     <div className='signin-view-wrapper'>
+
+      <button onClick={() => signInUser()}>fetch user</button>
+      <button onClick={() => logUser()}>log user</button>
+      <button onClick={() => registerNewUser()}>register user</button>
+      <button onClick={() => createUser()}>create user</button>
 
       {/* Sign in user */}
       <div className="signin-container">
