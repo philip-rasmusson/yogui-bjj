@@ -10,7 +10,6 @@ import { ExercisesNavbar } from './ExercisesNavbar'
 export const AccordionOuter = (props?: { title?: string, exercises?: any }) => {
 
   const [angle, setAngle] = useState<any>(faAngleRight)
-  const [angleInner, setAngleInner] = useState<any>(faAngleRight)
 
   const displayContent = () => {
     if (angle === faAngleRight) {
@@ -19,25 +18,10 @@ export const AccordionOuter = (props?: { title?: string, exercises?: any }) => {
       setAngle(faAngleRight)
     }
   }
-  const displayContentInner = () => {
-    if (angleInner === faAngleRight) {
-      setAngleInner(faAngleDown)
-    } else {
-      setAngleInner(faAngleRight)
-    }
-  }
 
-  const array = props?.exercises.map((x: any) => {
-    return (
-      <div className='accordion-outer-exercises-wrapper' onClick={() => displayContentInner()}>
-        <h4 className='accordion-outer-exercises-title'>{x}</h4>
-        <div className='accordion-outer-angle-icon-inner grid-center-content'>
-          <FontAwesomeIcon icon={angleInner} />
-        </div>
-      </div>)
-
+  const array = props?.exercises.map((exercise: any) => {
+    return <AccordionInner exercises={exercise} />
   })
-
   const accordionOuterContent = () => {
     return angle === faAngleRight ? (<></>) : (
       <div>
