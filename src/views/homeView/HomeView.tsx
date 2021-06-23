@@ -8,12 +8,8 @@ export const HomeView = () => {
 
     return (
 
-        <div className='HomeViewWrapper'>
-            <button className='buttonOne box-shadow-button' onClick={() => history.push(RoutingPath.signinView)}>LOGGA IN</button>
+        <div className='home-view-wrapper'>
 
-            <button className='buttonTwo box-shadow-button' onClick={() => history.push(RoutingPath.homeView)}>VÄLJ TRÄNINGSFORM</button>
-
-            <button className='buttonThree box-shadow-button' onClick={() => history.push(RoutingPath.homeView)}>FAQ</button>
         </div>
     )
 }
