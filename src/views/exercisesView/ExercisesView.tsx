@@ -13,13 +13,13 @@ export const ExercisesView = () => {
 
   return (
     <div className='excercises-view-wrapper'>
-      <div className='exercise-view-navbar-wrapper'>
+      {/* <div className='exercise-view-navbar-wrapper'>
         <ExercisesNavbar title='BRÖST' />
         <ExercisesNavbar title='BEN' />
         <ExercisesNavbar title='ARMAR' />
         <ExercisesNavbar title='RYGG' />
         <ExercisesNavbar title='MAGE' />
-      </div>
+      </div> */}
       <div className='excercises-view-accordion-wrapper'>
         <AccordionOuter title='bröst' exercises={exercisesChest} />
         <AccordionOuter title='ben' exercises={exercisesLegs} />

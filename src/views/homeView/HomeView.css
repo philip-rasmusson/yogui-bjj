@@ -4,8 +4,9 @@
     height: 100vw;
 }
 
-.HomeViewWrapper {
+.home-view-wrapper {
     width: 100%;
+    height: 70vh;
     margin: 2rem auto;
     justify-self: center;
     align-self: center;
