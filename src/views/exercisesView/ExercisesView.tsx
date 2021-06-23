@@ -1,7 +1,5 @@
 import './ExercisesView.css'
 import { AccordionOuter } from "./components/AccordionOuter"
-import { AccordionInner } from "./components/AccordionInner"
-import { ExercisesNavbar } from './components/ExercisesNavbar'
 
 export const ExercisesView = () => {
 
