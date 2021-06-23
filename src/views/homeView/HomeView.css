@@ -1,55 +1,36 @@
 .homeViewContainer {
     display: grid;
-    background-color: aqua;
+    background-color: #FFAA00;
     height: 100vw;
 }
-
-.home-view-wrapper {
+ .home-view-wrapper {
     width: 100%;
-    height: 70vh;
-    margin: 2rem auto;
+    margin-top: 2rem;
+    margin-bottom: -0.7rem;
     justify-self: center;
     align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     grid: 1/1;
-}
-
+} 
 .buttonOne, .buttonTwo, .buttonThree {
-    background-color: #FEFDFA;
-    margin: 5vw;
+    background-color: #FFAA00;
+    height: 16vw;
+    margin: 3vw;
     width: 80%;
-    height: 27vw;
-    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
-    color: #F1BB4E;
-    border: #ffaa00 2px solid;
-    font-size: 5vw;
+    color: #FFFFFF;
+    border: black 1px solid;
+    font-size: 8vw;
     text-transform: uppercase;
-    cursor: pointer;
 }
-
-.buttonOne {
-    grid-row: 1;
+div.backround-lifter {
+   width: 100%;
+    text-align: right;
 }
-
-.CreateAccount {
-    grid-row: 2;
-    justify-self: center;
-    padding-top: 2%;
-    font-size: 3vw;
-    font-family: Roboto;
-    font-style: normal;
-    color: #F1BB4E;
-    text-align: center;
-}
-
-.buttonTwo {
-    grid-row: 3;
-}
-
-.buttonThree {
-    grid-row: 5;
+img.backround-lifter {
+    width: 45vw;
+    margin-right: 0px; 
 }

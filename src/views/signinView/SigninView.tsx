@@ -50,11 +50,11 @@ export const SigninView = () => {
   return (
 
     <div className='signin-view-wrapper'>
-
+{/* 
       <button onClick={() => signInUser()}>fetch user</button>
       <button onClick={() => logUser()}>log user</button>
       <button onClick={() => registerNewUser()}>register user</button>
-      <button onClick={() => createUser()}>create user</button>
+      <button onClick={() => createUser()}>create user</button> */}
 
       {/* Sign in user */}
       <div className="signin-container">
