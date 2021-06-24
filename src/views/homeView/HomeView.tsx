@@ -7,6 +7,13 @@ export const HomeView = () => {
 
     const history = useHistory()
 
+    const test = () => {
+        let a = 10
+        let b = a
+        a = 0
+        console.log(a)
+    }
+    test()
     return (
         <div className='home-view-wrapper'>
             <button className='buttonOne box-shadow-button' onClick={() => history.push(RoutingPath.signinView)}>LOGGA IN</button>

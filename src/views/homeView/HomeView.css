@@ -3,34 +3,37 @@
     background-color: #FFAA00;
     height: 100vw;
 }
- .home-view-wrapper {
+
+.home-view-wrapper {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: -0.7rem;
     justify-self: center;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    justify-items: center;
+    align-content: space-between;
+    height: 100vh;
     grid: 1/1;
-} 
+}
+
 .buttonOne, .buttonTwo, .buttonThree {
     background-color: #FFAA00;
     height: 16vw;
-    margin: 3vw;
+    margin: 7vw 3vw;
     width: 80%;
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
     color: #FFFFFF;
-    border: black 1px solid;
+    border: rgba(0, 0, 0, 0.274) 1px solid;
     font-size: 8vw;
     text-transform: uppercase;
 }
+
 div.backround-lifter {
-   width: 100%;
+    width: 100%;
     text-align: right;
 }
+
 img.backround-lifter {
     width: 45vw;
-    margin-right: 0px; 
+    margin-right: 0px;
 }
