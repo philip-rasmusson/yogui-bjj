@@ -6,6 +6,7 @@
   font-size: 2vw;
   text-align: center;
 }
+
 .icons {
   padding: 7vw 0;
   margin: auto;
@@ -15,7 +16,8 @@
   color: #D8A16F;
   justify-content: space-evenly;
 }
-p.all-rights {
+
+.all-rights {
   color: rgba(69, 69, 69, 0.6);
   font-size: 2.5vw;
   margin-bottom: 2vw;

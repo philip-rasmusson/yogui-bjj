@@ -33,3 +33,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.font-grey {
+  color: #454545;
+}
