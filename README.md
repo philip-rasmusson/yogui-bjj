@@ -1,34 +1,46 @@
-Some common basic rules to be kept in mind to write clean code
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-	1.	Use the DRY principle (Don't repeat yourself).
-	
-	2.	Create multiple files instead of writing a big file. (Componentization of code: fix to small functionality for each file)
-	
-	3.	Place all your CSS files in one common folder.
-	
-	4.	Avoid Inline CSS as and when possible (a CSS class should be created when there are more than 2 CSS attributes).
-	
-	5.	Use a linter to make your code easier to review. Follow strict linting rules. This in turn helps you write clean, consistent code.
-	
-	6.	Review your code before creating a pull request.
-	
-	7.	Split your code into multiple smaller functions. Each with a single responsibility.
-	
-	8.	Create many utility files that can help you remove duplicate code from multiple files.
-	
-	9.	Separate all your service calls into a separate file. If it’s a big project try to split the services into multiple files. (name convention module_name.service.js).
-	
-	10.	Name your files logically according to the job that they perform.
-	
-	11.	Clean code is self-commenting(using the right variable names and function names). Use comments only to explain complex functions.
-	
-	12.	Always write test cases for your code. Keep tests files in sync with the files they are testing.
-	
-	13.	Destructuring your props is a good way to help make your coder cleaner and more maintainable. For example (async function authenticate({ user_id, token }) {})
-	
-	14.	Use useReducer when useState becomes complex.
-	
-	15.	Putting imports in an order a. React import b. Library imports (Alphabetical order) c. Absolute imports from the project (Alphabetical order) d. Relative imports (Alphabetical order) e. Import * as f. Import ‘./<some file>.<some extension> Each kind should be separated by an empty line. This makes your imports clean and easy to understand for all the components, 3rd-party libraries, and etc.
-	
-	16.	Use index.js for each folder to export (Avoid repeating names on the imports)
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
