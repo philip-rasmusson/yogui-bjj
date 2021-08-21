@@ -23,10 +23,18 @@
   background-color: #454545;
 }
 
+.bg-color-yogui {
+  background-color: #F46101;
+}
+
 /* Font colors */
 
 .font-grey {
   color: #4d4d4d
+}
+
+.font-light-grey {
+  color: #bbbbbb
 }
 
 .font-white {
@@ -44,7 +52,7 @@
 .line-divider {
   width: 80vw;
   height: 1px;
-  background-color: aquamarine;
+  background-color: rgb(224, 164, 53);
 }
 
 .wrapper {

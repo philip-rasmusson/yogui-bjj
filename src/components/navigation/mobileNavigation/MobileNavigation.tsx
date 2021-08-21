@@ -5,6 +5,7 @@ import { MenuItems } from "../MenuItems"
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '../../../shared/img/logo_small.png'
+import GlobalData from '../../../data/GlobalData'
 
 export const MobileNavigation = () => {
 
@@ -24,9 +25,9 @@ export const MobileNavigation = () => {
         <div className='navbar-mobile-wrapper-inner font-black'>
           <div className='navbar-mobile-logo'><img src={logo} alt="Yogui BJJ" /></div>
           <div className="navbar-mobile-title-wrapper">
-            <h1>torslanda kampsportcenter</h1>
+            <h1>{GlobalData.title}</h1>
             <div className="line-divider-navbar" />
-            <h2>brasiliansk 🇧🇷 jiu-jitsu</h2>
+            <h2>{GlobalData.subTitle}</h2>
           </div>
           <div className="navbar-icon-wrapper" onClick={() => displayBurgerIcon()}>
             <FontAwesomeIcon icon={burgerIcon} />
