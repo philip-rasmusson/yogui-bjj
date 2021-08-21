@@ -1,14 +1,16 @@
 import '../../shared/global/css/Global.css'
+import { menuItems } from './data/menu-items-data'
 
 export const MenuItems = () => {
   return (
     <div>
       <ul className='font-white'>
-        <li className='menu-item-1'>menu item 1</li>
-        <li className='menu-item-2'>menu item 2</li>
-        <li className='menu-item-3'>menu item 3</li>
-        <li className='menu-item-4'>menu item 4</li>
-        <li className='menu-item-5'>menu item 5</li>
+        <li className='menu-item'>{menuItems.menuItem1}</li>
+        <li className='menu-item'>{menuItems.menuItem2}</li>
+        <li className='menu-item'>{menuItems.menuItem3}</li>
+        <li className='menu-item'>{menuItems.menuItem4}</li>
+        <li className='menu-item'>{menuItems.menuItem5}</li>
+        <li className='menu-item'>{menuItems.menuItem6}</li>
       </ul>
     </div>
   )
