@@ -2,38 +2,36 @@ import './MobileNavigation.css'
 import '../../../shared/global/css/Global.css'
 import { useState } from "react"
 import { MenuItems } from "../MenuItems"
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import logo from '../../../shared/img/logo_small.png'
 
 export const MobileNavigation = () => {
 
-  const [burgerIcon, setBurgerIcon] = useState<string>('burger')
-  const [showMenu, setShowMenu] = useState<boolean>(false)
-
-  const burgerAnimation = (input: string) => {
-
-    return `${burgerIcon}-icon-${input}`
-  }
+  const [burgerIcon, setBurgerIcon] = useState<any>(faBars)
 
   const toggleShowMenu = () => {
-    return burgerIcon === 'burger' ? { display: 'none' } : { display: 'block' }
+    return burgerIcon === faBars ? { display: 'none' } : { display: 'block' }
   }
-
 
   const displayBurgerIcon = () => {
-    burgerIcon === 'burger' ? setBurgerIcon('times') : setBurgerIcon('burger')
+    burgerIcon === faBars ? setBurgerIcon(faTimes) : setBurgerIcon(faBars)
   }
-
 
   return (
     <div>
-      <div className='navbar-mobile-wrapper bg-color-green'>
-        <div className='navbar-mobile-wrapper-inner font-white'>
-          <div className='navbar-mobile-logo'>LOGO</div>
-          <div className={burgerAnimation('wrapper')} onClick={() => displayBurgerIcon()}>
-            <div className={burgerAnimation('line-1')}></div>
-            <div className={burgerAnimation('line-2')}></div>
-            <div className={burgerAnimation('line-3')}></div>
+      <div className='navbar-mobile-wrapper '>
+        <div className='navbar-mobile-wrapper-inner font-black'>
+          <div className='navbar-mobile-logo'><img src={logo} alt="Yogui BJJ" /></div>
+          <div className="navbar-mobile-title-wrapper">
+            <h1>torslanda kampsportcenter</h1>
+            <div className="line-divider-navbar" />
+            <h2>brasiliansk 🇧🇷 jiu-jitsu</h2>
           </div>
-          <div className='navbar-mobile-menu-wrapper bg-color-green' style={toggleShowMenu()}>
+          <div className="navbar-icon-wrapper" onClick={() => displayBurgerIcon()}>
+            <FontAwesomeIcon icon={burgerIcon} />
+          </div>
+          <div className='navbar-mobile-menu-wrapper bg-color-white' style={toggleShowMenu()}>
             {MenuItems()}
           </div>
         </div>

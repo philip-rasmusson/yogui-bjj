@@ -15,6 +15,14 @@
   background-color: rgb(124, 160, 124);
 }
 
+.bg-color-white {
+  background-color: #fff;
+}
+
+.bg-color-black {
+  background-color: #454545;
+}
+
 /* Font colors */
 
 .font-grey {
@@ -25,8 +33,25 @@
   color: #f1f1f1
 }
 
+.font-black {
+  color: #454545
+}
+
 .box-shadow {
   box-shadow: rgba(0, 0, 0, 0.452) 3px 5px 10px;
+}
+
+.line-divider {
+  width: 80vw;
+  height: 1px;
+  background-color: aquamarine;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 760px) {}
