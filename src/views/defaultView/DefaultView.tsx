@@ -1,6 +1,5 @@
-// import { HomeViewDesktop } from "./homeViewDesktop/HomeViewDesktop"
+import { DefaultViewDesktop } from "./defaultViewDesktop/DefaultViewDesktop"
 import { DefaultViewMobile } from "./defaultViewMobile/DefaultViewMobile"
-
 import { useWindowDimensions } from '../../hooks/useWindowDimensions'
 import DesktopMobileBreakpoint from "../../data/DesktopMobileBreakpoint"
 

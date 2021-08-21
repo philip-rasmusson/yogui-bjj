@@ -1,12 +1,12 @@
 const homeView = '/'
-const secondView = '/second'
+const techniquesView = '/techniques'
 
 const notFound = '/404'
 
 const RoutingPath = {
   homeView,
   notFound,
-  secondView
+  techniquesView
 }
 
 export default RoutingPath
