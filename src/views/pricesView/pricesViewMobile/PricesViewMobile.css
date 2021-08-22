@@ -1,0 +1,22 @@
+.prices-view-mobile-prices-wrapper {
+  padding: 2rem;
+}
+
+.prices-view-mobile-prices-wrapper h3 {
+  text-transform: uppercase;
+  font-size: 5vw;
+}
+
+.prices-view-mobile-prices-wrapper h3 span {
+  font-size: smaller;
+}
+
+.prices-view-mobile-prices-wrapper p {
+  font-size: 4vw;
+  font-weight: 100;
+}
+
+.prices-view-mobile-prices-wrapper div {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
