@@ -3,7 +3,7 @@ import './Accordion.css'
 import { faAngleDown, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { AccordionInner } from './AccordionInner'
-import { ExercisesNavbar } from './ExercisesNavbar'
+import { TechniquesNavbar } from './TechniquesNavbar'
 
 
 

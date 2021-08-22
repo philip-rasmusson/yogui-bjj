@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export const ExercisesNavbar = (props?: { title?: string }) => {
+export const TechniquesNavbar = (props?: { title?: string }) => {
   const [underline, setUnderline] = useState<any>('inactive')
 
   const switchActive = () => {

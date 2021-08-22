@@ -49,6 +49,10 @@
   box-shadow: rgba(0, 0, 0, 0.452) 3px 5px 10px;
 }
 
+.text-shadow {
+  text-shadow: rgba(0, 0, 0, 0.692) 3px 3px 3px;
+}
+
 .line-divider {
   width: 80vw;
   height: 1px;
@@ -60,6 +64,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.side-button-left-mobile {
+  border-radius: 0 7vw 7vw 0;
+  height: 20vw;
+  font-size: 5vw;
+  text-transform: uppercase;
+  border: ivory solid 1px;
+  left: -1px;
 }
 
 @media screen and (max-width: 760px) {}

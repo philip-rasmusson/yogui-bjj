@@ -1,6 +1,7 @@
 .navbar-mobile-wrapper {
   width: 100%;
   box-shadow: #45454565 0px 6px 6px;
+  z-index: 300;
 }
 
 .navbar-mobile-logo {

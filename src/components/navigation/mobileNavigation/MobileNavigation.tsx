@@ -21,7 +21,7 @@ export const MobileNavigation = () => {
 
   return (
     <div>
-      <div className='navbar-mobile-wrapper '>
+      <div className='navbar-mobile-wrapper'>
         <div className='navbar-mobile-wrapper-inner font-black'>
           <div className='navbar-mobile-logo'><img src={logo} alt="Yogui BJJ" /></div>
           <div className="navbar-mobile-title-wrapper">
