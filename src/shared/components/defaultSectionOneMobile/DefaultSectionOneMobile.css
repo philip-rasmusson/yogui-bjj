@@ -8,6 +8,7 @@
 .default-section-one-mobile-img-wrapper img {
   width: 100%;
   margin: auto;
+  opacity: 0.8;
 }
 
 .default-section-one-mobile-wrapper h2 {
