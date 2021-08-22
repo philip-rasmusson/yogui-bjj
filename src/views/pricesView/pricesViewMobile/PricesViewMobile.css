@@ -1,3 +1,5 @@
+/* PRICES WRAPPER */
+
 .prices-view-mobile-prices-wrapper {
   padding: 2rem;
 }
@@ -8,7 +10,7 @@
 }
 
 .prices-view-mobile-prices-wrapper h3 span {
-  font-size: smaller;
+  font-size: 3.5vw;
 }
 
 .prices-view-mobile-prices-wrapper p {
