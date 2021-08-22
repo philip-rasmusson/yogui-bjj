@@ -1,7 +1,8 @@
 .navbar-mobile-wrapper {
   width: 100%;
   box-shadow: #45454565 0px 6px 6px;
-  z-index: 300;
+  z-index: 3000;
+  position: relative;
 }
 
 .navbar-mobile-logo {
@@ -30,34 +31,42 @@
 }
 
 .navbar-mobile-title-wrapper h1 {
-  font-size: 3vw;
+  font-size: 2.7vw;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: .6vw;
   text-align: center;
 }
 
 .navbar-mobile-title-wrapper h2 {
   font-size: 2.5vw;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: .9vw;
   text-align: center;
 }
 
-.navbar-icon-wrapper {
-  z-index: 300;
+.navbar-icon-wrapper-inactive {
+  z-index: 3000;
   font-size: 7vw;
   grid-column: -1;
   justify-self: right;
   align-self: center;
 }
 
+.navbar-icon-wrapper-active {
+  z-index: 3000;
+  font-size: 7vw;
+  position: fixed;
+  top: 2vw;
+  right: 5vw;
+}
+
 .navbar-mobile-menu-wrapper {
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  overflow: hidden;
+  z-index: 600;
 }
 
 .navbar-mobile-menu-wrapper ul {
@@ -73,7 +82,7 @@
 }
 
 .line-divider-navbar {
-  width: 100%;
+  width: 90%;
   height: 1px;
   background-color: rgb(177, 93, 14);
   margin: 1vw auto;

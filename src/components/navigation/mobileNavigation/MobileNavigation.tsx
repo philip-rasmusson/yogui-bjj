@@ -11,12 +11,16 @@ export const MobileNavigation = () => {
 
   const [burgerIcon, setBurgerIcon] = useState<any>(faBars)
 
+
   const toggleShowMenu = () => {
     return burgerIcon === faBars ? { display: 'none' } : { display: 'block' }
   }
 
   const displayBurgerIcon = () => {
     burgerIcon === faBars ? setBurgerIcon(faTimes) : setBurgerIcon(faBars)
+  }
+  const fixedNavIcon = () => {
+    return burgerIcon === faBars ? 'navbar-icon-wrapper-inactive' : 'navbar-icon-wrapper-active'
   }
 
   return (
@@ -29,7 +33,7 @@ export const MobileNavigation = () => {
             <div className="line-divider-navbar" />
             <h2>{GlobalData.subTitle}</h2>
           </div>
-          <div className="navbar-icon-wrapper" onClick={() => displayBurgerIcon()}>
+          <div className={fixedNavIcon()} onClick={() => displayBurgerIcon()}>
             <FontAwesomeIcon icon={burgerIcon} />
           </div>
           <div className='navbar-mobile-menu-wrapper bg-color-white' style={toggleShowMenu()}>

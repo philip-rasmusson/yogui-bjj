@@ -1,0 +1,43 @@
+.default-section-one-mobile-wrapper {}
+
+.default-section-one-mobile-img-wrapper {
+  width: 100vw;
+  padding: 0 2rem;
+}
+
+.default-section-one-mobile-img-wrapper img {
+  width: 100%;
+  margin: auto;
+}
+
+.default-section-one-mobile-wrapper h2 {
+  padding: 2rem;
+  font-size: 7vw;
+  text-transform: uppercase;
+}
+
+.default-section-one-mobile-wrapper p {
+  padding: 2rem;
+  font-size: 5vw;
+  font-weight: 100;
+  line-height: 2.3rem;
+}
+
+.default-section-one-mobile-wrapper button {
+  margin: 3rem 0;
+  font-size: 6vw;
+  padding: 4vw;
+  border-radius: 0 1rem 1rem 0;
+  left: 2px;
+  width: 50%;
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+  border: #f1f1f1;
+}
+
+.line-divider-home {
+  width: 80vw;
+  height: 1px;
+  background-color: rgb(224, 164, 53);
+  margin: 2rem auto;
+}

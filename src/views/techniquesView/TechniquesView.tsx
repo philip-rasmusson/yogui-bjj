@@ -11,5 +11,5 @@ export const TechniquesView = () => {
     return width <= DesktopMobileBreakpoint ? <TechniquesViewMobile /> : <TechniquesViewMobile />
   }
 
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }

@@ -6,7 +6,7 @@ const email = 'info@torslandakampsportcenter.se'
 const emailMailto = 'mailto:info@torslandakampsportcenter.se'
 const copyright = '© 2021 YOGUI BJJ ASSOCIATION | ALL RIGHTS RESERVED'
 const title = 'torslanda kampsportcenter'
-const subTitle = 'brasiliansk 🇧🇷 jiu-jitsu'
+const subTitle = 'brazilian 🇧🇷 jiu-jitsu'
 
 const GlobalData = {
   email,
