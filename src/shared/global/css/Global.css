@@ -59,6 +59,13 @@
   background-color: rgb(224, 164, 53);
 }
 
+.line-divider-mobile {
+  width: 80vw;
+  height: 1px;
+  background-color: rgb(224, 164, 53);
+  margin: 2rem auto;
+}
+
 .col-1 {
   grid-column: 1;
 }
@@ -73,6 +80,10 @@
 
 .row-2 {
   grid-row: 2;
+}
+
+.margin-2rem-auto {
+  margin: 2rem auto;
 }
 
 .wrapper {

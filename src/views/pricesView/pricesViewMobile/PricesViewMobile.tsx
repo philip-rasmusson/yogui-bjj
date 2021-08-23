@@ -44,6 +44,8 @@ export const PricesViewMobile = () => {
         price1={PricesViewData.pricesSW1}
       />
 
+      <div className="line-divider-mobile"></div>
+
     </div>
   )
 }
