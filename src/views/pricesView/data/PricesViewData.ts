@@ -21,6 +21,10 @@ const pricesBJJandSW1 = '2995 kr / termin'
 const pricesTitleSW = 'Submission Wrestling'
 const pricesSW1 = '1995 kr / termin'
 
+const pricesPayment = 'betalning'
+const pricesPaymentInfo = 'Betalning sker via Swish. Efter genomför betalning så fyller du formuläret nedan för att bli registrerad i vårt system.'
+const swishNumber = '1234700670'
+
 const PricesViewData = {
   title,
   bgImg,
@@ -38,7 +42,10 @@ const PricesViewData = {
   pricesTitleBJJandSW,
   pricesBJJandSW1,
   pricesTitleSW,
-  pricesSW1
+  pricesSW1,
+  pricesPayment,
+  pricesPaymentInfo,
+  swishNumber,
 
 }
 
