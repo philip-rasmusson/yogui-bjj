@@ -1,44 +1,4 @@
-/* PRICES WRAPPER */
-
-.prices-view-prices-wrapper {
-  padding: 10vw;
-}
-
-.prices-view-prices-wrapper h3 {
-  text-transform: uppercase;
-  font-size: 5vw;
-  letter-spacing: .4vw;
-}
-
-.prices-view-prices-wrapper h3 span {
-  font-size: 3.5vw;
-}
-
-.prices-view-prices-wrapper p {
-  font-size: 4vw;
-  font-weight: 100;
-  padding-top: 2vw;
-  line-height: 8vw;
-}
-
-.prices-view-prices-wrapper div {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-}
-
-.prices-view-prices-wrapper div h4 {
-  align-self: center;
-  letter-spacing: .5vw;
-  font-size: 6vw;
-  font-weight: 200;
-}
-
-.prices-view-prices-wrapper div img {
-  align-self: center;
-  width: 20vw;
-}
-
-/* form {
+form {
   display: flex;
   flex-direction: column;
   padding: 10vw;
@@ -67,7 +27,7 @@ form input {
   border-radius: 3vw;
   margin: 2vw 0;
   background-color: rgb(238, 238, 238);
-  font-size: 6vw;
+  font-size: 3vw;
   font-weight: 200;
   color: #454545;
   border: none;
@@ -79,9 +39,49 @@ form input:active {
 
 form input::placeholder {
   text-transform: uppercase;
-  font-size: 3vw;
   letter-spacing: 0.3vw;
   font-style: italic;
   font-weight: 100;
   opacity: 0.4;
-} */
+}
+
+.register-form-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+form button {
+  text-transform: uppercase;
+  width: 40%;
+  padding: 3vw 2vw;
+  border-radius: 5vw;
+}
+
+.register-form-checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw 0;
+}
+
+.register-form-checkboxes label {
+  display: grid;
+  grid-template-columns: 10% 50% 40%;
+  grid-template-rows: auto;
+}
+
+.register-form-checkboxes p {
+  align-self: center;
+  text-transform: initial;
+  font-weight: 100;
+  font-size: 2.5vw;
+}
+
+.select-group {
+  font-size: 4vw;
+  padding: 3vw;
+  border-radius: 5vw;
+  margin: 3vw 0;
+  border: none;
+  background-color: rgb(238, 238, 238);
+  text-transform: uppercase;
+}

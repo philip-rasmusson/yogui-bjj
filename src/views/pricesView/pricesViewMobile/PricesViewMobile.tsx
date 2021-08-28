@@ -4,6 +4,7 @@ import PricesViewData from '../data/PricesViewData'
 import FormData from '../data/FormData'
 import { PricesWrapper } from '../components/PricesWrapper'
 import swishLogo from '../../../shared/img/swishLogo.png'
+import { RegisterForm } from '../../../components/form/registerForm/RegisterForm'
 
 export const PricesViewMobile = () => {
 
@@ -56,8 +57,9 @@ export const PricesViewMobile = () => {
           <h4 className="col-2 row-1">{PricesViewData.swishNumber}</h4>
         </div>
       </div>
+      <RegisterForm />
 
-      <form action="">
+      {/* <form action="">
         <label htmlFor="">{FormData.name}<input name="name" type="text" placeholder={FormData.placeholderName}></input></label>
 
         <label htmlFor="">{FormData.personNumber}<input required name="personNumber" type="text" placeholder={FormData.placeholderPersonNumber}></input></label>
@@ -83,7 +85,7 @@ export const PricesViewMobile = () => {
         <div></div>
         <button type="submit">SKICKA</button>
         <button type="reset">RENSA</button>
-      </form>
+      </form> */}
 
 
     </div>
