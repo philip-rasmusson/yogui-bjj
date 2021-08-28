@@ -85,6 +85,10 @@
   font-size: 5vw;
 }
 
+.navbar-mobile-menu-wrapper li:active {
+  font-size: 5.5vw;
+}
+
 .line-divider-navbar {
   width: 90%;
   height: 1px;

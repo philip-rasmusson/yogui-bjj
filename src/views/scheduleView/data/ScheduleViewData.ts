@@ -1,6 +1,5 @@
 const title = 'träningstider & grupper'
-const bgImg = 'prices'
-// const bgImg = 'schedule'
+const bgImg = 'schedule'
 
 const scheduleMonday = 'måndag'
 const scheduleTuesday = 'tisdag'

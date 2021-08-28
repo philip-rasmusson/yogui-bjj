@@ -1,4 +1,4 @@
-// import { DesktopFooter } from "./desktopFooter/DesktopFooter"
+import { DesktopFooter } from './desktopFooter/DesktopFooter'
 import { MobileFooter } from "./mobileFooter/MobileFooter"
 
 import { useWindowDimensions } from '../../hooks/useWindowDimensions'
@@ -9,7 +9,7 @@ export const Footer = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForFooter = () => {
-    return width <= DesktopMobileBreakpoint ? <MobileFooter /> : <MobileFooter />
+    return width <= DesktopMobileBreakpoint ? <MobileFooter /> : <DesktopFooter />
   }
 
   return <div>{toggleDesktopOrMobileViewForFooter()}</div>

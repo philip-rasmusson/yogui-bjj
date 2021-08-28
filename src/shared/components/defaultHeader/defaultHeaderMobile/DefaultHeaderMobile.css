@@ -2,6 +2,14 @@
   background-image: url(../../../../shared/img/HeaderImgPrices.png);
 }
 
+.default-header-mobile-schedule {
+  background-image: url(../../../../shared/img/HeaderImg2.png);
+}
+
+.default-header-mobile-information {
+  background-image: url(../../../../shared/img/HeaderImg3.png);
+}
+
 .default-header-mobile-wrapper {
   position: relative;
   width: 100vw;
@@ -26,7 +34,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #454545;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .default-header-mobile-wrapper button {

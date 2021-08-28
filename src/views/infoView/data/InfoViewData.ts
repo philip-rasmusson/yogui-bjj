@@ -1,5 +1,5 @@
 const title = 'information & regler'
-const bgImg = 'prices'
+const bgImg = 'information'
 // const bgImg = 'schedule'
 
 const InfoViewData = {

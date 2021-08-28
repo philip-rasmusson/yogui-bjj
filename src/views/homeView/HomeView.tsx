@@ -1,4 +1,4 @@
-// import { HomeViewDesktop } from "./homeViewDesktop/HomeViewDesktop"
+import { HomeViewDesktop } from "./homeViewDesktop/HomeViewDesktop"
 import { HomeViewMobile } from "./homeViewMobile/HomeViewMobile"
 
 import { useWindowDimensions } from '../../hooks/useWindowDimensions'
@@ -9,7 +9,7 @@ export const HomeView = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForNavbar = () => {
-    return width <= DesktopMobileBreakpoint ? <HomeViewMobile /> : <HomeViewMobile />
+    return width <= DesktopMobileBreakpoint ? <HomeViewMobile /> : <HomeViewDesktop />
   }
 
   return <>{toggleDesktopOrMobileViewForNavbar()}</>
