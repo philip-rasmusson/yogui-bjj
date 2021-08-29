@@ -7,7 +7,7 @@ const menuItem6 = 'kontakt'
 
 
 
-export const menuItems = {
+export const menuItemsData = {
   menuItem1,
   menuItem2,
   menuItem3,

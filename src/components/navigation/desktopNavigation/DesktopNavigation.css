@@ -1,0 +1,40 @@
+.navbar-desktop-wrapper {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: repeat(3, auto);
+  padding: .5rem 1rem;
+  z-index: 3000;
+  text-transform: uppercase;
+}
+
+.navbar-desktop-title-wrapper h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.navbar-desktop-title-wrapper h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.navbar-desktop-wrapper div, .navbar-desktop-wrapper ul, .navbar-desktop-wrapper img {
+  align-self: center;
+  justify-self: center;
+}
+
+.navbar-desktop-title-wrapper {
+  text-align: center;
+}
+
+.navbar-desktop-logo img {
+  width: 8vw;
+  max-width: 10rem;
+}
+
+.navbar-desktop-wrapper ul {
+  list-style: none;
+  font-size: 1rem;
+  text-align: right;
+}

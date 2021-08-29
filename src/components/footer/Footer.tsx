@@ -12,5 +12,5 @@ export const Footer = () => {
     return width <= DesktopMobileBreakpoint ? <MobileFooter /> : <DesktopFooter />
   }
 
-  return <div>{toggleDesktopOrMobileViewForFooter()}</div>
+  return <>{toggleDesktopOrMobileViewForFooter()}</>
 }

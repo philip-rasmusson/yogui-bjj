@@ -1,13 +1,13 @@
 import './MobileNavigation.css'
 import '../../../shared/global/css/Global.css'
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { MenuItems } from "../MenuItems"
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '../../../shared/img/logo_small.png'
 import GlobalData from '../../../data/GlobalData'
 import { useHistory } from 'react-router-dom'
-import { menuItems } from '../data/menu-items-data'
+import { menuItemsData } from '../data/menu-items-data'
 import RoutingPath from '../../../routes/RoutingPath'
 
 
@@ -46,11 +46,11 @@ export const MobileNavigation = () => {
               <FontAwesomeIcon icon={faTimes} />
             </div>
             <ul className='font-black'>
-              <MenuItems menuItem={menuItems.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
-              <MenuItems menuItem={menuItems.menuItem3} onclick={() => linkFunction(RoutingPath.pricesView)} />
-              <MenuItems menuItem={menuItems.menuItem4} onclick={() => linkFunction(RoutingPath.techniquesView)} />
-              <MenuItems menuItem={menuItems.menuItem5} onclick={() => linkFunction(RoutingPath.infoView)} />
-              {/* <MenuItems menuItem={menuItems.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
+              <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
+              <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => linkFunction(RoutingPath.pricesView)} />
+              <MenuItems menuItem={menuItemsData.menuItem4} onclick={() => linkFunction(RoutingPath.techniquesView)} />
+              <MenuItems menuItem={menuItemsData.menuItem5} onclick={() => linkFunction(RoutingPath.infoView)} />
+              {/* <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
             </ul>
           </div>
         </div>
