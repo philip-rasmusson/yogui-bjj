@@ -122,4 +122,13 @@
   left: -1px;
 }
 
+.side-button-left-desktop {
+  border-radius: 7vw 0 0 7vw;
+  height: 5rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  border: ivory solid 1px;
+  left: -1px;
+}
+
 @media screen and (max-width: 760px) {}

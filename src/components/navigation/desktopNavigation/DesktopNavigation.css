@@ -28,6 +28,7 @@
 
 .navbar-desktop-title-wrapper {
   text-align: center;
+  justify-self: center;
 }
 
 .navbar-desktop-logo, .navbar-desktop-logo-kids {
