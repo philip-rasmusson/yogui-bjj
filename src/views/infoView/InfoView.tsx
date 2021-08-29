@@ -8,7 +8,7 @@ export const InfoView = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForNavbar = () => {
-    return width <= DesktopMobileBreakpoint ? <InfoViewMobile /> : <InfoViewMobile />
+    return width <= DesktopMobileBreakpoint ? <InfoViewMobile /> : <InfoViewDesktop />
   }
 
   return <>{toggleDesktopOrMobileViewForNavbar()}</>

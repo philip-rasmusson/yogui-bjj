@@ -8,7 +8,7 @@ export const PricesView = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForNavbar = () => {
-    return width <= DesktopMobileBreakpoint ? <PricesViewMobile /> : <PricesViewMobile />
+    return width <= DesktopMobileBreakpoint ? <PricesViewMobile /> : <PricesViewDesktop />
   }
 
   return <>{toggleDesktopOrMobileViewForNavbar()}</>

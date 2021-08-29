@@ -30,14 +30,15 @@
 }
 
 .footer-desktop-contact-wrapper {
-  grid-row: 4/8;
-  grid-column: 7/-1;
+  grid-row: 5/7;
+  grid-column: 6/-2;
   display: grid;
   align-content: center;
-  justify-self: left;
-  grid-template-columns: 20% 80%;
+  /* justify-self: left; */
+  grid-template-columns: 10% 90%;
   grid-template-rows: repeat(3, 1fr);
   font-size: 1rem;
+  grid-gap: 1rem;
 }
 
 .footer-desktop-contact-wrapper div, .footer-desktop-contact-wrapper p {
@@ -49,7 +50,7 @@
 }
 
 .footer-desktop-contact-wrapper div {
-  justify-self: center;
+  justify-self: right;
 }
 
 .footer-desktop-contact-icon-adress {
@@ -88,7 +89,7 @@
   align-self: center;
   justify-self: right;
   width: 20vw;
-  max-width: 15rem;
+  max-width: 10rem;
 }
 
 .footer-desktop-copyright {

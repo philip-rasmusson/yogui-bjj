@@ -8,7 +8,7 @@ export const ScheduleView = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForNavbar = () => {
-    return width <= DesktopMobileBreakpoint ? <ScheduleViewMobile /> : <ScheduleViewMobile />
+    return width <= DesktopMobileBreakpoint ? <ScheduleViewMobile /> : <ScheduleViewDesktop />
   }
 
   return <>{toggleDesktopOrMobileViewForNavbar()}</>
