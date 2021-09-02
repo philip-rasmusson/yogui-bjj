@@ -34,9 +34,10 @@ export const MobileNavigation = () => {
         <div className='navbar-mobile-wrapper-inner font-black'>
           <div className='navbar-mobile-logo' onClick={() => linkFunction(RoutingPath.homeView)}><img src={logo} alt="Yogui BJJ" /></div>
           <div className="navbar-mobile-title-wrapper">
+            <div className="line-divider-navbar" />
             <h1>{GlobalData.title}</h1>
             <div className="line-divider-navbar" />
-            <h2>{GlobalData.subTitle}</h2>
+            {/*   <h2>{GlobalData.subTitle}</h2> */}
           </div>
           <div className="navbar-icon-wrapper-inactive" onClick={() => displayBurgerIcon()}>
             <FontAwesomeIcon icon={burgerIcon} />

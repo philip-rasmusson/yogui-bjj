@@ -8,7 +8,7 @@ import { SocialMediaIcons } from '../../socailMediaIcons/SocailMediaIcons'
 export const MobileFooter = () => {
   return (
     <div className="footer-mobile-wrapper bg-color-black font-white">
-      <h1>{GlobalData.title}</h1>
+      <h1>{GlobalData.titleFooter}</h1>
       <div className="line-divider-footer-mobile bg-color-yogui" />
       <div className="footer-mobile-contact-wrapper">
         <div className="footer-mobile-contact-icon-adress"><FontAwesomeIcon icon={faMapMarker} /></div>

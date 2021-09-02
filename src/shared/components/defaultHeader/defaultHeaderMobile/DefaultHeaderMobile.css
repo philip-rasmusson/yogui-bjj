@@ -24,17 +24,19 @@
 }
 
 .default-header-mobile-wrapper h2 {
-  grid-row: 1/4;
+  grid-row: -4/-1;
   grid-column: 1/6;
+  width: fit-content;
   padding: 2vw 4vw;
   align-self: center;
-  font-size: 8vw;
+  font-size: 4vw;
   position: relative;
   z-index: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #454545;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgb(255, 255, 255);
+  /* background-color: rgba(255, 255, 255, 0.85); */
 }
 
 .default-header-mobile-wrapper button {

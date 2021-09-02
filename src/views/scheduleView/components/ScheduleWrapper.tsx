@@ -12,9 +12,9 @@ export const ScheduleWrapper = (props: { title?: string, time1?: string, group1?
         <p className="col-1 row-2">{props.time2}</p>
         <p className="col-2 row-2">{props.group2}</p>
         <p className="col-1 row-3">{props.time3}</p>
-        <p className="col-2 row-4">{props.group3}</p>
+        <p className="col-2 row-3">{props.group3}</p>
         <p className="col-1 row-4">{props.time4}</p>
-        <p className="col-2 row-5">{props.group4}</p>
+        <p className="col-2 row-4">{props.group4}</p>
       </div>
     </div>
 

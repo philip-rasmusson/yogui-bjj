@@ -5,10 +5,12 @@
 }
 
 .footer-mobile-wrapper h1 {
-  font-size: 5.5vw;
+  font-size: 5.3vw;
   text-align: center;
   text-transform: uppercase;
   align-self: center;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 .line-divider-footer-mobile {

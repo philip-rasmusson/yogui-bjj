@@ -1,6 +1,6 @@
 import './DefaultHeaderMobile.css'
 
-export const DefaultHeaderMobile = (props: { title: string, bgImg: string }) => {
+export const DefaultHeaderMobile = (props: { title?: string, bgImg: string }) => {
 
   const cName = `default-header-mobile-wrapper default-header-mobile-${props.bgImg}`
 

@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+p {
+  font-weight: 400;
+}
+
 /* Background colors */
 
 .bg-color-blue {
