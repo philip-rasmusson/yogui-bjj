@@ -4,6 +4,9 @@ const pricesView = '/prices'
 const scheduleView = '/schedule'
 const infoView = '/information'
 const techniquesView = '/techniques'
+const historyView = '/historia'
+const instructorsView = '/instruktörer'
+const contactView = '/kontakt'
 
 const notFound = '/404'
 
@@ -15,6 +18,9 @@ const RoutingPath = {
   scheduleView,
   infoView,
   tempHome,
+  historyView,
+  instructorsView,
+  contactView
 }
 
 export default RoutingPath

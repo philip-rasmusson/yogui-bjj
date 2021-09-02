@@ -12,8 +12,8 @@ export const HomeViewMobile = () => {
     <div className="home-mobile-wrapper">
       <div className="home-mobile-header-wrapper">
         {/* <img src={HeaderImg} alt="Header image" /> */}
-        <h2 className="home-mobile-title text-shadow">{HomeViewData.title}</h2>
-        <button className="side-button-left-mobile font-white bg-color-black">{HomeViewData.btnText}</button>
+        {/* <h2 className="home-mobile-title text-shadow">{HomeViewData.title}</h2> */}
+        <button className="side-button-left-mobile font-white bg-color-black">{HomeViewData.title}</button>
         <div className="white-overlay" />
       </div>
 

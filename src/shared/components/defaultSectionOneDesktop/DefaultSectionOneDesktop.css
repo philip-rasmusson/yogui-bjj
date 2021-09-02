@@ -21,14 +21,15 @@
 
 .default-section-one-desktop-wrapper h2 {
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 400;
 }
 
 .default-section-one-desktop-wrapper p {
   padding: 2rem;
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 2.3rem;
   width: 70%;
   margin: auto;
@@ -37,10 +38,10 @@
 .default-section-one-desktop-wrapper button {
   margin: 3rem auto;
   justify-self: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem;
   border-radius: 2rem;
-  width: 50%;
+  width: fit-content;
   text-transform: uppercase;
   letter-spacing: .5vw;
   border: #f1f1f1;

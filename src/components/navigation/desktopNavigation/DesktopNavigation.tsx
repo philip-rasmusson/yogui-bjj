@@ -27,9 +27,10 @@ export const DesktopNavigation = () => {
 
         <ul className='font-black'>
           <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => history.push(RoutingPath.scheduleView)} />
-          <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => history.push(RoutingPath.pricesView)} />
+          {/* <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => history.push(RoutingPath.pricesView)} /> */}
           <MenuItems menuItem={menuItemsData.menuItem4} onclick={() => history.push(RoutingPath.techniquesView)} />
           <MenuItems menuItem={menuItemsData.menuItem5} onclick={() => history.push(RoutingPath.infoView)} />
+          <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => history.push(RoutingPath.instructorsView)} />
           {/* <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
         </ul>
       </div>

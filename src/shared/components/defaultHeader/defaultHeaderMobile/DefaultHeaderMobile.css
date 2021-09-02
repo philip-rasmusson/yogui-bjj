@@ -3,11 +3,15 @@
 }
 
 .default-header-mobile-schedule {
-  background-image: url(../../../../shared/img/HeaderImg2.png);
+  background-image: url(../../../../shared/img/HeaderImg.jpg);
 }
 
 .default-header-mobile-information {
   background-image: url(../../../../shared/img/HeaderImg3.png);
+}
+
+.default-header-mobile-instructors {
+  background-image: url(../../../../shared/img/HeaderImg2.png);
 }
 
 .default-header-mobile-wrapper {

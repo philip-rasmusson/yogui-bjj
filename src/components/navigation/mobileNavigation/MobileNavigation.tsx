@@ -36,8 +36,8 @@ export const MobileNavigation = () => {
           <div className="navbar-mobile-title-wrapper">
             <div className="line-divider-navbar" />
             <h1>{GlobalData.title}</h1>
+            <h2>{GlobalData.subTitle}</h2>
             <div className="line-divider-navbar" />
-            {/*   <h2>{GlobalData.subTitle}</h2> */}
           </div>
           <div className="navbar-icon-wrapper-inactive" onClick={() => displayBurgerIcon()}>
             <FontAwesomeIcon icon={burgerIcon} />
@@ -47,10 +47,16 @@ export const MobileNavigation = () => {
               <FontAwesomeIcon icon={faTimes} />
             </div>
             <ul className='font-black'>
-              <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
+              {/*  <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
               <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => linkFunction(RoutingPath.pricesView)} />
               <MenuItems menuItem={menuItemsData.menuItem4} onclick={() => linkFunction(RoutingPath.techniquesView)} />
               <MenuItems menuItem={menuItemsData.menuItem5} onclick={() => linkFunction(RoutingPath.infoView)} />
+              <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
+              <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
+              {/* <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => linkFunction(RoutingPath.pricesView)} /> */}
+              <MenuItems menuItem={menuItemsData.menuItem4} onclick={() => linkFunction(RoutingPath.techniquesView)} />
+              <MenuItems menuItem={menuItemsData.menuItem5} onclick={() => linkFunction(RoutingPath.infoView)} />
+              <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.instructorsView)} />
               {/* <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
             </ul>
           </div>
