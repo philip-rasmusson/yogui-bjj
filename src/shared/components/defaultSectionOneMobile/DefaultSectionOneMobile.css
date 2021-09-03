@@ -13,19 +13,20 @@
 
 .default-section-one-mobile-wrapper h2 {
   padding: 2rem;
-  font-size: 7vw;
+  font-size: 5vw;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 .default-section-one-mobile-wrapper p {
   padding: 2rem;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 2.3rem;
 }
 
 .default-section-one-mobile-wrapper button {
   margin: 3rem 0;
-  font-size: 6vw;
+  font-size: 4vw;
   padding: 4vw;
   border-radius: 0 1rem 1rem 0;
   left: 2px;

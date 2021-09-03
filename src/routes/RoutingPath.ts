@@ -7,6 +7,7 @@ const techniquesView = '/techniques'
 const historyView = '/historia'
 const instructorsView = '/instruktörer'
 const contactView = '/kontakt'
+const affiliatesView = './klubbar'
 
 const notFound = '/404'
 
@@ -20,7 +21,8 @@ const RoutingPath = {
   tempHome,
   historyView,
   instructorsView,
-  contactView
+  contactView,
+  affiliatesView
 }
 
 export default RoutingPath

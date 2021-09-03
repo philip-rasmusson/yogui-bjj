@@ -5,21 +5,20 @@ import homeImg1 from '../../../shared/img/homeImgs/homeImg1.png'
 import homeImg2 from '../../../shared/img/homeImgs/homeImg2.png'
 import homeImg3 from '../../../shared/img/homeImgs/homeImg3.png'
 import homeImg4 from '../../../shared/img/homeImgs/homeImg4.png'
+import homeImg5 from '../../../shared/img/homeImgs/homeImg5.jpg'
 
 
 export const HomeViewMobile = () => {
   return (
     <div className="home-mobile-wrapper">
       <div className="home-mobile-header-wrapper">
-        {/* <img src={HeaderImg} alt="Header image" /> */}
-        {/* <h2 className="home-mobile-title text-shadow">{HomeViewData.title}</h2> */}
         <button className="side-button-left-mobile font-white bg-color-black">{HomeViewData.title}</button>
         <div className="white-overlay" />
       </div>
 
       {/* SECTION ONE */}
       <DefaultSectionOneMobile
-        img={homeImg1}
+        img={homeImg3}
         title={HomeViewData.titleSectionOne}
         text={HomeViewData.textSectionOne}
         btnText={HomeViewData.readmore}
@@ -27,7 +26,7 @@ export const HomeViewMobile = () => {
       />
       <div className="line-divider-home" />
       <DefaultSectionOneMobile
-        img={homeImg2}
+        img={homeImg5}
         title={HomeViewData.titleSectionTwo}
         text={HomeViewData.textSectionTwo}
         btnText={HomeViewData.readmore}
@@ -35,7 +34,7 @@ export const HomeViewMobile = () => {
       />
       <div className="line-divider-home" />
       <DefaultSectionOneMobile
-        img={homeImg3}
+        img={homeImg2}
         title={HomeViewData.titleSectionThree}
         text={HomeViewData.textSectionThree}
         btnText={HomeViewData.readmore}

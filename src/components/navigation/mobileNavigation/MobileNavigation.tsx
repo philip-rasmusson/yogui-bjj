@@ -49,7 +49,8 @@ export const MobileNavigation = () => {
             <ul className='font-black'>
               <MenuItems menuItem={menuItemsData.menuItemTechniques} onclick={() => linkFunction(RoutingPath.techniquesView)} />
               <MenuItems menuItem={menuItemsData.menuItemPolicy} onclick={() => linkFunction(RoutingPath.policyView)} />
-              <MenuItems menuItem={menuItemsData.menuItemInstructors} onclick={() => linkFunction(RoutingPath.instructorsView)} />
+              {/* <MenuItems menuItem={menuItemsData.menuItemInstructors} onclick={() => linkFunction(RoutingPath.instructorsView)} /> */}
+              <MenuItems menuItem={menuItemsData.menuItemAffiliates} onclick={() => linkFunction(RoutingPath.affiliatesView)} />
             </ul>
           </div>
         </div>
