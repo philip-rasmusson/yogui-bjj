@@ -1,6 +1,17 @@
 import './DefaultSectionOneMobile.css'
+import { SelectLanguage } from '../../../functions/SelectLanguage'
+import { useState, useEffect } from 'react'
+import { useContext } from 'react'
+import { LanguageContext } from '../../../shared/provider/LanguageProvider'
+
 
 export const DefaultSectionOneMobile = (props: { img: any, title: string, text: string, btnText: string, btnLink: string }) => {
+  const [language] = useContext(LanguageContext)
+
+
+  useEffect(() => {
+  }, [language])
+
   return (
     <div className='default-section-one-mobile-wrapper font-black'>
       <h2>{props.title}</h2>

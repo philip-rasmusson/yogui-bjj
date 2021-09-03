@@ -5,13 +5,19 @@ import homeImg1 from '../../../shared/img/homeImgs/homeImg1.png'
 import homeImg2 from '../../../shared/img/homeImgs/homeImg2.png'
 import homeImg3 from '../../../shared/img/homeImgs/homeImg3.png'
 import homeImg4 from '../../../shared/img/homeImgs/homeImg4.png'
+import { SelectLanguage } from '../../../functions/SelectLanguage'
 
 export const HomeViewDesktop = () => {
   return (
     <div className="home-desktop-wrapper">
       <div className="home-desktop-header-wrapper">
         {/* <h2 className="home-desktop-title">{HomeViewData.title}</h2> */}
-        <button className="side-button-right-desktop font-white bg-color-black box-shadow">{HomeViewData.title}</button>
+        <button className="side-button-right-desktop font-white bg-color-black box-shadow">
+          <SelectLanguage
+            textSwe={HomeViewData.title}
+            textEng={HomeViewData.titleEng}
+          />
+        </button>
         <div className="white-overlay" />
       </div>
 
@@ -19,8 +25,11 @@ export const HomeViewDesktop = () => {
       <DefaultSectionOneDesktop
         img={homeImg1}
         title={HomeViewData.titleSectionOne}
+        titleEng={HomeViewData.titleSectionOne}
         text={HomeViewData.textSectionOne}
+        textEng={HomeViewData.textSectionOne}
         btnText={HomeViewData.readmore}
+        btnTextEng={HomeViewData.readmore}
         btnLink=""
       />
       <div className="line-divider-home" />
