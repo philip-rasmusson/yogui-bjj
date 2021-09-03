@@ -1,15 +1,15 @@
 /* SCHEDULE WRAPPER */
 
-.info-view-info-wrapper {
+.policy-view-policy-wrapper {
   padding: 2rem;
 }
 
-.info-view-info-wrapper h3 {
+.policy-view-policy-wrapper h3 {
   text-transform: uppercase;
   font-size: 5vw;
 }
 
-.info-view-info-wrapper p, .info-view-info-wrapper li {
+.policy-view-policy-wrapper p, .policy-view-policy-wrapper li {
   font-size: 3vw;
   padding-top: 1rem;
   line-height: 2rem;

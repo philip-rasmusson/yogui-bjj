@@ -2,7 +2,7 @@ const homeView = '/'
 const tempHome = '/yogui-bjj'
 const pricesView = '/prices'
 const scheduleView = '/schedule'
-const infoView = '/information'
+const policyView = '/policyrmation'
 const techniquesView = '/techniques'
 const historyView = '/historia'
 const instructorsView = '/instruktörer'
@@ -16,7 +16,7 @@ const RoutingPath = {
   techniquesView,
   pricesView,
   scheduleView,
-  infoView,
+  policyView,
   tempHome,
   historyView,
   instructorsView,

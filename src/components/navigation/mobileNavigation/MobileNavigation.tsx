@@ -47,17 +47,9 @@ export const MobileNavigation = () => {
               <FontAwesomeIcon icon={faTimes} />
             </div>
             <ul className='font-black'>
-              {/*  <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
-              <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => linkFunction(RoutingPath.pricesView)} />
-              <MenuItems menuItem={menuItemsData.menuItem4} onclick={() => linkFunction(RoutingPath.techniquesView)} />
-              <MenuItems menuItem={menuItemsData.menuItem5} onclick={() => linkFunction(RoutingPath.infoView)} />
-              <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
-              <MenuItems menuItem={menuItemsData.menuItem2} onclick={() => linkFunction(RoutingPath.scheduleView)} />
-              {/* <MenuItems menuItem={menuItemsData.menuItem3} onclick={() => linkFunction(RoutingPath.pricesView)} /> */}
-              <MenuItems menuItem={menuItemsData.menuItem4} onclick={() => linkFunction(RoutingPath.techniquesView)} />
-              <MenuItems menuItem={menuItemsData.menuItem5} onclick={() => linkFunction(RoutingPath.infoView)} />
-              <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.instructorsView)} />
-              {/* <MenuItems menuItem={menuItemsData.menuItem6} onclick={() => linkFunction(RoutingPath.contactView)} /> */}
+              <MenuItems menuItem={menuItemsData.menuItemTechniques} onclick={() => linkFunction(RoutingPath.techniquesView)} />
+              <MenuItems menuItem={menuItemsData.menuItemPolicy} onclick={() => linkFunction(RoutingPath.policyView)} />
+              <MenuItems menuItem={menuItemsData.menuItemInstructors} onclick={() => linkFunction(RoutingPath.instructorsView)} />
             </ul>
           </div>
         </div>
