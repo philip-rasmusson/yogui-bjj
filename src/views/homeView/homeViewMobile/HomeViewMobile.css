@@ -4,10 +4,11 @@
   position: relative;
   width: 100vw;
   height: 92vh;
+  min-height: 100vw;
   background-image: url(../../../shared/img/instructors/header.jpg);
   background-size: cover;
   background-position-x: center;
-  background-position-y: center;
+  background-position-y: top;
   background-repeat: no-repeat;
   /* opacity: 0.6; */
   display: grid;

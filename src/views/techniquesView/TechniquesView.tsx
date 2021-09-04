@@ -8,7 +8,7 @@ export const TechniquesView = () => {
   const { width } = useWindowDimensions()
 
   const toggleDesktopOrMobileViewForNavbar = () => {
-    return width <= DesktopMobileBreakpoint ? <TechniquesViewMobile /> : <TechniquesViewMobile />
+    return width <= DesktopMobileBreakpoint ? <TechniquesViewMobile /> : <TechniquesViewDesktop />
   }
 
   return <>{toggleDesktopOrMobileViewForNavbar()}</>

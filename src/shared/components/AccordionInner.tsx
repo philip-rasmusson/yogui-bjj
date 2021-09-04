@@ -51,7 +51,7 @@ export const AccordionInner = (props?: { exercises?: any }) => {
   }
 
   return (
-    <div>
+    <>
       <div className='accordion-outer-exercises-wrapper' onClick={() => displayContentInner()}>
         <h4 className='accordion-outer-exercises-title'>{props?.exercises}</h4>
         <div className='accordion-outer-angle-icon-inner grid-center-content'>
@@ -59,6 +59,6 @@ export const AccordionInner = (props?: { exercises?: any }) => {
         </div>
       </div>
       {accordionInnerContent()}
-    </div>)
+    </>)
 
 }
