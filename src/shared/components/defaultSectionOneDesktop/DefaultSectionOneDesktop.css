@@ -2,18 +2,19 @@
   width: 100%;
   max-width: 1000px;
   display: grid;
-  margin: 3rem auto;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5rem auto;
 }
 
 .default-section-one-desktop-img-wrapper {
-  margin: auto;
+  margin: 3rem auto;
   width: 100%;
   padding: 0 2rem;
   display: grid;
 }
 
 .default-section-one-desktop-img-wrapper img {
-  width: 70%;
+  width: 100%;
   margin: auto;
   opacity: 0.8;
   justify-self: center;
@@ -25,26 +26,34 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
+  grid-column: 1/-1;
 }
 
 .default-section-one-desktop-wrapper p {
-  padding: 2rem;
+  padding: .5rem;
   font-size: 1rem;
-  line-height: 2.3rem;
+  line-height: auto;
   width: 70%;
   margin: auto;
 }
 
 .default-section-one-desktop-wrapper button {
-  margin: 3rem auto;
+  margin: 3rem auto 0 auto;
   justify-self: center;
   font-size: 1.5rem;
   padding: 1rem;
   border-radius: 2rem;
-  width: fit-content;
   text-transform: uppercase;
   letter-spacing: .5vw;
   border: #f1f1f1;
+  height: fit-content;
+  width: fit-content;
+}
+
+.default-section-one-desktop-text-wrapper {
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
 }
 
 .line-divider-home {

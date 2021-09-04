@@ -13,27 +13,35 @@ const showOnMapEng = 'show map'
 const titleSectionOne = 'välkommen till yogui bjj'
 const titleSectionOneEng = 'welcome to yogui bjj'
 const textSectionOne = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
+const textSectionOneEng = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
 const titleSectionTwo = 'tekniker'
 const titleSectionTwoEng = 'techniques'
 const textSectionTwo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
+const textSectionTwoEng = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
 const titleSectionThree = 'policy & regler'
 const titleSectionThreeEng = 'policy & rules'
 const textSectionThree = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
+const textSectionThreeEng = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
 const titleSectionFour = 'hitta till oss'
 const titleSectionFourEng = 'find us'
 const textSectionFour = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
+const textSectionFourEng = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
 
 const HomeViewData = {
   title,
   btnText,
   titleSectionOne,
-  textSectionOne,
   titleSectionTwo,
-  textSectionTwo,
   titleSectionThree,
-  textSectionThree,
   titleSectionFour,
+  textSectionOne,
+  textSectionTwo,
+  textSectionThree,
   textSectionFour,
+  textSectionOneEng,
+  textSectionTwoEng,
+  textSectionThreeEng,
+  textSectionFourEng,
   readmore,
   showOnMap,
   titleEng,

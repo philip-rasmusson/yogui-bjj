@@ -1,16 +1,16 @@
-/* SCHEDULE WRAPPER */
+/* POLICY WRAPPER */
 
-.policy-view-policy-wrapper {
-  padding: 2rem;
-}
-
-.policy-view-policy-wrapper h3 {
-  text-transform: uppercase;
-  font-size: 5vw;
-}
-
-.policy-view-policy-wrapper p, .policy-view-policy-wrapper li {
-  font-size: 3vw;
-  padding-top: 1rem;
-  line-height: 2rem;
+@media screen and (max-width: 760px) {
+  .policy-view-policy-wrapper {
+    padding: 2rem;
+  }
+  .policy-view-policy-wrapper h3 {
+    text-transform: uppercase;
+    font-size: 5vw;
+  }
+  .policy-view-policy-wrapper p, .policy-view-policy-wrapper li {
+    font-size: 3vw;
+    padding-top: 1rem;
+    line-height: 2rem;
+  }
 }

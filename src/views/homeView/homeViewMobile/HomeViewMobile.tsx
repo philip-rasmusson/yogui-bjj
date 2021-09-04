@@ -20,32 +20,44 @@ export const HomeViewMobile = () => {
       <DefaultSectionOneMobile
         img={homeImg3}
         title={HomeViewData.titleSectionOne}
+        titleEng={HomeViewData.titleSectionOne}
         text={HomeViewData.textSectionOne}
+        textEng={HomeViewData.textSectionOne}
         btnText={HomeViewData.readmore}
+        btnTextEng={HomeViewData.readmoreEng}
         btnLink=""
       />
       <div className="line-divider-home" />
       <DefaultSectionOneMobile
         img={homeImg5}
         title={HomeViewData.titleSectionTwo}
+        titleEng={HomeViewData.titleSectionTwoEng}
         text={HomeViewData.textSectionTwo}
+        textEng={HomeViewData.textSectionTwoEng}
         btnText={HomeViewData.readmore}
+        btnTextEng={HomeViewData.readmoreEng}
         btnLink=""
       />
       <div className="line-divider-home" />
       <DefaultSectionOneMobile
         img={homeImg2}
         title={HomeViewData.titleSectionThree}
+        titleEng={HomeViewData.titleSectionThreeEng}
         text={HomeViewData.textSectionThree}
+        textEng={HomeViewData.textSectionThreeEng}
         btnText={HomeViewData.readmore}
+        btnTextEng={HomeViewData.readmoreEng}
         btnLink=""
       />
       <div className="line-divider-home" />
       <DefaultSectionOneMobile
         img={homeImg4}
         title={HomeViewData.titleSectionFour}
+        titleEng={HomeViewData.titleSectionFourEng}
         text={HomeViewData.textSectionFour}
+        textEng={HomeViewData.textSectionFourEng}
         btnText={HomeViewData.showOnMap}
+        btnTextEng={HomeViewData.showOnMapEng}
         btnLink=""
       />
     </div>
