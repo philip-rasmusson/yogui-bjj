@@ -1,0 +1,8 @@
+.affiliates-view-desktop-wrapper {
+  display: grid;
+}
+
+.affiliates-view-desktop-wrapper .affiliate-card-wrapper {
+  max-width: 1200px;
+  margin: 5rem auto;
+}

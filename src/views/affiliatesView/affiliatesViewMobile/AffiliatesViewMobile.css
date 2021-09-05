@@ -1,0 +1,15 @@
+.affiliates-view-mobile-wrapper {
+  display: grid;
+}
+
+.affiliates-view-mobile-wrapper .affiliate-card-wrapper {
+  margin: 5vw;
+  display: grid;
+}
+
+.affiliates-view-mobile-wrapper .affiliate-card-wrapper h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 5vw;
+  grid-column: 1/-1;
+}

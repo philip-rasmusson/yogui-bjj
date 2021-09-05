@@ -1,0 +1,65 @@
+.affiliate-card-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5rem auto;
+}
+
+.affiliate-card-img-wrapper {
+  margin: 3rem auto;
+  width: 100%;
+  padding: 0 2rem;
+  display: grid;
+}
+
+.affiliate-card-img-wrapper img {
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+  justify-self: center;
+}
+
+.affiliate-card-wrapper h2 {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  grid-column: 1/-1;
+}
+
+.affiliate-card-wrapper p {
+  padding: .5rem;
+  font-size: 1rem;
+  line-height: auto;
+  width: 70%;
+  margin: auto;
+}
+
+.affiliate-card-wrapper button {
+  margin: 3rem auto 0 auto;
+  justify-self: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+  border: #f1f1f1;
+  height: fit-content;
+  width: fit-content;
+}
+
+.affiliate-card-text-wrapper {
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
+}
+
+.line-divider-home {
+  width: 80vw;
+  max-width: 1000px;
+  height: 1px;
+  background-color: rgb(224, 164, 53);
+  margin: 2rem auto;
+}

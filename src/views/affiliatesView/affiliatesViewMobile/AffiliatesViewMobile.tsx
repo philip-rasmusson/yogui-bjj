@@ -1,9 +1,10 @@
+import { AffiliateCard } from '../components/AffiliateCard'
 import './AffiliatesViewMobile.css'
 
 export const AffiliatesViewMobile = () => {
   return (
-    <div>
-
+    <div className="affiliates-view-mobile-wrapper">
+      {/* <AffiliateCard /> */}
     </div>
   )
 }

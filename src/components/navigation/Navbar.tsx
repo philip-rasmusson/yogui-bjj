@@ -12,5 +12,5 @@ export const Navbar = () => {
     return width <= DesktopMobileBreakpoint ? <MobileNavigation /> : <DesktopNavigation />
   }
 
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }
