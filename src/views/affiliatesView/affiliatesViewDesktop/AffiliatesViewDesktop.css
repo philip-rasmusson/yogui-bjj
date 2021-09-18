@@ -1,8 +1,17 @@
 .affiliates-view-desktop-wrapper {
   display: grid;
+  margin: auto;
 }
 
 .affiliates-view-desktop-wrapper .affiliate-card-wrapper {
   max-width: 1200px;
   margin: 5rem auto;
+}
+
+.affiliates-view-desktop-color, .affiliates-view-desktop-default {
+  width: 100vw;
+}
+
+.affiliates-view-desktop-color {
+  background-color: #454545;
 }
