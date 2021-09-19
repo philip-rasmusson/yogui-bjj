@@ -9,19 +9,21 @@ import marcelo from '../../../shared/img/homeImgs/sq/marcelo-sq.jpg'
 import policy from '../../../shared/img/homeImgs/sq/policy-sq.jpg'
 import teq from '../../../shared/img/homeImgs/sq/teq-sq.jpg'
 import { SelectLanguage } from '../../../functions/SelectLanguage'
+import headerImg from '../../../shared/img/IMG_5150.jpg'
 
 export const HomeViewDesktop = () => {
   return (
     <div className="home-desktop-wrapper">
       <div className="home-desktop-header-wrapper">
         {/* <h2 className="home-desktop-title">{HomeViewData.title}</h2> */}
+        <img src={headerImg} alt="" />
         <button className="side-button-right-desktop font-white bg-color-black box-shadow">
           <SelectLanguage
             textSwe={HomeViewData.title}
             textEng={HomeViewData.titleEng}
           />
         </button>
-        <div className="white-overlay" />
+        {/* <div className="white-overlay" /> */}
       </div>
 
       {/* SECTION ONE */}
