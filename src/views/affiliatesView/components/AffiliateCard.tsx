@@ -7,15 +7,20 @@ import { useContext } from 'react'
 import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 
-export const AffiliateCard = (props: { img: any, title: string, adress?: string, email?: string; homepage?: string, btnText: string, btnTextEng: string, btnLink?: string, instructors?: Array<any> }) => {
+export const AffiliateCard = (props: { img: any, title: string, adress?: string, email?: string; homepage?: string, btnText: string, btnTextEng: string, btnLink?: string, instructors?: Array<any>, border: string }) => {
   const [language] = useContext(LanguageContext)
 
   // const displayInstructors = () => {
   //   return <img src={props.instructors} />
   // }
   const displayInstructors = props.instructors?.map((imgSrc, i) => {
-    return <img src={imgSrc.src} key={i} alt={imgSrc.src} />
-
+    return (
+      <div>
+        <img src={imgSrc.src} key={i} alt={imgSrc.src} style={{ border: props.border }} />
+        <p>{imgSrc.name}</p>
+        <p className="affiliate-card-instructor-rank">{imgSrc.rank}</p>
+      </div>
+    )
   })
 
   useEffect(() => {

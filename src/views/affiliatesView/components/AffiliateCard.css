@@ -80,9 +80,19 @@
   flex-wrap: wrap;
 }
 
-.affiliate-card-instructors-wrapper img {
+.affiliate-card-instructors-wrapper div img {
   max-width: 10rem;
   width: 10vw;
-  margin: 1rem;
-  border-radius: 1rem;
+  margin: 1rem 1rem 0 1rem;
+  /* border-radius: 1rem; */
+  /* border: #f1f1f1 solid 1px; */
+}
+
+.affiliate-card-instructors-wrapper div p {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.affiliate-card-instructors-wrapper div .affiliate-card-instructor-rank {
+  font-size: 0.8rem;
 }
