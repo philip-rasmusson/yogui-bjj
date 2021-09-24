@@ -68,9 +68,13 @@
   font-size: 1rem;
   text-align: right;
   display: flex;
-  justify-content: space-between;
-  width: 90vw;
-  max-width: 50rem;
+  justify-content: center;
+  /* width: 90vw;
+  max-width: 50rem; */
+}
+
+.navbar-menu-desktop ul li {
+  margin: auto 4.5rem;
 }
 
 .navbar-menu-desktop ul li:hover {

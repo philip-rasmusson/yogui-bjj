@@ -15,7 +15,6 @@ export const HomeViewDesktop = () => {
   return (
     <div className="home-desktop-wrapper">
       <div className="home-desktop-header-wrapper">
-        {/* <h2 className="home-desktop-title">{HomeViewData.title}</h2> */}
         <img src={headerImg} alt="" />
         <button className="side-button-right-desktop font-white bg-color-black box-shadow">
           <SelectLanguage
@@ -23,7 +22,6 @@ export const HomeViewDesktop = () => {
             textEng={HomeViewData.titleEng}
           />
         </button>
-        {/* <div className="white-overlay" /> */}
       </div>
 
       {/* SECTION ONE */}

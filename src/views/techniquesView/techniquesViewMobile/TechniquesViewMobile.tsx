@@ -6,7 +6,7 @@ import { TechniquesAccordion } from '../components/TechniquesAccordion'
 export const TechniquesViewMobile = () => {
   return (
     <>
-      <TechniquesAccordion />
+      {/* <TechniquesAccordion /> */}
     </>
   )
 }
