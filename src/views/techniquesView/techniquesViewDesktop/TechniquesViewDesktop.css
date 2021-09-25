@@ -1,3 +1,7 @@
+.techniques-desktop-techniques-card-wrapper img {
+  width: 10rem;
+}
+
 @media screen and (min-width: 760px) {
   /* .accordion-outer-title-angle {
     color: #454545;

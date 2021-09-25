@@ -1,27 +1,64 @@
 const positions = 'positioner'
 const positionsEng = 'positions'
 const submissions = 'submissions'
-const techniquesPositionsArray = ['mount', 'closed guard', 'side mount', 'half guard', 'knee on belly', 'back mount']
+const techniquesPositionsArray = [
+  {
+    id: 1,
+    name: 'mount',
+    text: 'mount'
+  },
+  {
+
+    id: 0,
+    name: 'closed guard',
+    text: 'closed guard'
+  },
+  {
+
+    id: 0,
+    name: 'side mount',
+    text: 'side mount'
+  },
+  {
+
+    id: 0,
+    name: 'half guard',
+    text: 'half guard'
+  },
+  {
+
+    id: 0,
+    name: 'back mount',
+    text: 'back mount'
+  },
+  {
+
+    id: 0,
+    name: 'knee on belly',
+    text: 'knee on belly'
+  },
+]
+
 const techniquesSubmissionsArray = [
   {
-    technique: 'mount',
-    img: '../img/techniques/positions/mount.png',
-    text: 'loremfdfdfdfdfdf'
+    id: 4,
+    name: 'armbar',
+    text: 'armbar'
   },
   {
-    technique: 'americana',
-    img: '../jg.jpg',
-    text: 'lorem'
+    id: 0,
+    name: 'americana',
+    text: 'americana'
   },
   {
-    technique: 'kimura',
-    img: '../jg.jpg',
-    text: 'lorem'
+    id: 0,
+    name: 'kimura',
+    text: 'kimura'
   },
   {
-    technique: 'gi choke',
-    img: '../jg.jpg',
-    text: 'lorem'
+    id: 0,
+    name: 'gi choke',
+    text: 'gi choke'
   },
 ]
 
