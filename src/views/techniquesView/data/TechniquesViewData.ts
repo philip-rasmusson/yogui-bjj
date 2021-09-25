@@ -5,8 +5,8 @@ const techniquesPositionsArray = ['mount', 'closed guard', 'side mount', 'half g
 const techniquesSubmissionsArray = [
   {
     technique: 'mount',
-    img: '../../../shared/img/techniques/submissions/mount.jpg',
-    text: 'lorem'
+    img: '../img/techniques/positions/mount.png',
+    text: 'loremfdfdfdfdfdf'
   },
   {
     technique: 'americana',

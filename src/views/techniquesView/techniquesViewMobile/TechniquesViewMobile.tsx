@@ -1,12 +1,12 @@
 import './TechniquesViewMobile.css'
 import { AccordionOuter } from '../../../shared/components/AccordionOuter'
 import { AccordionInner } from '../../../shared/components/AccordionInner'
-import { TechniquesAccordion } from '../components/TechniquesAccordion'
+import { TechniquesCard } from '../components/TechniquesCard'
 
 export const TechniquesViewMobile = () => {
   return (
     <>
-      {/* <TechniquesAccordion /> */}
+      {/* <TechniquesCard /> */}
     </>
   )
 }
