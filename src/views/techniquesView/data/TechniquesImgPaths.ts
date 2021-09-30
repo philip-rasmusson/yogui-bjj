@@ -1,6 +1,7 @@
 import mount from '../../../shared/img/techniques/positions/mount.png'
 import guard from '../../../shared/img/techniques/positions/guard.png'
 import armbar from '../../../shared/img/techniques/submissions/armbar.png'
+import americana from '../../../shared/img/techniques/submissions/americana.png'
 import defaultImg from '../../../shared/img/logo_small.png'
 
 export const TechniquesImgPaths = [
@@ -22,8 +23,8 @@ export const TechniquesImgPaths = [
   {
 
     id: 3,
-    name: 'default',
-    img: defaultImg
+    name: 'americana',
+    img: americana
   },
   {
     id: 4,

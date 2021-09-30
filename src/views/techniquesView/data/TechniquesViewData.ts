@@ -9,7 +9,7 @@ const techniquesPositionsArray = [
   },
   {
 
-    id: 0,
+    id: 2,
     name: 'closed guard',
     text: 'closed guard'
   },
@@ -46,7 +46,7 @@ const techniquesSubmissionsArray = [
     text: 'armbar'
   },
   {
-    id: 0,
+    id: 3,
     name: 'americana',
     text: 'americana'
   },
