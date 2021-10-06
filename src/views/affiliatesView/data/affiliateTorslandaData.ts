@@ -6,8 +6,17 @@ const instructor3 = 'Philip Rasmusson'
 const instructor3rank = 'Black belt'
 const instructor4 = 'Fredrik Andersson'
 const instructor4rank = 'Brown belt'
+const btnText = 'besök hemsida'
+const btnTextEng = 'visit website'
 
-const affiliateTorslandaData = {
+
+const title = 'torslanda kampsportcenter'
+const adress = 'Hangarvägen 5, 342 56  TORSLANDA, SVERIGE'
+const email = 'info@torslandakampsportcenter.se'
+const homepage = 'www.torslandakampsportcenter.se'
+
+
+const affiliateData = {
   instructor1,
   instructor2,
   instructor3,
@@ -16,6 +25,12 @@ const affiliateTorslandaData = {
   instructor2rank,
   instructor3rank,
   instructor4rank,
+  btnText,
+  btnTextEng,
+  title,
+  adress,
+  email,
+  homepage,
 }
 
-export default affiliateTorslandaData
+export default affiliateData
