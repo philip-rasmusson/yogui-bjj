@@ -35,7 +35,7 @@ export const HomeViewDesktop = () => {
         btnTextEng={HomeViewData.readmoreEng}
         btnLink=""
       />
-      <div className="line-divider-home" />
+      {/* <div className="line-divider-home" />
 
       <DefaultSectionOneDesktop
         img={teq}
@@ -46,7 +46,7 @@ export const HomeViewDesktop = () => {
         btnText={HomeViewData.readmore}
         btnTextEng={HomeViewData.readmoreEng}
         btnLink=""
-      />
+      /> */}
       <div className="line-divider-home" />
       <DefaultSectionOneDesktop
         img={policy}

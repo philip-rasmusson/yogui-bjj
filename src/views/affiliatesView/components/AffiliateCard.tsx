@@ -7,7 +7,7 @@ import { useContext } from 'react'
 import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 
-export const AffiliateCard = (props: { img: any, title: string, adress?: string, email?: string; homepage?: string, btnText: string, btnTextEng: string, btnLink?: string, instructors?: Array<any>, border: string }) => {
+export const AffiliateCard = (props: { img: any, title: string, adress?: string, email?: string; homepage?: string, btnText: string, btnTextEng: string, btnLink?: string, instructors?: Array<any>, googleMaps: string }) => {
   const [language] = useContext(LanguageContext)
 
   // const displayInstructors = () => {
@@ -16,12 +16,14 @@ export const AffiliateCard = (props: { img: any, title: string, adress?: string,
   const displayInstructors = props.instructors?.map((imgSrc, i) => {
     return (
       <div>
-        <img src={imgSrc.src} key={i} alt={imgSrc.src} style={{ border: props.border }} />
+        <img src={imgSrc.src} key={i} alt={imgSrc.src} />
         <p>{imgSrc.name}</p>
         <p className="affiliate-card-instructor-rank">{imgSrc.rank}</p>
       </div>
     )
   })
+
+  const emailLink = 'mailto:' + props.email
 
   useEffect(() => {
   }, [language])
@@ -40,11 +42,11 @@ export const AffiliateCard = (props: { img: any, title: string, adress?: string,
         </h2>
         <div className='affiliate-card-text-info'>
           <p className="col-1">Adress:</p>
-          <p className="col-2">{props.adress}</p>
+          <p className="col-2"><a href={props.googleMaps} target='blank' >{props.adress}</a></p>
           <p className="col-1">Email:</p>
-          <p className="col-2">{props.email}</p>
+          <p className="col-2"><a href={emailLink}>{props.email}</a></p>
           <p className="col-1">Hemsida:</p>
-          <p className="col-2">{props.homepage}</p>
+          <p className="col-2"><a href={props.homepage} target='blank' >{props.homepage}</a></p>
         </div>
         <div className="affiliate-card-instructors-wrapper">
           {displayInstructors}

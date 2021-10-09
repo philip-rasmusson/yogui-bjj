@@ -14,6 +14,7 @@ const title = 'torslanda kampsportcenter'
 const adress = 'Hangarvägen 5, 342 56  TORSLANDA, SVERIGE'
 const email = 'info@torslandakampsportcenter.se'
 const homepage = 'www.torslandakampsportcenter.se'
+const googleMaps = 'https://goo.gl/maps/bARXbtbHaCG5eS9G9'
 
 
 const affiliateData = {
@@ -31,6 +32,7 @@ const affiliateData = {
   adress,
   email,
   homepage,
+  googleMaps
 }
 
 export default affiliateData

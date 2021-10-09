@@ -26,7 +26,7 @@ export const DesktopNavigation = () => {
       <div className="navbar-menu-desktop">
 
         <ul className='font-black'>
-          <MenuItems menuItem={menuItemsData.menuItemTechniques} onclick={() => history.push(RoutingPath.techniquesView)} />
+          {/* <MenuItems menuItem={menuItemsData.menuItemTechniques} onclick={() => history.push(RoutingPath.techniquesView)} /> */}
           <MenuItems menuItem={menuItemsData.menuItemPolicy} onclick={() => history.push(RoutingPath.policyView)} />
           {/* <MenuItems menuItem={menuItemsData.menuItemInstructors} onclick={() => history.push(RoutingPath.instructorsView)} /> */}
           <MenuItems menuItem={menuItemsData.menuItemAffiliates} onclick={() => history.push(RoutingPath.affiliatesView)} />

@@ -1,13 +1,14 @@
 import './DefaultSectionOneDesktop.css'
 import { SelectLanguage } from '../../../functions/SelectLanguage'
-import { useState, useEffect } from 'react'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
+import { useHistory } from 'react-router'
 import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 
-export const DefaultSectionOneDesktop = (props: { img: any, title: string, titleEng: string, text: string, textEng: string, btnText: string, btnTextEng: string, btnLink?: string }) => {
+export const DefaultSectionOneDesktop = (props: { img: any, title: string, titleEng: string, text: string, textEng: string, btnText: string, btnTextEng: string, btnLink: string }) => {
   const [language] = useContext(LanguageContext)
 
+  const history = useHistory()
 
   useEffect(() => {
   }, [language])
@@ -30,7 +31,7 @@ export const DefaultSectionOneDesktop = (props: { img: any, title: string, title
           textSwe={props.text}
           textEng={props.textEng}
         /></p>
-        <button className="bg-color-black font-white box-shadow"><SelectLanguage
+        <button className="bg-color-black font-white box-shadow" onClick={() => history.push(props.btnLink)}><SelectLanguage
           textSwe={props.btnText}
           textEng={props.btnTextEng}
         /></button>

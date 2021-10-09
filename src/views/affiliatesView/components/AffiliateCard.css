@@ -3,7 +3,7 @@
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 4rem;
 }
 
 .affiliate-card-img-wrapper {
@@ -15,8 +15,8 @@
 }
 
 .affiliate-card-img-wrapper img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  /* height: 100%; */
   padding: 1rem;
   opacity: 0.8;
   object-fit: cover;
@@ -43,6 +43,11 @@
 .affiliate-card-text-info p {
   font-size: 1rem;
   line-height: auto;
+}
+
+.affiliate-card-text-info p a {
+  text-decoration: none;
+  color: initial;
 }
 
 .affiliate-card-wrapper button {
@@ -75,7 +80,7 @@
 }
 
 .affiliate-card-instructors-wrapper {
-  margin: auto;
+  margin: left;
   display: flex;
   flex-wrap: wrap;
 }
@@ -84,6 +89,7 @@
   max-width: 10rem;
   width: 10vw;
   margin: 1rem 1rem 0 1rem;
+  border: black solid 1px;
   /* border-radius: 1rem; */
   /* border: #f1f1f1 solid 1px; */
 }

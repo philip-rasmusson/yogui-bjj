@@ -3,9 +3,10 @@ const instructor1rank = 'Black belt'
 
 
 const title = 'randori'
-const adress = 'gartnerivej 45, 75 000 holstebro, denmark'
+const adress = 'Gartnerivej 45, 75 000 Holstebro, Denmark'
 const email = 'info@randori.dk'
 const homepage = 'www.randori.dk'
+const googleMaps = 'https://goo.gl/maps/qDZ5RdU4AeAjAGKi7'
 
 const affiliateRandoriData = {
   instructor1,
@@ -14,6 +15,7 @@ const affiliateRandoriData = {
   adress,
   email,
   homepage,
+  googleMaps
 }
 
 export default affiliateRandoriData
