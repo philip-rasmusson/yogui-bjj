@@ -1,4 +1,3 @@
-import { DefaultSectionOneDesktop } from '../../../shared/components/defaultSectionOneDesktop/DefaultSectionOneDesktop'
 import { AffiliateCard } from '../components/AffiliateCard'
 import './AffiliatesViewDesktop.css'
 import torslandaMain from '../../../shared/img/affiliates/torslanda/main.png'
@@ -86,6 +85,47 @@ export const AffiliatesViewDesktop = () => {
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
+          title={affiliateLinkopingData.title}
+          adress={affiliateLinkopingData.adress}
+          email={affiliateLinkopingData.email}
+          homepage={affiliateLinkopingData.homepage}
+          btnText={affiliateTorslandaData.btnText}
+          btnTextEng={affiliateTorslandaData.btnTextEng}
+          img={linkopkingMain}
+          instructors={instructorsLinkoping}
+          googleMaps={affiliateLinkopingData.googleMaps}
+        />
+      </div>
+      <div className="line-divider-mobile"></div>
+      <div className="affiliates-view-desktop-default font-grey">
+        <AffiliateCard
+          title={affiliateNjkData.title}
+          adress={affiliateNjkData.adress}
+          email={affiliateNjkData.email}
+          homepage={affiliateNjkData.homepage}
+          btnText={affiliateTorslandaData.btnText}
+          btnTextEng={affiliateTorslandaData.btnTextEng}
+          img={njkMain}
+          instructors={instructorsNJK}
+          googleMaps={affiliateNjkData.googleMaps}
+        />
+      </div>
+      <div className="line-divider-mobile"></div>
+      <div className="affiliates-view-desktop-default font-grey">
+        <AffiliateCard
+          title={affiliateNKCData.title}
+          adress={affiliateNKCData.adress}
+          email={affiliateNKCData.email}
+          homepage={affiliateNKCData.homepage}
+          btnText={affiliateTorslandaData.btnText}
+          btnTextEng={affiliateTorslandaData.btnTextEng}
+          img={nkcMain}
+          instructors={instructorsNKC}
+          googleMaps={affiliateNKCData.googleMaps}
+        />
+      </div>
+      <div className="affiliates-view-desktop-default font-grey">
+        <AffiliateCard
           title={affiliateRandoriData.title}
           adress={affiliateRandoriData.adress}
           email={affiliateRandoriData.email}
@@ -126,47 +166,6 @@ export const AffiliatesViewDesktop = () => {
         />
       </div>
       <div className="line-divider-mobile"></div>
-      <div className="affiliates-view-desktop-default font-grey">
-        <AffiliateCard
-          title={affiliateLinkopingData.title}
-          adress={affiliateLinkopingData.adress}
-          email={affiliateLinkopingData.email}
-          homepage={affiliateLinkopingData.homepage}
-          btnText={affiliateTorslandaData.btnText}
-          btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={linkopkingMain}
-          instructors={instructorsLinkoping}
-          googleMaps={affiliateLinkopingData.googleMaps}
-        />
-      </div>
-      <div className="line-divider-mobile"></div>
-      <div className="affiliates-view-desktop-default font-grey">
-        <AffiliateCard
-          title={affiliateNKCData.title}
-          adress={affiliateNKCData.adress}
-          email={affiliateNKCData.email}
-          homepage={affiliateNKCData.homepage}
-          btnText={affiliateTorslandaData.btnText}
-          btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={nkcMain}
-          instructors={instructorsNKC}
-          googleMaps={affiliateNKCData.googleMaps}
-        />
-      </div>
-      <div className="line-divider-mobile"></div>
-      <div className="affiliates-view-desktop-default font-grey">
-        <AffiliateCard
-          title={affiliateNjkData.title}
-          adress={affiliateNjkData.adress}
-          email={affiliateNjkData.email}
-          homepage={affiliateNjkData.homepage}
-          btnText={affiliateTorslandaData.btnText}
-          btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={njkMain}
-          instructors={instructorsNJK}
-          googleMaps={affiliateNjkData.googleMaps}
-        />
-      </div>
     </div>
   )
 }

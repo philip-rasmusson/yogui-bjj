@@ -31,7 +31,7 @@
 
 .default-section-two-desktop-wrapper p, .default-section-two-desktop-wrapper h3 {
   padding: .5rem;
-  font-size: 1rem;
+  /* font-size: 0.8rem; */
   line-height: auto;
   width: 70%;
   margin: auto;
