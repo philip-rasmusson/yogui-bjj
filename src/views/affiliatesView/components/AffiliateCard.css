@@ -102,3 +102,96 @@
 .affiliate-card-instructors-wrapper div .affiliate-card-instructor-rank {
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 760px) {
+  .affiliate-card-wrapper {
+    width: 90%;
+    grid-template-columns: 100%;
+    grid-gap: 10vw;
+  }
+  .affiliate-card-img-wrapper {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-self: center;
+  }
+  .affiliate-card-img-wrapper img {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+  }
+  .affiliate-card-text-wrapper h2 {
+    padding: 0 1rem;
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    align-self: flex-start;
+    text-align: center;
+  }
+  .affiliate-card-text-info {
+    align-self: center;
+    padding: 0 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17vw auto;
+  }
+  .affiliate-card-text-info p {
+    font-size: 2.5vw;
+    line-height: auto;
+  }
+  .affiliate-card-text-info p a {
+    text-decoration: none;
+    color: initial;
+  }
+  .affiliate-card-wrapper button {
+    margin: 2rem auto;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .5vw;
+    border: #f1f1f1;
+    height: fit-content;
+    width: fit-content;
+    grid-column: 1;
+  }
+  .affiliate-card-text-wrapper {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-gap: 1rem;
+  }
+  .line-divider-home {
+    width: 80vw;
+    max-width: 1000px;
+    height: 1px;
+    background-color: rgb(224, 164, 53);
+    margin: 2rem auto;
+  }
+  .affiliate-card-instructors-wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .affiliate-card-instructors-wrapper div img {
+    width: 70vw;
+    max-width: 100vw;
+    margin: 1rem 1rem 0 1rem;
+    border: black solid 1px;
+    /* border-radius: 1rem; */
+    /* border: #f1f1f1 solid 1px; */
+  }
+  .affiliate-card-instructors-wrapper div p {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .affiliate-card-instructors-wrapper div .affiliate-card-instructor-rank {
+    font-size: 0.8rem;
+  }
+}

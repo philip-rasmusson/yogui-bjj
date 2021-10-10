@@ -1,0 +1,33 @@
+.default-section-two-mobile-wrapper {}
+
+.default-section-two-mobile-img-wrapper {
+  width: 100vw;
+  padding: 0 2rem;
+}
+
+.default-section-two-mobile-img-wrapper img {
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.default-section-two-mobile-wrapper h2 {
+  padding: 2rem;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+.default-section-two-mobile-wrapper p {
+  padding: 2rem;
+  font-size: 4vw;
+  line-height: 2.3rem;
+}
+
+.line-divider-home {
+  width: 80vw;
+  height: 1px;
+  background-color: rgb(224, 164, 53);
+  margin: 2rem auto;
+}

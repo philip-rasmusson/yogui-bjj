@@ -1,4 +1,4 @@
-.affiliates-view-mobile-wrapper {
+/* .affiliates-view-mobile-wrapper {
   display: grid;
 }
 
@@ -12,4 +12,22 @@
   text-transform: uppercase;
   font-size: 5vw;
   grid-column: 1/-1;
+} */
+
+.affiliates-view-mobile-wrapper {
+  display: grid;
+  margin: auto;
+}
+
+.affiliates-view-mobile-wrapper .affiliate-card-wrapper {
+  max-width: 1200px;
+  margin: 5rem auto;
+}
+
+.affiliates-view-mobile-color, .affiliates-view-mobile-default {
+  width: 100vw;
+}
+
+.affiliates-view-mobile-color {
+  background-color: #454545;
 }

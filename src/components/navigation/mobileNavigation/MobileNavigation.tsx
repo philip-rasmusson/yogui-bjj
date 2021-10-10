@@ -70,10 +70,10 @@ export const MobileNavigation = () => {
               <FontAwesomeIcon icon={faTimes} />
             </div>
             <ul className='font-black'>
-              <MenuItems menuItem={menuItemTechniques} onclick={() => linkFunction(RoutingPath.techniquesView)} />
+              {/* <MenuItems menuItem={menuItemTechniques} onclick={() => linkFunction(RoutingPath.techniquesView)} /> */}
               <MenuItems menuItem={menuItemPolicy} onclick={() => linkFunction(RoutingPath.policyView)} />
-              {/* <MenuItems menuItem={menuItemsData.menuItemInstructors} onclick={() => linkFunction(RoutingPath.instructorsView)} /> */}
               <MenuItems menuItem={menuItemAffiliates} onclick={() => linkFunction(RoutingPath.affiliatesView)} />
+              {/* <MenuItems menuItem={menuItemsData.menuItemContact} onclick={() => scrollToBottom()} /> */}
             </ul>
           </div>
         </div>

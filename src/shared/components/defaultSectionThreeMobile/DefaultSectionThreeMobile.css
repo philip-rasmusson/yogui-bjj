@@ -1,17 +1,17 @@
-.default-section-one-mobile-wrapper {}
+.default-section-three-mobile-wrapper {}
 
-.default-section-one-mobile-img-wrapper {
+.default-section-three-mobile-img-wrapper {
   width: 100vw;
   padding: 0 2rem;
 }
 
-.default-section-one-mobile-img-wrapper img {
+.default-section-three-mobile-img-wrapper img {
   width: 100%;
   margin: auto;
   opacity: 0.8;
 }
 
-.default-section-one-mobile-wrapper h2 {
+.default-section-three-mobile-wrapper h2 {
   padding: 2rem;
   font-size: 5vw;
   text-transform: uppercase;
@@ -19,13 +19,13 @@
   text-align: center;
 }
 
-.default-section-one-mobile-wrapper p {
+.default-section-three-mobile-wrapper p {
   padding: 2rem;
   font-size: 4vw;
   line-height: 2.3rem;
 }
 
-.default-section-one-mobile-wrapper button {
+.default-section-three-mobile-wrapper button {
   margin: 3rem 0;
   font-size: 4vw;
   padding: 4vw;

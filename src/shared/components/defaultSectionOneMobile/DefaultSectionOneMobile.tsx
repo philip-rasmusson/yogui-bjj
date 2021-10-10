@@ -3,12 +3,22 @@ import { SelectLanguage } from '../../../functions/SelectLanguage'
 import { useState, useEffect } from 'react'
 import { useContext } from 'react'
 import { LanguageContext } from '../../../shared/provider/LanguageProvider'
+import { useHistory } from 'react-router'
 
 
-export const DefaultSectionOneMobile = (props: { img: any, title: string, titleEng: string, text: string, textEng: string, btnText: string, btnTextEng: string, btnLink?: string }) => {
+export const DefaultSectionOneMobile = (props: { img: any, title: string, titleEng: string, text: string, textEng: string, btnText: string, btnTextEng: string, btnLink: string }) => {
   const [language] = useContext(LanguageContext)
 
+  const history = useHistory()
 
+  const toggleNavbar = () => {
+    window.scrollTo(0, 0)
+  }
+
+  const linkFunction = (link: string) => {
+    history.push(link)
+    toggleNavbar()
+  }
 
   useEffect(() => {
   }, [language])
@@ -28,7 +38,7 @@ export const DefaultSectionOneMobile = (props: { img: any, title: string, titleE
         textSwe={props.text}
         textEng={props.textEng}
       /></p>
-      <button className="bg-color-black font-white box-shadow"><SelectLanguage
+      <button className="bg-color-black font-white box-shadow" onClick={() => linkFunction(props.btnLink)}><SelectLanguage
         textSwe={props.btnText}
         textEng={props.btnTextEng}
       /></button>
