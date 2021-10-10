@@ -21,8 +21,8 @@ export const HomeViewMobile = () => {
         img={homeImg3}
         title={HomeViewData.titleSectionOne}
         titleEng={HomeViewData.titleSectionOne}
-        text={HomeViewData.textSectionOne}
-        textEng={HomeViewData.textSectionOne}
+        text={HomeViewData.textSectionOnePartOne}
+        textEng={HomeViewData.textSectionOnePartOne}
         btnText={HomeViewData.readmore}
         btnTextEng={HomeViewData.readmoreEng}
         btnLink=""

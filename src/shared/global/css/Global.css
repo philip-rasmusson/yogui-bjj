@@ -9,6 +9,11 @@ p {
   font-weight: 400;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Background colors */
 
 .bg-color-blue {

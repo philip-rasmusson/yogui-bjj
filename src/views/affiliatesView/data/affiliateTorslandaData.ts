@@ -17,7 +17,7 @@ const homepage = 'www.torslandakampsportcenter.se'
 const googleMaps = 'https://goo.gl/maps/bARXbtbHaCG5eS9G9'
 
 
-const affiliateData = {
+const affiliateTorslandaData = {
   instructor1,
   instructor2,
   instructor3,
@@ -35,4 +35,4 @@ const affiliateData = {
   googleMaps
 }
 
-export default affiliateData
+export default affiliateTorslandaData

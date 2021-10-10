@@ -12,8 +12,11 @@ const showOnMapEng = 'show map'
 
 const titleSectionOne = 'välkommen till yogui bjj'
 const titleSectionOneEng = 'welcome to yogui bjj'
-const textSectionOne = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
-const textSectionOneEng = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
+const sectionOneSubtitle = 'Marcelo Yogui'
+const textSectionOnePartOne = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
+const textSectionOnePartTwo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
+const textSectionOneEngPartOne = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
+const textSectionOneEngPartTwo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. '
 const titleSectionTwo = 'tekniker'
 const titleSectionTwoEng = 'techniques'
 const textSectionTwo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat sed tellus a feugiat. Sed in massa purus. Suspendisse placerat nisi dapibus blandit vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quam nulla, auctor posuere lacus ac, suscipit scelerisque leo. '
@@ -32,13 +35,16 @@ const HomeViewData = {
   btnText,
   titleSectionOne,
   titleSectionTwo,
+  sectionOneSubtitle,
   titleSectionThree,
   titleSectionFour,
-  textSectionOne,
+  textSectionOnePartOne,
+  textSectionOnePartTwo,
   textSectionTwo,
   textSectionThree,
   textSectionFour,
-  textSectionOneEng,
+  textSectionOneEngPartOne,
+  textSectionOneEngPartTwo,
   textSectionTwoEng,
   textSectionThreeEng,
   textSectionFourEng,

@@ -1,4 +1,4 @@
-.default-section-one-desktop-wrapper {
+.default-section-two-desktop-wrapper {
   width: 100%;
   max-width: 1000px;
   display: grid;
@@ -6,21 +6,21 @@
   margin: 5rem auto;
 }
 
-.default-section-one-desktop-img-wrapper {
+.default-section-two-desktop-img-wrapper {
   margin: 3rem auto;
   width: 100%;
   padding: 0 2rem;
   display: grid;
 }
 
-.default-section-one-desktop-img-wrapper img {
+.default-section-two-desktop-img-wrapper img {
   width: 100%;
   margin: auto;
   opacity: 0.8;
   justify-self: center;
 }
 
-.default-section-one-desktop-wrapper h2 {
+.default-section-two-desktop-wrapper h2 {
   padding: 2rem;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -29,7 +29,7 @@
   grid-column: 1/-1;
 }
 
-.default-section-one-desktop-wrapper p {
+.default-section-two-desktop-wrapper p, .default-section-two-desktop-wrapper h3 {
   padding: .5rem;
   font-size: 1rem;
   line-height: auto;
@@ -37,24 +37,11 @@
   margin: auto;
 }
 
-.default-section-one-desktop-wrapper button {
-  margin: 3rem auto 0 auto;
-  justify-self: center;
-  font-size: 1rem;
-  padding: 1rem 1.5rem;
-  border-radius: 2rem;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  border: #f1f1f1;
-  height: fit-content;
-  width: fit-content;
-  cursor: pointer;
-}
-
-.default-section-one-desktop-text-wrapper {
+.default-section-two-desktop-text-wrapper {
   grid-column: 2;
   grid-row: 2;
-  display: grid;
+  /* display: grid; */
+  align-self: center;
 }
 
 .line-divider-home {

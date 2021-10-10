@@ -11,6 +11,12 @@ const subTitle = 'brazilian 🇧🇷 jiu-jitsu'
 const subTitleNavbarDesktop = 'brazilian jiu-jitsu 🇧🇷 submisison wrestling'
 const subTitleFooter = 'brazilian jiu-jitsu'
 
+//Social media
+
+const facebookLink = 'https://www.facebook.com/yoguibjj'
+const whatsUpLink = 'https://wa.me/46737836926'
+const instagramLink = 'https://www.instagram.com/yoguibjjsweden/'
+
 const GlobalData = {
   email,
   phone,
@@ -21,6 +27,9 @@ const GlobalData = {
   emailMailto,
   subTitleFooter,
   subTitleNavbarDesktop,
-  titleFooter
+  titleFooter,
+  facebookLink,
+  instagramLink,
+  whatsUpLink
 }
 export default GlobalData
