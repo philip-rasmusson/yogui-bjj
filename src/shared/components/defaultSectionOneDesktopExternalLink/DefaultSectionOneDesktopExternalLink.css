@@ -1,4 +1,4 @@
-.default-section-three-desktop-wrapper {
+.default-section-one-external-link-desktop-wrapper {
   width: 100%;
   max-width: 1000px;
   display: grid;
@@ -6,21 +6,21 @@
   margin: 5rem auto;
 }
 
-.default-section-three-desktop-img-wrapper {
+.default-section-one-external-link-desktop-img-wrapper {
   margin: 3rem auto;
   width: 100%;
   padding: 0 2rem;
   display: grid;
 }
 
-.default-section-three-desktop-img-wrapper img {
+.default-section-one-external-link-desktop-img-wrapper img {
   width: 100%;
   margin: auto;
   opacity: 0.8;
   justify-self: center;
 }
 
-.default-section-three-desktop-wrapper h2 {
+.default-section-one-external-link-desktop-wrapper h2 {
   padding: 2rem;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -29,7 +29,7 @@
   grid-column: 1/-1;
 }
 
-.default-section-three-desktop-wrapper p {
+.default-section-one-external-link-desktop-wrapper p {
   padding: .5rem;
   font-size: 1rem;
   line-height: auto;
@@ -37,7 +37,7 @@
   margin: auto;
 }
 
-.default-section-three-desktop-wrapper button {
+.default-section-one-external-link-desktop-wrapper button {
   margin: 3rem auto 0 auto;
   justify-self: center;
   font-size: 1rem;
@@ -51,7 +51,7 @@
   cursor: pointer;
 }
 
-.default-section-three-desktop-text-wrapper {
+.default-section-one-external-link-desktop-text-wrapper {
   grid-column: 2;
   grid-row: 2;
   display: grid;

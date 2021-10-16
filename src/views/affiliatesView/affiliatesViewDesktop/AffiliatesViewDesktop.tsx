@@ -8,23 +8,7 @@ import linkopkingMain from '../../../shared/img/affiliates/linkkoping/logo.png'
 import nkcMain from '../../../shared/img/affiliates/nkc/logo.png'
 import njkMain from '../../../shared/img/affiliates/njk/logo.png'
 
-import defaultImg from '../../../shared/img/instructors/default.png'
-import marcelo from '../../../shared/img/affiliates/torslanda/instructors/marcelo-sq.jpg'
-import fredrik from '../../../shared/img/affiliates/torslanda/instructors/fredrik-sq.png'
-import philiprasmusson from '../../../shared/img/affiliates/torslanda/instructors/philiprasmusson.jpg'
-import alanaltermann from '../../../shared/img/affiliates/torslanda/instructors/alanaltermann.jpg'
-
-import toringe from '../../../shared/img/affiliates/gripgym/instructors/toringe.jpg'
-import max from '../../../shared/img/affiliates/gripgym/instructors/max.jpg'
-
-import danielwestberg from '../../../shared/img/affiliates/linkkoping/instructors/danielwestberg.jpeg'
-import larskarlsson from '../../../shared/img/affiliates/linkkoping/instructors/larskarlsson.jpeg'
-import johanlevinsson from '../../../shared/img/affiliates/linkkoping/instructors/johanlevinsson.jpeg'
-import adamsandersson from '../../../shared/img/affiliates/linkkoping/instructors/adamandersson.jpeg'
-import elinwallman from '../../../shared/img/affiliates/linkkoping/instructors/elinwallman.jpeg'
-
-import jorgenflink from '../../../shared/img/affiliates/njk/instructors/jorgenflink.jpeg'
-import kristinaekstrand from '../../../shared/img/affiliates/njk/instructors/kristinaekstrand.jpeg'
+import instructors from '../data/instructors'
 
 import affiliateTorslandaData from '../data/affiliateTorslandaData'
 import affiliateRandoriData from '../data/affiliateRandoriData'
@@ -35,37 +19,6 @@ import affiliateNKCData from '../data/affiliateNKC'
 import affiliateNjkData from '../data/affiliateNjkData'
 
 export const AffiliatesViewDesktop = () => {
-
-  const instructorsTorslanda = [
-    { src: marcelo, name: affiliateTorslandaData.instructor1, rank: affiliateTorslandaData.instructor1rank },
-    { src: alanaltermann, name: affiliateTorslandaData.instructor2, rank: affiliateTorslandaData.instructor2rank },
-    { src: philiprasmusson, name: affiliateTorslandaData.instructor3, rank: affiliateTorslandaData.instructor3rank },
-    { src: fredrik, name: affiliateTorslandaData.instructor4, rank: affiliateTorslandaData.instructor4rank },
-  ]
-  const instructorsRandori = [
-    { src: defaultImg, name: affiliateRandoriData.instructor1, rank: affiliateRandoriData.instructor1rank },
-  ]
-  const instructorsGripGym = [
-    { src: toringe, name: affiliateGripGymData.instructor1, rank: affiliateGripGymData.instructor1rank },
-    { src: max, name: affiliateTorslandaData.instructor2, rank: affiliateGripGymData.instructor2rank },
-  ]
-  const instructorsTeamSpirit = [
-    { src: defaultImg, name: affiliateTeamSpiritData.instructor1, rank: affiliateTeamSpiritData.instructor1rank },
-  ]
-  const instructorsLinkoping = [
-    { src: danielwestberg, name: affiliateLinkopingData.instructor1, rank: affiliateLinkopingData.instructor1rank },
-    { src: larskarlsson, name: affiliateLinkopingData.instructor2, rank: affiliateLinkopingData.instructor2rank },
-    { src: adamsandersson, name: affiliateLinkopingData.instructor3, rank: affiliateLinkopingData.instructor3rank },
-    { src: johanlevinsson, name: affiliateLinkopingData.instructor4, rank: affiliateLinkopingData.instructor4rank },
-    { src: elinwallman, name: affiliateLinkopingData.instructor5, rank: affiliateLinkopingData.instructor5rank },
-  ]
-  const instructorsNKC = [
-    { src: defaultImg, name: affiliateNKCData.instructor1, rank: affiliateNKCData.instructor1rank },
-  ]
-  const instructorsNJK = [
-    { src: jorgenflink, name: affiliateNjkData.instructor1, rank: affiliateNjkData.instructor1rank },
-    { src: kristinaekstrand, name: affiliateNjkData.instructor2, rank: affiliateNjkData.instructor2rank },
-  ]
 
   return (
     <div className="affiliates-view-desktop-wrapper">
@@ -78,7 +31,7 @@ export const AffiliatesViewDesktop = () => {
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
           img={torslandaMain}
-          instructors={instructorsTorslanda}
+          instructors={instructors.instructorsTorslanda}
           googleMaps={affiliateTorslandaData.googleMaps}
         />
       </div>
@@ -92,7 +45,7 @@ export const AffiliatesViewDesktop = () => {
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
           img={linkopkingMain}
-          instructors={instructorsLinkoping}
+          instructors={instructors.instructorsLinkoping}
           googleMaps={affiliateLinkopingData.googleMaps}
         />
       </div>
@@ -106,7 +59,7 @@ export const AffiliatesViewDesktop = () => {
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
           img={njkMain}
-          instructors={instructorsNJK}
+          instructors={instructors.instructorsNJK}
           googleMaps={affiliateNjkData.googleMaps}
         />
       </div>
@@ -120,7 +73,7 @@ export const AffiliatesViewDesktop = () => {
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
           img={nkcMain}
-          instructors={instructorsNKC}
+          instructors={instructors.instructorsNKC}
           googleMaps={affiliateNKCData.googleMaps}
         />
       </div>
@@ -133,7 +86,7 @@ export const AffiliatesViewDesktop = () => {
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
           img={randoriMain}
-          instructors={instructorsRandori}
+          instructors={instructors.instructorsRandori}
           googleMaps={affiliateRandoriData.googleMaps}
         />
       </div>
@@ -147,7 +100,7 @@ export const AffiliatesViewDesktop = () => {
           btnText="besök hemsida"
           btnTextEng=""
           img={gripgymMain}
-          instructors={instructorsGripGym}
+          instructors={instructors.instructorsGripGym}
           googleMaps={affiliateGripGymData.googleMaps}
         />
       </div>
@@ -161,7 +114,7 @@ export const AffiliatesViewDesktop = () => {
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
           img={teamspiritMain}
-          instructors={instructorsTeamSpirit}
+          instructors={instructors.instructorsTeamSpirit}
           googleMaps={affiliateTeamSpiritData.googleMaps}
         />
       </div>

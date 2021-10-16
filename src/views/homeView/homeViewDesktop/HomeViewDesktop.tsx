@@ -2,7 +2,7 @@ import './HomeViewDesktop.css'
 import HomeViewData from '../data/HomeViewData'
 import { DefaultSectionOneDesktop } from '../../../shared/components/defaultSectionOneDesktop/DefaultSectionOneDesktop'
 import { DefaultSectionTwoDesktop } from '../../../shared/components/defaultSectionTwoDesktop/DefaultSectionTwoDesktop'
-import { DefaultSectionThreeDesktop } from '../../../shared/components/defaultSectionThreeDesktop/DefaultSectionThreeDesktop'
+import { DefaultSectionOneDesktopExternalLink } from '../../../shared/components/defaultSectionOneDesktopExternalLink/DefaultSectionOneDesktopExternalLink'
 import homeImg4 from '../../../shared/img/homeImgs/homeImg4.png'
 import marcelo from '../../../shared/img/homeImgs/sq/marcelo-sq.jpg'
 import policy from '../../../shared/img/homeImgs/sq/policy-sq.jpg'
@@ -26,28 +26,16 @@ export const HomeViewDesktop = () => {
       </div>
 
       {/* SECTION ONE */}
-      <DefaultSectionTwoDesktop
+      <DefaultSectionOneDesktop
         img={marcelo}
         title={HomeViewData.titleSectionOne}
         titleEng={HomeViewData.titleSectionOne}
-        subtitle={HomeViewData.sectionOneSubtitle}
         text={HomeViewData.textSectionOnePartOne}
         textEng={HomeViewData.textSectionOnePartOne}
-        text2={HomeViewData.textSectionOnePartTwo}
-        text2Eng={HomeViewData.textSectionOnePartTwo}
-      />
-      {/* <div className="line-divider-home" />
-
-      <DefaultSectionOneDesktop
-        img={teq}
-        title={HomeViewData.titleSectionTwo}
-        titleEng={HomeViewData.titleSectionTwoEng}
-        text={HomeViewData.textSectionTwo}
-        textEng={HomeViewData.textSectionTwoEng}
         btnText={HomeViewData.readmore}
         btnTextEng={HomeViewData.readmoreEng}
-        btnLink=""
-      /> */}
+        btnLink={RoutingPath.policyView}
+      />
       <div className="line-divider-home" />
       <DefaultSectionOneDesktop
         img={policy}
@@ -60,7 +48,7 @@ export const HomeViewDesktop = () => {
         btnLink={RoutingPath.policyView}
       />
       <div className="line-divider-home" />
-      <DefaultSectionThreeDesktop
+      <DefaultSectionOneDesktopExternalLink
         img={homeImg4}
         title={HomeViewData.titleSectionFour}
         titleEng={HomeViewData.titleSectionFourEng}

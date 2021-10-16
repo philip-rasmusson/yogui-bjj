@@ -1,11 +1,11 @@
-import './DefaultSectionThreeMobile.css'
+import './DefaultSectionOneMobileExternalLink.css'
 import { SelectLanguage } from '../../../functions/SelectLanguage'
 import { useState, useEffect } from 'react'
 import { useContext } from 'react'
 import { LanguageContext } from '../../provider/LanguageProvider'
 
 
-export const DefaultSectionThreeMobile = (props: { img: any, title: string, titleEng: string, text: string, textEng: string, btnText: string, btnTextEng: string, btnLink?: string }) => {
+export const DefaultSectionOneMobileExternalLink = (props: { img: any, title: string, titleEng: string, text: string, textEng: string, btnText: string, btnTextEng: string, btnLink?: string }) => {
   const [language] = useContext(LanguageContext)
 
 
@@ -14,14 +14,14 @@ export const DefaultSectionThreeMobile = (props: { img: any, title: string, titl
   }, [language])
 
   return (
-    <div className='default-section-three-mobile-wrapper font-black'>
+    <div className='default-section-one-external-link-mobile-wrapper font-black'>
       <h2>
         <SelectLanguage
           textSwe={props.title}
           textEng={props.titleEng}
         />
       </h2>
-      <div className="default-section-three-mobile-img-wrapper">
+      <div className="default-section-one-external-link-mobile-img-wrapper">
         <img src={props.img} alt={props.title} className="box-shadow" />
       </div>
       <p><SelectLanguage

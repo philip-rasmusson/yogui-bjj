@@ -2,7 +2,7 @@ import './HomeViewMobile.css'
 import HomeViewData from '../data/HomeViewData'
 import { DefaultSectionOneMobile } from '../../../shared/components/defaultSectionOneMobile/DefaultSectionOneMobile'
 import { DefaultSectionTwoMobile } from '../../../shared/components/defaultSectionTwoMobile/DefaultSectionTwoMobile'
-import { DefaultSectionThreeMobile } from '../../../shared/components/defaultSectionThreeMobile/DefaultSectionThreeMobile'
+import { DefaultSectionOneMobileExternalLink } from '../../../shared/components/defaultSectionOneMobileExternalLink/DefaultSectionOneMobileExternalLink'
 import homeImg1 from '../../../shared/img/homeImgs/homeImg1.png'
 import homeImg2 from '../../../shared/img/homeImgs/homeImg2.png'
 import homeImg3 from '../../../shared/img/homeImgs/homeImg3.png'
@@ -22,13 +22,15 @@ export const HomeViewMobile = () => {
       </div>
 
       {/* SECTION ONE */}
-      <DefaultSectionTwoMobile
+      <DefaultSectionOneMobile
         img={homeImg3}
         title={HomeViewData.titleSectionOne}
         titleEng={HomeViewData.titleSectionOne}
         text={HomeViewData.textSectionOnePartOne}
         textEng={HomeViewData.textSectionOnePartOne}
-
+        btnText={HomeViewData.readmore}
+        btnTextEng={HomeViewData.readmoreEng}
+        btnLink={RoutingPath.policyView}
       />
       {/* <div className="line-divider-home" /> */}
       {/* <DefaultSectionOneMobile
@@ -44,7 +46,7 @@ export const HomeViewMobile = () => {
       <div className="line-divider-mobile" />
       <DefaultSectionOneMobile
         img={homeImg2}
-        title={HomeViewData.titleSectionThree}
+        title={HomeViewData.titleSectionOne}
         titleEng={HomeViewData.titleSectionThreeEng}
         text={HomeViewData.textSectionThree}
         textEng={HomeViewData.textSectionThreeEng}
@@ -53,7 +55,7 @@ export const HomeViewMobile = () => {
         btnLink={RoutingPath.policyView}
       />
       <div className="line-divider-mobile" />
-      <DefaultSectionThreeMobile
+      <DefaultSectionOneMobileExternalLink
         img={homeImg4}
         title={HomeViewData.titleSectionFour}
         titleEng={HomeViewData.titleSectionFourEng}
