@@ -1,12 +1,7 @@
 import { AffiliateCard } from '../components/AffiliateCard'
 import './AffiliatesViewMobile.css'
-import torslandaMain from '../../../shared/img/affiliates/torslanda/main.png'
-import gripgymMain from '../../../shared/img/affiliates/gripgym/logo.png'
-import randoriMain from '../../../shared/img/affiliates/randori/ranrodi.png'
-import teamspiritMain from '../../../shared/img/affiliates/teamspirit/tskampsport.png'
-import linkopkingMain from '../../../shared/img/affiliates/linkkoping/logo.png'
-import nkcMain from '../../../shared/img/affiliates/nkc/logo.png'
-import njkMain from '../../../shared/img/affiliates/njk/logo.png'
+
+import affiliateImgs from '../data/affiliateImgs'
 
 import instructors from '../data/instructors'
 
@@ -30,7 +25,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateTorslandaData.homepage}
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={torslandaMain}
+          img={affiliateImgs.torslandaMain}
           instructors={instructors.instructorsTorslanda}
           googleMaps={affiliateTorslandaData.googleMaps}
         />
@@ -44,7 +39,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateRandoriData.homepage}
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={randoriMain}
+          img={affiliateImgs.randoriMain}
           instructors={instructors.instructorsRandori}
           googleMaps={affiliateRandoriData.googleMaps}
         />
@@ -58,7 +53,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateGripGymData.homepage}
           btnText="besök hemsida"
           btnTextEng=""
-          img={gripgymMain}
+          img={affiliateImgs.gripgymMain}
           instructors={instructors.instructorsGripGym}
           googleMaps={affiliateGripGymData.googleMaps}
         />
@@ -72,7 +67,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateTeamSpiritData.homepage}
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={teamspiritMain}
+          img={affiliateImgs.teamspiritMain}
           instructors={instructors.instructorsTeamSpirit}
           googleMaps={affiliateTeamSpiritData.googleMaps}
         />
@@ -86,7 +81,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateLinkopingData.homepage}
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={linkopkingMain}
+          img={affiliateImgs.linkopkingMain}
           instructors={instructors.instructorsLinkoping}
           googleMaps={affiliateLinkopingData.googleMaps}
         />
@@ -100,7 +95,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateNKCData.homepage}
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={nkcMain}
+          img={affiliateImgs.nkcMain}
           instructors={instructors.instructorsNKC}
           googleMaps={affiliateNKCData.googleMaps}
         />
@@ -114,7 +109,7 @@ export const AffiliatesViewMobile = () => {
           homepage={affiliateNjkData.homepage}
           btnText={affiliateTorslandaData.btnText}
           btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={njkMain}
+          img={affiliateImgs.njkMain}
           instructors={instructors.instructorsNJK}
           googleMaps={affiliateNjkData.googleMaps}
         />

@@ -1,8 +1,7 @@
 
 import './AffiliateCard.css'
 
-import { SelectLanguage } from '../../../functions/SelectLanguage'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useContext } from 'react'
 import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
@@ -10,9 +9,7 @@ import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 export const AffiliateCard = (props: { img: any, title: string, adress?: string, email?: string; homepage?: string, btnText: string, btnTextEng: string, btnLink?: string, instructors?: Array<any>, googleMaps: string }) => {
   const [language] = useContext(LanguageContext)
 
-  // const displayInstructors = () => {
-  //   return <img src={props.instructors} />
-  // }
+
   const displayInstructors = props.instructors?.map((imgSrc, i) => {
     return (
       <div>
@@ -32,10 +29,6 @@ export const AffiliateCard = (props: { img: any, title: string, adress?: string,
     <div className='affiliate-card-wrapper'>
       <div className="affiliate-card-img-wrapper">
         <img src={props.img} alt={props.title} className="box-shadow" />
-        {/* <button className="bg-color-black font-white box-shadow"><SelectLanguage
-          textSwe={props.btnText}
-          textEng={props.btnTextEng}
-        /></button> */}
       </div>
       <div className="affiliate-card-text-wrapper">
         <h2>{props.title}

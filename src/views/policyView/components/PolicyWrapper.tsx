@@ -1,7 +1,7 @@
 
 export const PolicyWrapper = (props: {title: string, text: any}) => {
 
-  const textArray = props.text.map((x:string) => <p>{x}</p>)
+  const textArray = props.text.map((x:string, i:number) => <p key={i}>{x}</p>)
 
   return (
     <>

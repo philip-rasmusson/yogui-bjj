@@ -29,7 +29,7 @@ export const DefaultSectionOneDesktopExternalLink = (props: { img: any, title: s
           textSwe={props.text}
           textEng={props.textEng}
         /></p>
-        <button className="bg-color-black font-white box-shadow"><a href={props.btnLink} target='_blank'><SelectLanguage
+        <button className="bg-color-black font-white box-shadow"><a href={props.btnLink} target='_blank' rel='noreferrer'><SelectLanguage
           textSwe={props.btnText}
           textEng={props.btnTextEng}
         /></a></button>

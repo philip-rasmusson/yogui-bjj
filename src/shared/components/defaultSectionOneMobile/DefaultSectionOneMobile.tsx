@@ -1,6 +1,6 @@
 import './DefaultSectionOneMobile.css'
 import { SelectLanguage } from '../../../functions/SelectLanguage'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useContext } from 'react'
 import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 import { useHistory } from 'react-router'
