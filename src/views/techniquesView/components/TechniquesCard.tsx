@@ -1,6 +1,6 @@
-import TechniquesViewData from '../data/TechniquesViewData'
-import { AccordionOuter } from '../../../shared/components/AccordionOuter'
-import r from '../../../shared/img/techniques/positions/mount.png'
+// import TechniquesViewData from '../data/TechniquesViewData'
+// import { AccordionOuter } from '../../../shared/components/AccordionOuter'
+// import r from '../../../shared/img/techniques/positions/mount.png'
 import { TechniquesImgPaths } from '../data/TechniquesImgPaths'
 
 export const TechniquesCard = (props: { array: any }) => {

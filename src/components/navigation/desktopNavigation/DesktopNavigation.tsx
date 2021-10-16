@@ -6,7 +6,6 @@ import { useHistory } from 'react-router-dom'
 import { menuItemsData } from '../data/menu-items-data'
 import RoutingPath from '../../../routes/RoutingPath'
 
-import { useState } from "react"
 import { MenuItems } from "../MenuItems"
 
 export const DesktopNavigation = () => {

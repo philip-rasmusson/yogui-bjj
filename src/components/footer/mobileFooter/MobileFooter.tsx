@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import GlobalData from '../../../data/GlobalData'
 import { SocialMediaIcons } from '../../socailMediaIcons/SocailMediaIcons'
 import affiliateTorslandaData from '../../../views/affiliatesView/data/affiliateTorslandaData'
-import { SelectLanguage } from '../../../functions/SelectLanguage'
 
 export const MobileFooter = () => {
   const emailLink = 'mailto:' + GlobalData.email

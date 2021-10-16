@@ -1,6 +1,6 @@
 import './MobileNavigation.css'
 import '../../../shared/global/css/Global.css'
-import { useContext, useState, useEffect } from "react"
+import { useState } from "react"
 import { MenuItems } from "../MenuItems"
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,7 +9,6 @@ import GlobalData from '../../../data/GlobalData'
 import { useHistory } from 'react-router-dom'
 import { menuItemsData } from '../data/menu-items-data'
 import RoutingPath from '../../../routes/RoutingPath'
-import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 
 
@@ -17,22 +16,9 @@ export const MobileNavigation = () => {
 
   const history = useHistory()
   const [burgerIcon, setBurgerIcon] = useState<any>(faBars)
-  // const [language] = useContext(LanguageContext)
-  const [menuItemTechniques, setMenuItemTechniques] = useState(menuItemsData.menuItemTechniques)
-  const [menuItemPolicy, setMenuItemPomenuItemPolicy] = useState(menuItemsData.menuItemPolicy)
-  const [menuItemAffiliates, setMenuItemAffimenuItemAffiliates] = useState(menuItemsData.menuItemAffiliates)
-
-  // const checkLanguage = () => {
-  //   if (language === 'english') {
-  //     setMenuItemTechniques(menuItemsData.menuItemTechniquesEng)
-  //     setMenuItemPomenuItemPolicy(menuItemsData.menuItemPolicyEng)
-  //     setMenuItemAffimenuItemAffiliates(menuItemsData.menuItemAffiliatesEng)
-  //   } else {
-  //     setMenuItemTechniques(menuItemsData.menuItemTechniques)
-  //     setMenuItemPomenuItemPolicy(menuItemsData.menuItemPolicy)
-  //     setMenuItemAffimenuItemAffiliates(menuItemsData.menuItemAffiliates)
-  //   }
-  // }
+  // const [menuItemTechniques, setMenuItemTechniques] = useState(menuItemsData.menuItemTechniques)
+  const [menuItemPolicy] = useState(menuItemsData.menuItemPolicy)
+  const [menuItemAffiliates] = useState(menuItemsData.menuItemAffiliates)
 
   const toggleNavbar = () => {
     window.scrollTo(0, 0)
@@ -46,10 +32,6 @@ export const MobileNavigation = () => {
     setBurgerIcon(faBars)
     toggleNavbar()
   }
-
-  // useEffect(() => {
-  //   checkLanguage()
-  // }, [language])
 
   return (
     <div>
