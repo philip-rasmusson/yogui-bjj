@@ -10,6 +10,11 @@ export const DefaultSectionOneDesktop = (props: { img: any, title: string, title
 
   const history = useHistory()
 
+  const LinkAndScrollToTop = (link: string) => {
+    window.scrollTo(0, 0);
+    history.push(link)
+  }
+
   useEffect(() => {
   }, [language])
 
@@ -31,7 +36,7 @@ export const DefaultSectionOneDesktop = (props: { img: any, title: string, title
           textSwe={props.text}
           textEng={props.textEng}
         /></p>
-        <button className="bg-color-black font-white box-shadow" onClick={() => history.push(props.btnLink)}><SelectLanguage
+        <button className="bg-color-black font-white box-shadow" onClick={() => LinkAndScrollToTop(props.btnLink)}><SelectLanguage
           textSwe={props.btnText}
           textEng={props.btnTextEng}
         /></button>

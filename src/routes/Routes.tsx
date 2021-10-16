@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Footer } from '../components/footer/Footer'
 import { HomeView } from '../views/homeView//HomeView'
@@ -6,6 +5,7 @@ import { TechniquesView } from '../views/techniquesView/TechniquesView'
 import RoutingPath from './RoutingPath'
 import { PolicyView } from '../views/policyView/PolicyView'
 import { AffiliatesView } from '../views/affiliatesView/AffiliatesView'
+import { AboutUsView } from '../views/aboutUsView/AboutUsView'
 
 export const Routes = (props: { children?: React.ReactChild }) => {
   return (
@@ -18,6 +18,7 @@ export const Routes = (props: { children?: React.ReactChild }) => {
           <Route exact path={RoutingPath.policyView} component={PolicyView} />
           <Route exact path={RoutingPath.techniquesView} component={TechniquesView} />
           <Route exact path={RoutingPath.affiliatesView} component={AffiliatesView} />
+          <Route exact path={RoutingPath.aboutUsView} component={AboutUsView} />
         </Switch>
         <Footer />
       </Router>

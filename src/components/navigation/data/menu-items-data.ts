@@ -1,6 +1,8 @@
 
 const menuItemHome = 'hem'
 const menuItemTechniques = 'tekniker'
+const menuItemAboutUs = 'om oss'
+const menuItemAboutUsEng = 'about us'
 const menuItemPolicy = 'policy'
 const menuItemAffiliates = 'klubbar'
 const menuItemTechniquesEng = 'Techniques'
@@ -19,5 +21,7 @@ export const menuItemsData = {
   menuItemTechniquesEng,
   menuItemAffiliatesEng,
   menuItemContact,
-  menuItemContactEng
+  menuItemContactEng,
+  menuItemAboutUs,
+  menuItemAboutUsEng
 }

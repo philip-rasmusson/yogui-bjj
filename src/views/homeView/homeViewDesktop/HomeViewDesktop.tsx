@@ -11,6 +11,7 @@ import RoutingPath from '../../../routes/RoutingPath'
 import affiliateTorslandaData from '../../affiliatesView/data/affiliateTorslandaData'
 
 export const HomeViewDesktop = () => {
+  
   return (
     <div className="home-desktop-wrapper">
       <div className="home-desktop-header-wrapper">
@@ -32,7 +33,7 @@ export const HomeViewDesktop = () => {
         textEng={HomeViewData.textSectionOnePartOne}
         btnText={HomeViewData.readmore}
         btnTextEng={HomeViewData.readmoreEng}
-        btnLink={RoutingPath.policyView}
+        btnLink={RoutingPath.aboutUsView}
       />
       <div className="line-divider-home" />
       <DefaultSectionOneDesktop

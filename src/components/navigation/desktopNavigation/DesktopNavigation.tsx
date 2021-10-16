@@ -11,6 +11,11 @@ import { MenuItems } from "../MenuItems"
 export const DesktopNavigation = () => {
   const history = useHistory()
 
+  // const linkFunction = (link: string) => {
+  //   window.scrollTo(0, 0);
+  //   history.push(link)
+  // }
+
   return (
     <>
       <div className="navbar-desktop-wrapper">
@@ -26,6 +31,7 @@ export const DesktopNavigation = () => {
 
         <ul className='font-black'>
           {/* <MenuItems menuItem={menuItemsData.menuItemTechniques} onclick={() => history.push(RoutingPath.techniquesView)} /> */}
+          <MenuItems menuItem={menuItemsData.menuItemAboutUs} onclick={() => history.push(RoutingPath.aboutUsView)} />
           <MenuItems menuItem={menuItemsData.menuItemPolicy} onclick={() => history.push(RoutingPath.policyView)} />
           <MenuItems menuItem={menuItemsData.menuItemAffiliates} onclick={() => history.push(RoutingPath.affiliatesView)} />
           <MenuItems menuItem={menuItemsData.menuItemContact} onclick={() => window.scrollTo({ top: 10000, left: 0, behavior: 'smooth' })} />

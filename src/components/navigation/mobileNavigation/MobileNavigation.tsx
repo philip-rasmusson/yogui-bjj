@@ -19,6 +19,7 @@ export const MobileNavigation = () => {
   // const [menuItemTechniques, setMenuItemTechniques] = useState(menuItemsData.menuItemTechniques)
   const [menuItemPolicy] = useState(menuItemsData.menuItemPolicy)
   const [menuItemAffiliates] = useState(menuItemsData.menuItemAffiliates)
+  const [menuItemAboutUs] = useState(menuItemsData.menuItemAboutUs)
 
   const toggleNavbar = () => {
     window.scrollTo(0, 0)
@@ -53,6 +54,7 @@ export const MobileNavigation = () => {
             </div>
             <ul className='font-black'>
               {/* <MenuItems menuItem={menuItemTechniques} onclick={() => linkFunction(RoutingPath.techniquesView)} /> */}
+              <MenuItems menuItem={menuItemAboutUs} onclick={() => linkFunction(RoutingPath.aboutUsView)} />
               <MenuItems menuItem={menuItemPolicy} onclick={() => linkFunction(RoutingPath.policyView)} />
               <MenuItems menuItem={menuItemAffiliates} onclick={() => linkFunction(RoutingPath.affiliatesView)} />
               {/* <MenuItems menuItem={menuItemsData.menuItemContact} onclick={() => scrollToBottom()} /> */}
