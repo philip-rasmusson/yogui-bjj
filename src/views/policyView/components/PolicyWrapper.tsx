@@ -5,7 +5,7 @@ export const PolicyWrapper = (props: {title: string, text: any}) => {
 
   return (
     <>
-      <div className="policy-view-policy-wrapper">
+      <div className="policy-view-wrapper">
         <h3>{props.title}</h3>
         {textArray}
       </div>

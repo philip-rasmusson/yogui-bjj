@@ -1,5 +1,6 @@
 .about-us-view-desktop-wrapper {
     padding: 2rem;
+    width: 80vw;
     max-width: 800px;
     margin: 5rem auto;
   }
@@ -12,3 +13,7 @@
     padding-top: 1rem;
     line-height: auto;
   }
+
+.about-us-view-wrapper{
+    margin: 2rem auto;
+}

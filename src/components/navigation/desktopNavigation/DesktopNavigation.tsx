@@ -32,8 +32,8 @@ export const DesktopNavigation = () => {
         <ul className='font-black'>
           {/* <MenuItems menuItem={menuItemsData.menuItemTechniques} onclick={() => history.push(RoutingPath.techniquesView)} /> */}
           <MenuItems menuItem={menuItemsData.menuItemAboutUs} onclick={() => history.push(RoutingPath.aboutUsView)} />
-          <MenuItems menuItem={menuItemsData.menuItemPolicy} onclick={() => history.push(RoutingPath.policyView)} />
           <MenuItems menuItem={menuItemsData.menuItemAffiliates} onclick={() => history.push(RoutingPath.affiliatesView)} />
+          <MenuItems menuItem={menuItemsData.menuItemPolicy} onclick={() => history.push(RoutingPath.policyView)} />
           <MenuItems menuItem={menuItemsData.menuItemContact} onclick={() => window.scrollTo({ top: 10000, left: 0, behavior: 'smooth' })} />
         </ul>
       </div>

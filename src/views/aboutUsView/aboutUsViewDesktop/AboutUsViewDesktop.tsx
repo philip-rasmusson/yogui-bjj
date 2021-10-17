@@ -9,10 +9,12 @@ export const AboutUsViewDesktop = () => {
             title={AboutUsData.aboutUsTitle}
             text={AboutUsData.aboutUsText}
             />
+            <div className="line-divider-desktop"></div>
             <AboutUsWrapper 
             title={AboutUsData.aboutBJJTitle}
             text={AboutUsData.aboutBJJText}
             />
+            <div className="line-divider-desktop"></div>
             <AboutUsWrapper 
             title={AboutUsData.aboutSWTitle}
             text={AboutUsData.aboutSWText}

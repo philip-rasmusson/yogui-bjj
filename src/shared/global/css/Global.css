@@ -75,6 +75,13 @@ a {
   background-color: rgb(224, 164, 53);
   margin: 0 auto;
 }
+.line-divider-desktop{
+  width: 100%;
+  max-width: 1200px;
+  height: 1px;
+  margin: 5rem auto;
+  background-color: rgb(224, 164, 53);
+}
 
 .col-1 {
   grid-column: 1;

@@ -29,7 +29,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateTorslandaData.googleMaps}
         />
       </div>
-      <div className="line-divider-mobile"></div>
+      <div className="line-divider-desktop"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
           title={affiliateLinkopingData.title}
@@ -43,7 +43,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateLinkopingData.googleMaps}
         />
       </div>
-      <div className="line-divider-mobile"></div>
+      <div className="line-divider-desktop"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
           title={affiliateNjkData.title}
@@ -57,7 +57,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateNjkData.googleMaps}
         />
       </div>
-      <div className="line-divider-mobile"></div>
+      <div className="line-divider-desktop"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
           title={affiliateNKCData.title}
@@ -84,7 +84,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateRandoriData.googleMaps}
         />
       </div>
-      <div className="line-divider-mobile"></div>
+      <div className="line-divider-desktop"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
           title={affiliateGripGymData.title}
@@ -98,7 +98,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateGripGymData.googleMaps}
         />
       </div>
-      <div className="line-divider-mobile"></div>
+      <div className="line-divider-desktop"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
           title={affiliateTeamSpiritData.title}
@@ -112,7 +112,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateTeamSpiritData.googleMaps}
         />
       </div>
-      <div className="line-divider-mobile"></div>
+      <div className="line-divider-desktop"></div>
     </div>
   )
 }

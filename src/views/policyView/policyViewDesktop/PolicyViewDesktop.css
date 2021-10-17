@@ -1,14 +1,19 @@
-  .policy-view-policy-wrapper {
+  .policy-view-desktop-wrapper {
     padding: 2rem;
+    width: 80vw;
     max-width: 800px;
     margin: 5rem auto;
   }
-  .policy-view-policy-wrapper h3 {
+  .policy-view-desktop-wrapper h3 {
     text-transform: uppercase;
     font-size: 1rem;
   }
-  .policy-view-policy-wrapper p, .policy-view-policy-wrapper li {
+  .policy-view-desktop-wrapper p, .policy-view-desktop-wrapper li {
     font-size: 1rem;
     padding-top: 1rem;
     line-height: auto;
   }
+
+  .policy-view-wrapper{
+    margin: 2rem auto;
+}
