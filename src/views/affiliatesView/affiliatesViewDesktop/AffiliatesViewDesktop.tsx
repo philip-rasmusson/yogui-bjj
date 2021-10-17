@@ -71,6 +71,7 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateNKCData.googleMaps}
         />
       </div>
+      <div className="line-divider-desktop"></div>
       <div className="affiliates-view-desktop-default font-grey">
         <AffiliateCard
           title={affiliateRandoriData.title}
@@ -112,7 +113,6 @@ export const AffiliatesViewDesktop = () => {
           googleMaps={affiliateTeamSpiritData.googleMaps}
         />
       </div>
-      <div className="line-divider-desktop"></div>
     </div>
   )
 }

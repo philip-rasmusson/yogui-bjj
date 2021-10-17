@@ -26,7 +26,7 @@ export const HomeViewMobile = () => {
         textEng={HomeViewData.textSectionOnePartOne}
         btnText={HomeViewData.readmore}
         btnTextEng={HomeViewData.readmoreEng}
-        btnLink={RoutingPath.policyView}
+        btnLink={RoutingPath.aboutUsView}
       />
       <div className="line-divider-mobile" />
       <DefaultSectionOneMobile
