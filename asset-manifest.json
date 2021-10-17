@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/yogui-bjj/static/css/main.fbdd8e3a.chunk.css",
-    "main.js": "/yogui-bjj/static/js/main.de10db58.chunk.js",
-    "main.js.map": "/yogui-bjj/static/js/main.de10db58.chunk.js.map",
+    "main.js": "/yogui-bjj/static/js/main.ef253ef1.chunk.js",
+    "main.js.map": "/yogui-bjj/static/js/main.ef253ef1.chunk.js.map",
     "runtime-main.js": "/yogui-bjj/static/js/runtime-main.112a2a61.js",
     "runtime-main.js.map": "/yogui-bjj/static/js/runtime-main.112a2a61.js.map",
-    "static/js/2.6b5ca1da.chunk.js": "/yogui-bjj/static/js/2.6b5ca1da.chunk.js",
-    "static/js/2.6b5ca1da.chunk.js.map": "/yogui-bjj/static/js/2.6b5ca1da.chunk.js.map",
+    "static/js/2.9d86878d.chunk.js": "/yogui-bjj/static/js/2.9d86878d.chunk.js",
+    "static/js/2.9d86878d.chunk.js.map": "/yogui-bjj/static/js/2.9d86878d.chunk.js.map",
     "static/js/3.08fa208d.chunk.js": "/yogui-bjj/static/js/3.08fa208d.chunk.js",
     "static/js/3.08fa208d.chunk.js.map": "/yogui-bjj/static/js/3.08fa208d.chunk.js.map",
     "index.html": "/yogui-bjj/index.html",
     "static/css/main.fbdd8e3a.chunk.css.map": "/yogui-bjj/static/css/main.fbdd8e3a.chunk.css.map",
-    "static/js/2.6b5ca1da.chunk.js.LICENSE.txt": "/yogui-bjj/static/js/2.6b5ca1da.chunk.js.LICENSE.txt",
+    "static/js/2.9d86878d.chunk.js.LICENSE.txt": "/yogui-bjj/static/js/2.9d86878d.chunk.js.LICENSE.txt",
     "static/media/IMG_5150.e8d347b4.jpg": "/yogui-bjj/static/media/IMG_5150.e8d347b4.jpg",
     "static/media/adamandersson.e39a535d.jpeg": "/yogui-bjj/static/media/adamandersson.e39a535d.jpeg",
     "static/media/alanaltermann.beb2249b.jpg": "/yogui-bjj/static/media/alanaltermann.beb2249b.jpg",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.112a2a61.js",
-    "static/js/2.6b5ca1da.chunk.js",
+    "static/js/2.9d86878d.chunk.js",
     "static/css/main.fbdd8e3a.chunk.css",
-    "static/js/main.de10db58.chunk.js"
+    "static/js/main.ef253ef1.chunk.js"
   ]
 }
