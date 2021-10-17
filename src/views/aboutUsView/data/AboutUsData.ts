@@ -13,6 +13,7 @@ const aboutSWTextEng = ['Submission wrestling (also known as the Grappling and N
 const AboutUsData = {
     aboutUsTitle, 
     aboutUsText, 
+    aboutUsTextEng, 
     aboutBJJTitle, 
     aboutBJJText, 
     aboutBJJTextEng, 

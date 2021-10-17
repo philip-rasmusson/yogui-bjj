@@ -12,9 +12,9 @@ export const AffiliateCard = (props: { img: any, title: string, adress?: string,
 
   const displayInstructors = props.instructors?.map((imgSrc, i) => {
     return (
-      <div>
+      <div key={i}>
         <img src={imgSrc.src} key={i} alt={imgSrc.src} />
-        <p>{imgSrc.name}</p>
+        <p >{imgSrc.name}</p>
         <p className="affiliate-card-instructor-rank">{imgSrc.rank}</p>
       </div>
     )

@@ -1,16 +1,14 @@
-/* POLICY WRAPPER */
 
-@media screen and (max-width: 760px) {
-  .policy-view-policy-wrapper {
+
+  .policy-view-mobile-wrapper {
     padding: 2rem;
   }
-  .policy-view-policy-wrapper h3 {
+  .policy-view-mobile-wrapper h3 {
     text-transform: uppercase;
     font-size: 5vw;
   }
-  .policy-view-policy-wrapper p, .policy-view-policy-wrapper li {
+  .policy-view-mobile-wrapper p, .policy-view-mobile-wrapper {
     font-size: 3vw;
     padding-top: 1rem;
     line-height: 2rem;
   }
-}

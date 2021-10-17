@@ -1,0 +1,12 @@
+.about-us-view-mobile-wrapper {
+    padding: 2rem;
+  }
+  .about-us-view-mobile-wrapper h3 {
+    text-transform: uppercase;
+    font-size: 5vw;
+  }
+  .about-us-view-mobile-wrapper p, .about-us-view-mobile-wrapper{
+    font-size: 3vw;
+    padding-top: 1rem;
+    line-height: 2rem;
+  }

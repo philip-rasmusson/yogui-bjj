@@ -2,7 +2,7 @@
     padding: 2rem;
     width: 80vw;
     max-width: 800px;
-    margin: 5rem auto;
+    margin: 2rem auto 5rem auto;
   }
   .policy-view-desktop-wrapper h3 {
     text-transform: uppercase;
@@ -14,6 +14,3 @@
     line-height: auto;
   }
 
-  .policy-view-wrapper{
-    margin: 2rem auto;
-}
