@@ -7,7 +7,7 @@ import imgDefault from '../img/techniques/positions/mount.png'
 // import imgDefault from '../shared/img/techniques/positions/mount.png'
 import exercises from '../../shared/data/Exercises'
 
-export const AccordionInner = (props: { exercises: any, key: number }) => {
+export const AccordionInner = (props: { textValue: any, key: number }) => {
   const [angleInner, setAngleInner] = useState<any>(faAngleRight)
 
   const displayContentInner = () => {
@@ -25,10 +25,10 @@ export const AccordionInner = (props: { exercises: any, key: number }) => {
     } else {
       return (
         <div>
-          <p><strong>{props?.exercises.text}</strong></p> <br />
+          <p><strong>{props?.textValue.text}</strong></p> <br />
           {/* {displayExerciseSteps({props.exercises.text})} */}
           <br />
-          <img src={props.exercises.img} alt="" style={{ width: '80vw', margin: '2rem 0' }} />
+          <img src={props.textValue.img} alt="" style={{ width: '80vw', margin: '2rem 0' }} />
           <img src={imgDefault} alt="" style={{ width: '80vw', margin: '2rem 0' }} />
         </div>
       )
@@ -38,7 +38,7 @@ export const AccordionInner = (props: { exercises: any, key: number }) => {
   return (
     <>
       <div className='accordion-outer-exercises-wrapper' onClick={() => displayContentInner()}>
-        <h4 className='accordion-outer-exercises-title'>{props?.exercises.technique}</h4>
+        <h4 className='accordion-outer-exercises-title'>{props?.textValue.technique}</h4>
         <div className='accordion-outer-angle-icon-inner grid-center-content'>
           <FontAwesomeIcon icon={angleInner} />
         </div>

@@ -22,7 +22,7 @@ export const MobileNavigation = () => {
   const [menuItemAboutUs] = useState(menuItemsData.menuItemAboutUs)
 
   const toggleNavbar = () => {
-    window.scrollTo(0, 0)
+    //window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
     return burgerIcon === faBars ? { display: 'none' } : { display: 'block' }
   }
   const displayBurgerIcon = () => {

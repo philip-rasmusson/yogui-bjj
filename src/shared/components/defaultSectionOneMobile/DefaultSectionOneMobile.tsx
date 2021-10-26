@@ -12,7 +12,7 @@ export const DefaultSectionOneMobile = (props: { img: any, title: string, titleE
   const history = useHistory()
 
   const toggleNavbar = () => {
-    window.scrollTo(0, 0)
+    //window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
 
   const linkFunction = (link: string) => {

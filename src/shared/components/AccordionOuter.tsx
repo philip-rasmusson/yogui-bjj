@@ -5,10 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { AccordionInner } from './AccordionInner'
 import { TechniquesNavbar } from './TechniquesNavbar'
 import { TechniquesCard } from '../../views/techniquesView/components/TechniquesCard'
+import { TextWrapper } from './textWrapper/TextWrapper'
 
 
 
-export const AccordionOuter = (props: { title: string, exercises: any }) => {
+export const AccordionOuter = (props: { title: string, text: any }) => {
 
   const [angle, setAngle] = useState<any>(faAngleRight)
 
@@ -20,13 +21,16 @@ export const AccordionOuter = (props: { title: string, exercises: any }) => {
     }
   }
 
-  const array = props?.exercises.map((exercise: any, i: number) => {
-    return <AccordionInner exercises={exercise} key={i} />
-  })
+  // const array = props?.text.map((text: any, i: number) => {
+  //   return <TextWrapper title="" text={text} key={i} />
+  // })
   const accordionOuterContent = () => {
     return angle === faAngleRight ? (<></>) : (
       <div>
-        {array}
+        <TextWrapper
+        title=""
+        text={props.text}
+        />
       </div>
     )
   }

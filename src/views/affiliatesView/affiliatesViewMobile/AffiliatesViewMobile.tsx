@@ -14,7 +14,6 @@ import affiliateNKCData from '../data/affiliateNKC'
 import affiliateNjkData from '../data/affiliateNjkData'
 
 export const AffiliatesViewMobile = () => {
-
   return (
     <div className="affiliates-view-mobile-wrapper">
       <div className="affiliates-view-mobile-default font-grey">
