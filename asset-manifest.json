@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yogui-bjj/static/css/main.3467a7bd.chunk.css",
+    "main.css": "/yogui-bjj/static/css/main.7d87734d.chunk.css",
     "main.js": "/yogui-bjj/static/js/main.4bdef021.chunk.js",
     "main.js.map": "/yogui-bjj/static/js/main.4bdef021.chunk.js.map",
     "runtime-main.js": "/yogui-bjj/static/js/runtime-main.126b628e.js",
@@ -10,7 +10,7 @@
     "static/js/3.768bc7b5.chunk.js": "/yogui-bjj/static/js/3.768bc7b5.chunk.js",
     "static/js/3.768bc7b5.chunk.js.map": "/yogui-bjj/static/js/3.768bc7b5.chunk.js.map",
     "index.html": "/yogui-bjj/index.html",
-    "static/css/main.3467a7bd.chunk.css.map": "/yogui-bjj/static/css/main.3467a7bd.chunk.css.map",
+    "static/css/main.7d87734d.chunk.css.map": "/yogui-bjj/static/css/main.7d87734d.chunk.css.map",
     "static/js/2.fbebc4d4.chunk.js.LICENSE.txt": "/yogui-bjj/static/js/2.fbebc4d4.chunk.js.LICENSE.txt",
     "static/media/IMG_5150.e8d347b4.jpg": "/yogui-bjj/static/media/IMG_5150.e8d347b4.jpg",
     "static/media/adamandersson.e39a535d.jpeg": "/yogui-bjj/static/media/adamandersson.e39a535d.jpeg",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.126b628e.js",
     "static/js/2.fbebc4d4.chunk.js",
-    "static/css/main.3467a7bd.chunk.css",
+    "static/css/main.7d87734d.chunk.css",
     "static/js/main.4bdef021.chunk.js"
   ]
 }
