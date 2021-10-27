@@ -20,7 +20,7 @@ export const AffiliateCard = (props: { img: any, title: string, adress?: string,
     )
   })
 
-  const emailLink = 'mailto:' + props.email
+  const emailLink = 'mailto:' + props.email  
 
   useEffect(() => {
   }, [language])

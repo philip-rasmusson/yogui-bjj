@@ -33,6 +33,48 @@ export const AffiliatesViewMobile = () => {
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
         <AccordionOuterAffiliates
+          title={affiliateLinkopingData.title}
+          adress={affiliateLinkopingData.adress}
+          email={affiliateLinkopingData.email}
+          homepage={affiliateLinkopingData.homepage}
+          btnText={affiliateTorslandaData.btnText}
+          btnTextEng={affiliateTorslandaData.btnTextEng}
+          img={affiliateImgs.linkopkingMain}
+          instructors={instructors.instructorsLinkoping}
+          googleMaps={affiliateLinkopingData.googleMaps}
+        />
+      </div>
+      <div className="line-divider-mobile"></div>
+      <div className="affiliates-view-mobile-default font-grey">
+        <AccordionOuterAffiliates
+          title={affiliateNjkData.title}
+          adress={affiliateNjkData.adress}
+          email={affiliateNjkData.email}
+          homepage={affiliateNjkData.homepage}
+          btnText={affiliateTorslandaData.btnText}
+          btnTextEng={affiliateTorslandaData.btnTextEng}
+          img={affiliateImgs.njkMain}
+          instructors={instructors.instructorsNJK}
+          googleMaps={affiliateNjkData.googleMaps}
+        />
+      </div>
+      <div className="line-divider-mobile"></div>
+      <div className="affiliates-view-mobile-default font-grey">
+        <AccordionOuterAffiliates
+          title={affiliateNKCData.title}
+          adress={affiliateNKCData.adress}
+          email={affiliateNKCData.email}
+          homepage={affiliateNKCData.homepage}
+          btnText={affiliateTorslandaData.btnText}
+          btnTextEng={affiliateTorslandaData.btnTextEng}
+          img={affiliateImgs.nkcMain}
+          instructors={instructors.instructorsNKC}
+          googleMaps={affiliateNKCData.googleMaps}
+        />
+      </div>
+      <div className="line-divider-mobile"></div>
+      <div className="affiliates-view-mobile-default font-grey">
+        <AccordionOuterAffiliates
           title={affiliateRandoriData.title}
           adress={affiliateRandoriData.adress}
           email={affiliateRandoriData.email}
@@ -71,49 +113,7 @@ export const AffiliatesViewMobile = () => {
           instructors={instructors.instructorsTeamSpirit}
           googleMaps={affiliateTeamSpiritData.googleMaps}
         />
-      </div>
-      <div className="line-divider-mobile"></div>
-      <div className="affiliates-view-mobile-default font-grey">
-        <AccordionOuterAffiliates
-          title={affiliateLinkopingData.title}
-          adress={affiliateLinkopingData.adress}
-          email={affiliateLinkopingData.email}
-          homepage={affiliateLinkopingData.homepage}
-          btnText={affiliateTorslandaData.btnText}
-          btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={affiliateImgs.linkopkingMain}
-          instructors={instructors.instructorsLinkoping}
-          googleMaps={affiliateLinkopingData.googleMaps}
-        />
-      </div>
-      <div className="line-divider-mobile"></div>
-      <div className="affiliates-view-mobile-default font-grey">
-        <AccordionOuterAffiliates
-          title={affiliateNKCData.title}
-          adress={affiliateNKCData.adress}
-          email={affiliateNKCData.email}
-          homepage={affiliateNKCData.homepage}
-          btnText={affiliateTorslandaData.btnText}
-          btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={affiliateImgs.nkcMain}
-          instructors={instructors.instructorsNKC}
-          googleMaps={affiliateNKCData.googleMaps}
-        />
-      </div>
-      <div className="line-divider-mobile"></div>
-      <div className="affiliates-view-mobile-default font-grey">
-        <AccordionOuterAffiliates
-          title={affiliateNjkData.title}
-          adress={affiliateNjkData.adress}
-          email={affiliateNjkData.email}
-          homepage={affiliateNjkData.homepage}
-          btnText={affiliateTorslandaData.btnText}
-          btnTextEng={affiliateTorslandaData.btnTextEng}
-          img={affiliateImgs.njkMain}
-          instructors={instructors.instructorsNJK}
-          googleMaps={affiliateNjkData.googleMaps}
-        />
-      </div>
+      </div>      
     </div>
   )
 }

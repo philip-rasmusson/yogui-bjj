@@ -130,6 +130,7 @@
     font-weight: 400;
     align-self: flex-start;
     text-align: center;
+    display: none;
   }
   .affiliate-card-text-info {
     align-self: center;
@@ -139,12 +140,20 @@
     grid-template-columns: 17vw auto;
   }
   .affiliate-card-text-info p {
-    font-size: 2.5vw;
-    line-height: auto;
+    font-size: 3vw;
+    line-height: 6vw;
+    text-align: center;
   }
+  
   .affiliate-card-text-info p a {
     text-decoration: none;
     color: initial;
+  }
+  .affiliate-card-text-info .col-1 {
+    display: none;    
+  }
+  .affiliate-card-text-info .col-2 {
+    grid-column: 1/-1;    
   }
   .affiliate-card-wrapper button {
     margin: 2rem auto;

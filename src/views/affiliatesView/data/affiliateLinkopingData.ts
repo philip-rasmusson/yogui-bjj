@@ -13,7 +13,7 @@ const instructor5 = 'Elin Wallman'
 const instructor5rank = 'Purple belt'
 
 
-const title = 'Linköpings budoklubb '
+const title = '🇸🇪 Linköpings budoklubb'
 const adress = 'Björnkärrsgatan 14, 584 36 Linköping, Sweden'
 const email = 'bjj@linkopingbudo.se'
 const homepage = 'https://www.linkopingbudo.se/'

@@ -3,7 +3,7 @@ const instructor1 = 'Emil Gustafsson'
 const instructor1rank = ''
 
 
-const title = 'Nybro Kampsportcenter '
+const title = '🇸🇪 Nybro Kampsportcenter'
 const adress = 'Emmabodavägen 5, 382 45 Nybro, Sweden'
 const email = 'info@nkc.nu'
 const homepage = 'https://www.nkc.nu'

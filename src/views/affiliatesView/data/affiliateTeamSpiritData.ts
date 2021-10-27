@@ -2,7 +2,7 @@ const instructor1 = 'Julian Storsletten'
 const instructor1rank = ''
 
 
-const title = 'Team Spirit Kampsportsenter'
+const title = '🇳🇴 Team Spirit Kampsportsenter'
 const adress = 'Bulls Gate 2B, 3110 Tønsberg, Norway'
 const email = 'post@tskampsport.com'
 const homepage = 'http://www.tskampsport.com/'

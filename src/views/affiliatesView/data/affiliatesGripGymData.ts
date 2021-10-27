@@ -4,7 +4,7 @@ const instructor2 = 'Max Dironin'
 const instructor2rank = 'Brown belt'
 
 
-const title = 'grip gym'
+const title = '🇳🇴 grip gym'
 const adress = 'Mandalls Gate 18, 0190 Oslo, Norway'
 const email = 'post@gripgym.no'
 const homepage = 'https://gripgym.no'

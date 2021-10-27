@@ -5,7 +5,7 @@ const instructor2 = 'Kristina Ekstrand'
 const instructor2rank = 'Black belt'
 
 
-const title = 'Nyköpings Bushidoförening'
+const title = '🇸🇪 Nyköpings Bushidoförening'
 const adress = 'Eskilstunavägen 7, 61156 Nyköping, Sweden'
 const email = 'info@njk.nu'
 const homepage = 'http://njk.nu/'
