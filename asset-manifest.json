@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yogui-bjj/static/css/main.f74fd0be.chunk.css",
-    "main.js": "/yogui-bjj/static/js/main.e29d072a.chunk.js",
-    "main.js.map": "/yogui-bjj/static/js/main.e29d072a.chunk.js.map",
+    "main.js": "/yogui-bjj/static/js/main.218247bc.chunk.js",
+    "main.js.map": "/yogui-bjj/static/js/main.218247bc.chunk.js.map",
     "runtime-main.js": "/yogui-bjj/static/js/runtime-main.126b628e.js",
     "runtime-main.js.map": "/yogui-bjj/static/js/runtime-main.126b628e.js.map",
     "static/js/2.ff92746b.chunk.js": "/yogui-bjj/static/js/2.ff92746b.chunk.js",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.126b628e.js",
     "static/js/2.ff92746b.chunk.js",
     "static/css/main.f74fd0be.chunk.css",
-    "static/js/main.e29d072a.chunk.js"
+    "static/js/main.218247bc.chunk.js"
   ]
 }
