@@ -1,7 +1,6 @@
 // import { DefaultHeaderMobile } from '../../../shared/components/defaultHeader/defaultHeaderMobile/DefaultHeaderMobile'
 import './PolicyViewMobile.css'
 import PolicyViewData from '../data/PolicyViewData'
-import { TextWrapper } from '../../../shared/components/textWrapper/TextWrapper'
 import { ImgContainer } from '../../../shared/components/imgContainer/ImgContainer'
 import headerImg from '../../../shared/img/IMG_5150.jpg'
 import { AccordionOuter } from '../../../shared/components/AccordionOuter'

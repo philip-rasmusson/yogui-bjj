@@ -6,10 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { TechniquesNavbar } from './TechniquesNavbar'
 // import { TechniquesCard } from '../../views/techniquesView/components/TechniquesCard'
 import { TextWrapper } from './textWrapper/TextWrapper'
+import { AffiliateCard } from '../../views/affiliatesView/components/AffiliateCard'
 
 
 
-export const AccordionOuter = (props: { title: string, text: any }) => {
+export const AccordionOuterAffiliates = (props: { img: any, title: string, adress?: string, email?: string; homepage?: string, btnText: string, btnTextEng: string, btnLink?: string, instructors?: Array<any>, googleMaps: string }) => {
 
   const [angle, setAngle] = useState<any>(faAngleRight)
 
@@ -21,15 +22,19 @@ export const AccordionOuter = (props: { title: string, text: any }) => {
     }
   }
 
-  // const array = props?.text.map((text: any, i: number) => {
-  //   return <TextWrapper title="" text={text} key={i} />
-  // })
   const accordionOuterContent = () => {
     return angle === faAngleRight ? (<></>) : (
       <div>
-        <TextWrapper
-        title=""
-        text={props.text}
+        <AffiliateCard
+          title={props.title}
+          adress={props.adress}
+          email={props.email}
+          homepage={props.homepage}
+          btnText={props.btnText}
+          btnTextEng={props.btnTextEng}
+          img={props.img}
+          instructors={props.instructors}
+          googleMaps={props.googleMaps}
         />
       </div>
     )

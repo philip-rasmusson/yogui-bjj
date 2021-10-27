@@ -1,4 +1,3 @@
-.accordion-outer-wrapper {}
 
 .accordion-outer-title-angle {
   color: #454545;
@@ -6,16 +5,17 @@
   font-weight: lighter;
   display: flex;
   justify-content: space-between;
-  margin-top: 3remvw;
+  margin-top: 3rem;
+  cursor: pointer;
 }
 
 .accordion-outer-title-angle h2 {
-  font-size: 2rem;
+  font-size:4vw;
 }
 
 .accordion-outer-angle-icon {
   margin: auto 2rem;
-  font-size: 2remvw;
+  font-size: 4vw;
 }
 
 .accordion-hr {

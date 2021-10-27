@@ -1,5 +1,6 @@
 import { AffiliateCard } from '../components/AffiliateCard'
 import './AffiliatesViewMobile.css'
+import { AccordionOuterAffiliates } from '../../../shared/components/AccordionOuterAffiliates'
 
 import affiliateImgs from '../data/affiliateImgs'
 
@@ -17,7 +18,7 @@ export const AffiliatesViewMobile = () => {
   return (
     <div className="affiliates-view-mobile-wrapper">
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateTorslandaData.title}
           adress={affiliateTorslandaData.adress}
           email={affiliateTorslandaData.email}
@@ -31,7 +32,7 @@ export const AffiliatesViewMobile = () => {
       </div>
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateRandoriData.title}
           adress={affiliateRandoriData.adress}
           email={affiliateRandoriData.email}
@@ -45,7 +46,7 @@ export const AffiliatesViewMobile = () => {
       </div>
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateGripGymData.title}
           adress={affiliateGripGymData.adress}
           email={affiliateGripGymData.email}
@@ -59,7 +60,7 @@ export const AffiliatesViewMobile = () => {
       </div>
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateTeamSpiritData.title}
           adress={affiliateTeamSpiritData.adress}
           email={affiliateTeamSpiritData.email}
@@ -73,7 +74,7 @@ export const AffiliatesViewMobile = () => {
       </div>
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateLinkopingData.title}
           adress={affiliateLinkopingData.adress}
           email={affiliateLinkopingData.email}
@@ -87,7 +88,7 @@ export const AffiliatesViewMobile = () => {
       </div>
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateNKCData.title}
           adress={affiliateNKCData.adress}
           email={affiliateNKCData.email}
@@ -101,7 +102,7 @@ export const AffiliatesViewMobile = () => {
       </div>
       <div className="line-divider-mobile"></div>
       <div className="affiliates-view-mobile-default font-grey">
-        <AffiliateCard
+        <AccordionOuterAffiliates
           title={affiliateNjkData.title}
           adress={affiliateNjkData.adress}
           email={affiliateNjkData.email}

@@ -3,6 +3,7 @@ import AboutUsData from '../data/AboutUsData'
 import { TextWrapper } from '../../../shared/components/textWrapper/TextWrapper'
 import { ImgContainer } from '../../../shared/components/imgContainer/ImgContainer'
 import marcelo from '../../../shared/img/instructors/marcelo-sq.jpg'
+import { AccordionOuter } from '../../../shared/components/AccordionOuter'
 // import bjj from '../../../shared/img/about-us-bjj.jpg'
 
 export const AboutUsViewMobile = () => {
@@ -13,7 +14,7 @@ export const AboutUsViewMobile = () => {
         img={marcelo}
         imgAlt="Marcelo Yogui"
         />
-        <TextWrapper 
+        <AccordionOuter 
         title={AboutUsData.aboutUsTitle}
         text={AboutUsData.aboutUsText}
         />
@@ -23,12 +24,12 @@ export const AboutUsViewMobile = () => {
         img={bjj}
         imgAlt="Brazilian jiu-jitsu"
         /> */}
-        <TextWrapper 
+        <AccordionOuter 
         title={AboutUsData.aboutBJJTitle}
         text={AboutUsData.aboutBJJText}
         />
         <div className="line-divider-mobile"></div>
-        <TextWrapper 
+        <AccordionOuter 
         title={AboutUsData.aboutSWTitle}
         text={AboutUsData.aboutSWText}
         />
