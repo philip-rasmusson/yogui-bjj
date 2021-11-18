@@ -17,6 +17,8 @@ import elinwallman from '../../../shared/img/affiliates/linkkoping/instructors/e
 import jorgenflink from '../../../shared/img/affiliates/njk/instructors/jorgenflink.jpeg'
 import kristinaekstrand from '../../../shared/img/affiliates/njk/instructors/kristinaekstrand.jpeg'
 
+import martiningholt from '../../../shared/img/affiliates/nkc/instructors/martiningholt.jpg'
+
 import affiliateTorslandaData from '../data/affiliateTorslandaData'
 import affiliateRandoriData from '../data/affiliateRandoriData'
 import affiliateGripGymData from '../data/affiliatesGripGymData'
@@ -26,46 +28,45 @@ import affiliateNKCData from '../data/affiliateNKC'
 import affiliateNjkData from '../data/affiliateNjkData'
 
 const instructorsTorslanda = [
-    { src: marcelo, name: affiliateTorslandaData.instructor1, rank: affiliateTorslandaData.instructor1rank },
-    { src: alanaltermann, name: affiliateTorslandaData.instructor2, rank: affiliateTorslandaData.instructor2rank },
-    { src: philiprasmusson, name: affiliateTorslandaData.instructor3, rank: affiliateTorslandaData.instructor3rank },
-    { src: fredrik, name: affiliateTorslandaData.instructor4, rank: affiliateTorslandaData.instructor4rank },
-  ]
-  const instructorsRandori = [
-    { src: defaultImg, name: affiliateRandoriData.instructor1, rank: affiliateRandoriData.instructor1rank },
-  ]
-  const instructorsGripGym = [
-    { src: toringe, name: affiliateGripGymData.instructor1, rank: affiliateGripGymData.instructor1rank },
-    { src: max, name: affiliateTorslandaData.instructor2, rank: affiliateGripGymData.instructor2rank },
-  ]
-  const instructorsTeamSpirit = [
-    { src: defaultImg, name: affiliateTeamSpiritData.instructor1, rank: affiliateTeamSpiritData.instructor1rank },
-  ]
-  const instructorsLinkoping = [
-    { src: danielwestberg, name: affiliateLinkopingData.instructor1, rank: affiliateLinkopingData.instructor1rank },
-    { src: larskarlsson, name: affiliateLinkopingData.instructor2, rank: affiliateLinkopingData.instructor2rank },
-    { src: adamsandersson, name: affiliateLinkopingData.instructor3, rank: affiliateLinkopingData.instructor3rank },
-    { src: johanlevinsson, name: affiliateLinkopingData.instructor4, rank: affiliateLinkopingData.instructor4rank },
-    { src: elinwallman, name: affiliateLinkopingData.instructor5, rank: affiliateLinkopingData.instructor5rank },
-  ]
-  const instructorsNKC = [
-    { src: defaultImg, name: affiliateNKCData.instructor1, rank: affiliateNKCData.instructor1rank },
-  ]
-  const instructorsNJK = [
-    { src: jorgenflink, name: affiliateNjkData.instructor1, rank: affiliateNjkData.instructor1rank },
-    { src: kristinaekstrand, name: affiliateNjkData.instructor2, rank: affiliateNjkData.instructor2rank },
-  ]
+  { src: marcelo, name: affiliateTorslandaData.instructor1, rank: affiliateTorslandaData.instructor1rank },
+  { src: alanaltermann, name: affiliateTorslandaData.instructor2, rank: affiliateTorslandaData.instructor2rank },
+  { src: philiprasmusson, name: affiliateTorslandaData.instructor3, rank: affiliateTorslandaData.instructor3rank },
+  { src: fredrik, name: affiliateTorslandaData.instructor4, rank: affiliateTorslandaData.instructor4rank },
+]
+const instructorsRandori = [
+  { src: defaultImg, name: affiliateRandoriData.instructor1, rank: affiliateRandoriData.instructor1rank },
+]
+const instructorsGripGym = [
+  { src: toringe, name: affiliateGripGymData.instructor1, rank: affiliateGripGymData.instructor1rank },
+  { src: max, name: affiliateGripGymData.instructor2, rank: affiliateGripGymData.instructor2rank },
+]
+const instructorsTeamSpirit = [
+  { src: defaultImg, name: affiliateTeamSpiritData.instructor1, rank: affiliateTeamSpiritData.instructor1rank },
+]
+const instructorsLinkoping = [
+  { src: danielwestberg, name: affiliateLinkopingData.instructor1, rank: affiliateLinkopingData.instructor1rank },
+  { src: larskarlsson, name: affiliateLinkopingData.instructor2, rank: affiliateLinkopingData.instructor2rank },
+  { src: adamsandersson, name: affiliateLinkopingData.instructor3, rank: affiliateLinkopingData.instructor3rank },
+  { src: johanlevinsson, name: affiliateLinkopingData.instructor4, rank: affiliateLinkopingData.instructor4rank },
+  { src: elinwallman, name: affiliateLinkopingData.instructor5, rank: affiliateLinkopingData.instructor5rank },
+]
+const instructorsNKC = [
+  { src: martiningholt, name: affiliateNKCData.instructor1, rank: affiliateNKCData.instructor1rank },
+]
+const instructorsNJK = [
+  { src: jorgenflink, name: affiliateNjkData.instructor1, rank: affiliateNjkData.instructor1rank },
+  { src: kristinaekstrand, name: affiliateNjkData.instructor2, rank: affiliateNjkData.instructor2rank },
+]
 
-  const instructors = {
-    instructorsTorslanda ,
-    instructorsRandori,
-    instructorsGripGym,
-    instructorsTeamSpirit,
-    instructorsLinkoping,
-    instructorsNKC,
-    instructorsNJK,
-  }
+const instructors = {
+  instructorsTorslanda,
+  instructorsRandori,
+  instructorsGripGym,
+  instructorsTeamSpirit,
+  instructorsLinkoping,
+  instructorsNKC,
+  instructorsNJK,
+}
 
-  export default instructors 
+export default instructors
 
-  
