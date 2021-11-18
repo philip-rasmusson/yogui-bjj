@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yogui-bjj/static/css/main.f74fd0be.chunk.css",
-    "main.js": "/yogui-bjj/static/js/main.218247bc.chunk.js",
-    "main.js.map": "/yogui-bjj/static/js/main.218247bc.chunk.js.map",
+    "main.js": "/yogui-bjj/static/js/main.fe1aaf9f.chunk.js",
+    "main.js.map": "/yogui-bjj/static/js/main.fe1aaf9f.chunk.js.map",
     "runtime-main.js": "/yogui-bjj/static/js/runtime-main.126b628e.js",
     "runtime-main.js.map": "/yogui-bjj/static/js/runtime-main.126b628e.js.map",
     "static/js/2.ff92746b.chunk.js": "/yogui-bjj/static/js/2.ff92746b.chunk.js",
@@ -31,12 +31,14 @@
     "static/media/larskarlsson.5f836230.jpeg": "/yogui-bjj/static/media/larskarlsson.5f836230.jpeg",
     "static/media/logo.4c35cefb.png": "/yogui-bjj/static/media/logo.4c35cefb.png",
     "static/media/logo.4f0b9b95.png": "/yogui-bjj/static/media/logo.4f0b9b95.png",
+    "static/media/logo.787ec4fe.png": "/yogui-bjj/static/media/logo.787ec4fe.png",
     "static/media/logo.a95c2f78.png": "/yogui-bjj/static/media/logo.a95c2f78.png",
     "static/media/logo_footer.91ea27b1.png": "/yogui-bjj/static/media/logo_footer.91ea27b1.png",
     "static/media/logo_small.4fa570e1.png": "/yogui-bjj/static/media/logo_small.4fa570e1.png",
     "static/media/main.9a2a3446.png": "/yogui-bjj/static/media/main.9a2a3446.png",
     "static/media/marcelo-sq.2b434bec.jpg": "/yogui-bjj/static/media/marcelo-sq.2b434bec.jpg",
     "static/media/marcelo-wide.b7a54052.jpg": "/yogui-bjj/static/media/marcelo-wide.b7a54052.jpg",
+    "static/media/martiningholt.6d5b2a02.jpg": "/yogui-bjj/static/media/martiningholt.6d5b2a02.jpg",
     "static/media/max.9473785c.jpg": "/yogui-bjj/static/media/max.9473785c.jpg",
     "static/media/mount.8c4aa6f2.png": "/yogui-bjj/static/media/mount.8c4aa6f2.png",
     "static/media/philiprasmusson.e69b7592.jpg": "/yogui-bjj/static/media/philiprasmusson.e69b7592.jpg",
@@ -50,6 +52,6 @@
     "static/js/runtime-main.126b628e.js",
     "static/js/2.ff92746b.chunk.js",
     "static/css/main.f74fd0be.chunk.css",
-    "static/js/main.218247bc.chunk.js"
+    "static/js/main.fe1aaf9f.chunk.js"
   ]
 }
